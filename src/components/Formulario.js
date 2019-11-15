@@ -22,7 +22,9 @@ class Formulario extends Component {
                             label="Valor producto"
                             margin="normal"
                             variant="outlined"
-                            
+                            InputProps={{
+                                endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                              }}
                         />
 
                         <TextField
@@ -50,6 +52,18 @@ class Formulario extends Component {
                             label="Destino"
                             margin="normal"
                             variant="outlined"
+                        />
+                        
+
+                        <TextField
+                            type="number"
+                            id="outlined-basic"
+                            label="flete"
+                            margin="normal"
+                            variant="outlined"
+                            InputProps={{
+                                endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                              }}
                         />
                     </Col>
                 </Row>
