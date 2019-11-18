@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-//import Table from '@material-ui/core/Table';
+import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
@@ -36,6 +36,7 @@ export default function Pagar() {
                 <Row center="xs">
                     <Col>
                         <Paper>
+                            <Table>
                             <TableHead>
                                 <TableRow>
                                     <TableCell>
@@ -64,7 +65,8 @@ export default function Pagar() {
                                     <TableCell>Total sin articulo</TableCell>
                                     <TableCell align="rigth">{ccyFormat(invoiceTotalArt)}</TableCell>
                                 </TableRow>
-                            </TableBody>
+                                </TableBody>
+                        </Table>
                         </Paper>
                     </Col>
                 </Row>

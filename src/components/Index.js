@@ -1,14 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Formulario from './Formulario';
 import Pagar from './Pagar';
+import AppBar from './AppBar';
+import { makeStyles } from '@material-ui/core/styles';
 
-class Index extends Component {
-    render() {
+const useStyles = makeStyles({
+    
+});
+
+export default function Index() {
         return (
             <Grid>
+                <AppBar />
                 <Row center="md">
-
                     <Col xs={12} md={12}>
                         <h2>Parametros</h2>
                         <Formulario />
@@ -19,11 +24,8 @@ class Index extends Component {
                         <h1>total a pagar</h1>
                         <Pagar />
                     </Col>
-                    
                 </Row>
             </Grid>
         );
-    }
 }
 
-export default Index;
