@@ -10,12 +10,18 @@ class Formulario extends Component {
                 <Row>
                     <Col md={12}>
                         <TextField 
-                            id="outlined-basic"
+                            id="outlined-full-width"
+                            fullWidth
                             label="Articulo"
                             margin="normal"
                             variant="outlined"
+                            style={{ margin: 8 }}
+                            
                         />
-
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
                         <TextField
                             type="number"
                             id="outlined-basic"
