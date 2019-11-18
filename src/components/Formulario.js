@@ -2,9 +2,17 @@ import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import InputAdornment from '@material-ui/core/InputAdornment';
+import { makeStyles } from '@material-ui/core/styles';
 
-class Formulario extends Component {
-    render() {
+const useStyles = makeStyles({
+    TextField: {
+        align: 'left',
+    }
+});
+
+export default function Formulario() {
+    const classes = useStyles();
+
         return (
             <Grid>
                 <Row>
@@ -15,12 +23,12 @@ class Formulario extends Component {
                             label="Articulo"
                             margin="normal"
                             variant="outlined"
-                            style={{ margin: 8 }}
+                            style={{ margin: 4 }}
                             
                         />
                     </Col>
                 </Row>
-                <Row>
+                <Row start="xs">
                     <Col md={12}>
                         <TextField
                             type="number"
@@ -28,11 +36,18 @@ class Formulario extends Component {
                             label="Valor producto"
                             margin="normal"
                             variant="outlined"
+                            className={classes.TextField}
                             InputProps={{
                                 endAdornment: <InputAdornment position="end">$</InputAdornment>,
                               }}
+                            style={{ margin: 4 }}
+                            helperText="FOB"
                         />
-
+                    </Col>    
+                </Row>
+                
+                <Row start="xs">
+                    <Col>
                         <TextField
                             type="number"
                             id="outlined-basic"
@@ -43,9 +58,11 @@ class Formulario extends Component {
                             margin="normal"
                             variant="outlined"
                         />
-
-                        <br/>
-
+                    </Col>
+                </Row>
+                    
+                <Row start="xs">
+                    <Col>
                         <TextField
                             id="outlined-basic"
                             label="Origen"
@@ -76,6 +93,3 @@ class Formulario extends Component {
             </Grid>
         );
     }
-}
-
-export default Formulario;
