@@ -53,12 +53,12 @@ class Formulario extends Component {
                             margin="normal"
                             variant="outlined"
                         />
-                        
 
                         <TextField
                             type="number"
                             id="outlined-basic"
                             label="flete"
+                            label="Flete"
                             margin="normal"
                             variant="outlined"
                             InputProps={{
