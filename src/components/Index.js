@@ -6,27 +6,24 @@ import AppBar from './AppBar';
 
 export default function Index() {
 
-        return (
+    return (
+        <div>
+            <AppBar />
             <Grid>
-                <AppBar />
                 <Row center="md">
-
-                    <Col xs={12} md={6}>
-
-                    </Col>
                             
-                    <Col xs={12} md={12}>
+                    <Col xs={12} md={6}>
                         <h2>Parametros</h2>
                         <Formulario />
-                    </Col>
-                          
+                    </Col>    
 
-                    <Col xs={12} md={12}>
+                    <Col xs={12} md={6}>
                         <h1>total a pagar</h1>
                         <Pagar />
                     </Col>
                 </Row>
             </Grid>
+        </div>
         );
 }
 
