@@ -26,7 +26,7 @@ export default function Appbar() {
         <div>
             <AppBar position="static" className={classes.appbar}>
                 <Toolbar>
-                    <InsertChartIcon style= {{ fontSize: 50}} />
+                    <InsertChartIcon style={{ fontSize: 50}} />
                     <Typography variant="h6" center>
                         Calculadora
                     </Typography>
