@@ -5,11 +5,18 @@ import Pagar from './Pagar';
 import AppBar from './AppBar';
 import Impuesto from './Impuesto';
 import { makeStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     container: {
         background: '#ffffff',
-    }
+    },
+
+    typo: {
+        color: '#bf0103',
+        margin: 16,
+    },
+
 
 });
 
@@ -21,9 +28,14 @@ export default function Index() {
             <AppBar />
             <Grid className={classes.container}>
                 <Row start="xs">
-                            
                     <Col xs={12}>
-                        <h2>Calculadora de costo</h2>
+                    <Typography variant="h4" gutterBottom className={classes.typo}>
+                        Calculadora de costos
+                    </Typography>
+                    </Col>
+                </Row>
+                <Row start="xs">         
+                    <Col xs={12}>
                         <Formulario />
                     </Col>    
                 </Row>

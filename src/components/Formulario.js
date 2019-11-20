@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     
     }, 
 
-    peso: {
+    peso: {  
         margin: 2,
     }
 

@@ -34,7 +34,7 @@ export default function Pagar() {
         return (
             <Grid>
                 <Row center="xs">
-                    <Col>
+                    <Col xs={12}>
                         <Paper>
                             <Table>
                             <TableHead>
