@@ -4,11 +4,15 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import { makeStyles } from '@material-ui/core/styles';
 
+
 const useStyles = makeStyles({
     TextField: {
         align: 'left',
-        backgroundColor: '#ffffff',
-        borderRadius: 5,
+    
+    }, 
+
+    TextField2: {
+        width: 350,
     }
 });
 
@@ -25,7 +29,7 @@ export default function Formulario() {
                             label="Articulo"
                             margin="normal"
                             variant="outlined"
-                            style={{ margin: 4 }}
+                            style={{ margin: 8 }}
                             color='primary'
                         />
                     </Col>
@@ -40,11 +44,11 @@ export default function Formulario() {
                             label="Valor producto"
                             margin="normal"
                             variant="outlined"
-                            className={classes.TextField}
+                            className={classes.TextField2}
                             InputProps={{
                                 endAdornment: <InputAdornment position="end">$</InputAdornment>,
                               }}
-                            style={{ margin: 4 }}
+                            style={{ margin: 8 }}
                             
                         />
                     </Col>    
@@ -53,13 +57,13 @@ export default function Formulario() {
                 <Row start="xs">
                     <Col md="12">
                         <TextField
-                            className={classes.TextField}
+                            className={classes.TextField2}
                             type="number"
                             id="outlined-basic"
                             label="Peso"
                             margin="normal"
                             variant="outlined"
-                            style={{ margin: 4 }}
+                            style={{ margin: 8 }}
                         />
                     </Col>
                 </Row>
@@ -74,7 +78,7 @@ export default function Formulario() {
                             margin="normal"
                             variant="outlined"
                             fullWidth
-                            style={{ margin: 4 }}
+                            style={{ margin: 8 }}
                         />
 
                     </Col>
