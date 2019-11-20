@@ -2,14 +2,13 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles } from '@material-ui/core/styles';
-import InsertChartIcon from '@material-ui/icons/InsertChart';
-import Typography from '@material-ui/core/Typography';
+import logo from './images/logo.png';
 
 const useStyles = makeStyles({
     appbar: {
-        background: '#000000',
+        
+        background: 'linear-gradient(183deg, hsla(216.12, 55.68%, 36.27%, 1) 46%, hsla(216.12, 55.68%, 36.27%, 0) 47%),linear-gradient(335deg, hsla(353.43, 0%, 100%, 1) 100%, hsla(353.43, 0%, 100%, 0) 96%)',
     },
-
     icono: {
         margin: 10,
         width: 60,
@@ -26,10 +25,7 @@ export default function Appbar() {
         <div>
             <AppBar position="static" className={classes.appbar}>
                 <Toolbar>
-                    <InsertChartIcon style={{ fontSize: 50}} />
-                    <Typography variant="h6" center>
-                        Calculadora
-                    </Typography>
+                    <img src={logo} />
                 </Toolbar>
             </AppBar>
         </div>
