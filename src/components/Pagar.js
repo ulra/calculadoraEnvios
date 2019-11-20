@@ -6,6 +6,21 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import { Paper } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles(theme =>({
+
+    cabecera: {
+        backgroundColor: '#295290',
+        color: '#ffffff',
+    },
+
+    root: {
+        width: '100%',
+        marginTop: theme.spacing(3),
+        overflowX: 'auto',
+      },
+}));
 
 function ccyFormat(num) {
     return `${num.toFixed(2)}`;
@@ -31,18 +46,19 @@ const rows = [
 const invoiceTotalArt = TotalArt(rows);
 
 export default function Pagar() {
+    const classes = useStyles();
         return (
             <Grid>
                 <Row center="xs">
-                    <Col xs={12}>
-                        <Paper>
+                    <Col xs={10}>
+                        <Paper className={classes.root} style={{ margin: 8 }}>
                             <Table>
-                            <TableHead>
-                                <TableRow>
-                                    <TableCell>
+                            <TableHead >
+                                <TableRow >
+                                    <TableCell className={classes.cabecera} colSpan={3}>
                                         Total a pagar
                                     </TableCell>
-                                </TableRow>
+                                    </TableRow>
                                 <TableRow>
                                     <TableCell>Descripcion</TableCell>
                                     <TableCell align="right">Precio</TableCell>
@@ -57,12 +73,12 @@ export default function Pagar() {
                                 ))}
 
                                 <TableRow>
-                                    <TableCell rowSpan={3} />
-                                    <TableCell colSpan={2}>Total con articulo</TableCell>
+                                    <TableCell rowSpan={2} />
+                                    <TableCell ><b>Total con articulo</b> </TableCell>
                                     <TableCell align="right">{ccyFormat(invoiceTotalArt)}</TableCell>
                                 </TableRow>
-                                <TableRow>
-                                    <TableCell>Total sin articulo</TableCell>
+                                    <TableRow>
+                                    <TableCell ><b>Total sin articulo</b></TableCell>
                                     <TableCell align="rigth">{ccyFormat(invoiceTotalArt)}</TableCell>
                                 </TableRow>
                                 </TableBody>
