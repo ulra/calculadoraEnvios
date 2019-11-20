@@ -30,7 +30,7 @@ export default function Formulario() {
                         />
                     </Col>
                 </Row>
-                <div>
+                
                 <Row start="xs">
                     <Col md={12}>
                         <TextField
@@ -63,8 +63,6 @@ export default function Formulario() {
                         />
                     </Col>
                 </Row>
-
-                </div>
                     
                 <Row start="xs">
                     <Col md="12">

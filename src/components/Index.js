@@ -12,12 +12,12 @@ export default function Index() {
             <Grid>
                 <Row center="md">
                             
-                    <Col xs={12} md={6}>
+                    <Col xs={12}>
                         <h2>Parametros</h2>
                         <Formulario />
                     </Col>    
 
-                    <Col xs={12} md={6}>
+                    <Col xs={12}>
                         <h1>total a pagar</h1>
                         <Pagar />
                     </Col>
