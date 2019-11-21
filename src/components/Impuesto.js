@@ -11,7 +11,11 @@ const useStyles = makeStyles({
         padding: 10,
         backgroundColor: '#bf0103',
         color: '#ffffff'
-      },
+    },
+    
+    TextField: {
+        width: 250,
+    }
 
 });
 
@@ -49,6 +53,7 @@ export default function Impuesto(){
                                 label="Flete"
                                 margin="normal"
                                 variant="outlined"
+                                className={classes.TextField}
                                 style={{ marginLeft: 16, marginRight: 20 }}
                                 InputProps={{
                                     endAdornment: <InputAdornment position="end">$</InputAdornment>,
@@ -63,6 +68,7 @@ export default function Impuesto(){
                                 label="Gestion"
                                 margin="normal"
                                 variant="outlined"
+                                className={classes.TextField}
                                 style={{ marginLeft: 16, marginRight: 20 }}
                                 InputProps={{
                                     endAdornment: <InputAdornment position="end">$</InputAdornment>,
@@ -80,6 +86,7 @@ export default function Impuesto(){
                                 label="Combustible"
                                 margin="normal"
                                 variant="outlined"
+                                className={classes.TextField}
                                 style={{ marginLeft: 16, marginRight: 20 }}
                                 InputProps={{
                                     endAdornment: <InputAdornment position="end">$</InputAdornment>,
@@ -95,6 +102,7 @@ export default function Impuesto(){
                                 label="Impuesto"
                                 margin="normal"
                                 variant="outlined"
+                                className={classes.TextField}
                                 style={{ marginLeft: 16, marginRight: 20 }}
                                 InputProps={{
                                     endAdornment: <InputAdornment position="end">$</InputAdornment>,
@@ -112,6 +120,7 @@ export default function Impuesto(){
                                 label="Seguro"
                                 margin="normal"
                                 variant="outlined"
+                                className={classes.TextField}
                                 style={{ marginLeft: 16, marginRight: 20 }}
                                 InputProps={{
                                     endAdornment: <InputAdornment position="end">$</InputAdornment>,
@@ -127,6 +136,7 @@ export default function Impuesto(){
                                 label="Transporte"
                                 margin="normal"
                                 variant="outlined"
+                                className={classes.TextField}
                                 style={{ marginLeft: 16, marginRight: 20 }}
                                 InputProps={{
                                     endAdornment: <InputAdornment position="end">$</InputAdornment>,
@@ -144,6 +154,7 @@ export default function Impuesto(){
                                 label="Total Articulo"
                                 margin="normal"
                                 variant="outlined"
+                                className={classes.TextField}
                                 style={{ marginLeft: 16, marginRight: 20 }}
                                 InputProps={{
                                     endAdornment: <InputAdornment position="end">$</InputAdornment>,
@@ -158,6 +169,7 @@ export default function Impuesto(){
                                 defaultValue="$ 0.00"
                                 label="Total sin articulo"
                                 margin="normal"
+                                className={classes.TextField}
                                 variant="outlined"
                                 style={{ marginLeft: 16, marginRight: 20 }}
                                 InputProps={{
