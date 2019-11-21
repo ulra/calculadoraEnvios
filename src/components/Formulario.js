@@ -58,7 +58,7 @@ export default function Formulario() {
                                 },
                               }}
                         >
-                            {destinos.map(option => (
+                            {articulos.map(option => (
                                 <MenuItem key={option.ruta} value={option.ruta} >
                             {option.ruta}
                             </MenuItem>
@@ -89,7 +89,7 @@ export default function Formulario() {
                                 },
                               }}
                         >
-                            {articulos.map(option => (
+                            {destinos.map(option => (
                                 <MenuItem key={option.ruta} value={option.ruta} >
                             {option.ruta}
                             </MenuItem>
