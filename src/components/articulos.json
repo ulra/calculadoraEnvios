@@ -1,0 +1,6837 @@
+{
+
+{
+'ruta':'ABRIDOR DE BOTELLAS MECANICO',
+'precio':14.13
+},
+{
+'ruta':'ABRIDOR MANUAL',
+'precio':24.30
+},
+{
+'ruta':'ABRIDOR MANUAL SENCILLO',
+'precio':24.30
+},
+{
+'ruta':'ABRIGO DE ALGODON PARA HOMBRE DE ALGODÓN',
+'precio':29.95
+},
+{
+'ruta':'ABRIGO DE ALGODON PARA MUJER DE ALGODON',
+'precio':29.95
+},
+{
+'ruta':'ABRIGO DE POLIESTER PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'ABRIGO DE PUNTO 100% ALGODÓN PARA DAMA',
+'precio':29.95
+},
+{
+'ruta':'ABRIGO DE PUNTO 100% ALGODÓN PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'ACCESORIO DE TUBERIA DESAGUE DE HIERRO O ACERO',
+'precio':19.78
+},
+{
+'ruta':'ACCESORIO MUSICAL(PARTE)',
+'precio':19.78
+},
+{
+'ruta':'ACCESORIO PARA BAÑO',
+'precio':29.95
+},
+{
+'ruta':'ACCESORIO PARA CALZADO',
+'precio':24.30
+},
+{
+'ruta':'ACCESORIO PARA COMPUTADORA',
+'precio':13.00
+},
+{
+'ruta':'ACCESORIO PARA EL DEPORTE SANCOS METALICOS',
+'precio':24.30
+},
+{
+'ruta':'ACCESORIO PARA EL DEPORTE SANCOS METALICOS',
+'precio':24.30
+},
+{
+'ruta':'ACCESORIO PARA GUITARRA',
+'precio':19.78
+},
+{
+'ruta':'ACCESORIOS DE ALUMINIO PARA TUBERIA',
+'precio':14.13
+},
+{
+'ruta':'ACCESORIOS DE TUBERIAS DE ACERO INOXIDABLE (CODOS, CURVAS, MANGUITOS, NIPLES)',
+'precio':19.78
+},
+{
+'ruta':'ACCESORIOS DEL DEPORTE',
+'precio':24.30
+},
+{
+'ruta':'ACCESORIOS PARA BILLAR',
+'precio':24.30
+},
+{
+'ruta':'ACCESORIOS PARA CAMARA',
+'precio':14.13
+},
+{
+'ruta':'ACCESORIOS PARA CAMARA SET ACCESORIOS PARA GO PRO',
+'precio':14.13
+},
+{
+'ruta':'ACCESORIOS PARA EL DEPORTE ACUATICO',
+'precio':24.30
+},
+{
+'ruta':'ACOPLE DE COBRE PARA TUBERIA CON ROSCA',
+'precio':14.13
+},
+{
+'ruta':'ACORDEON',
+'precio':24.30
+},
+{
+'ruta':'ACUMULADOR DE ENERGIA BATERIA DE LITIO (CELULARES,LAPTOPS,CAMARAS)',
+'precio':42.38
+},
+{
+'ruta':'ACUMULADOR DE ENERGIA POWER BANK',
+'precio':42.38
+},
+{
+'ruta':'ACUMULADOR DE LITIO (CELULARES,LAPTOPS,CAMARAS)',
+'precio':42.38
+},
+{
+'ruta':'ADACTADOR AC/DC',
+'precio':14.13
+},
+{
+'ruta':'ADAPTADOR DE ALIMENTACION ELECTRICA PARA MAQUINAS DE PROCESAMIENTO DE DATOS',
+'precio':13.00
+},
+{
+'ruta':'ADAPTADOR DE LENTE PARA CAMARA FOTOGRAFICA DIGITAL PARTE',
+'precio':14.13
+},
+{
+'ruta':'ADORNO DE CERAMICA',
+'precio':29.95
+},
+{
+'ruta':'ADORNO DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'ADORNO DE METAL LOS DEMAS',
+'precio':29.95
+},
+{
+'ruta':'ADORNO DE METAL PLATEADOS DORADOS O PLATINADOS',
+'precio':29.95
+},
+{
+'ruta':'ADORNO DE NAVIDAD',
+'precio':29.95
+},
+{
+'ruta':'ADORNO DE PAPEL',
+'precio':29.95
+},
+{
+'ruta':'ADORNO DE VIDRIO O CRISTAL',
+'precio':29.95
+},
+{
+'ruta':'ADORNO PORCELANA',
+'precio':29.95
+},
+{
+'ruta':'ADORNOS PLASTICOS',
+'precio':29.95
+},
+{
+'ruta':'AFEITADORA, RASURADORA DESECHABLES',
+'precio':24.30
+},
+{
+'ruta':'AFEITADORA, RASURADORA ELECTRICAS',
+'precio':42.78
+},
+{
+'ruta':'AFICHE BANNER DE MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'AFICHES',
+'precio':29.95
+},
+{
+'ruta':'AFILADOR DE CUCHILLOS MANUAL',
+'precio':24.30
+},
+{
+'ruta':'AFILADOR ELECTRICO de uso dosmestico',
+'precio':49.27
+},
+{
+'ruta':'AFILADORA MANUAL PARA SIERRA',
+'precio':24.30
+},
+{
+'ruta':'AGENDA',
+'precio':29.95
+},
+{
+'ruta':'AGITADOR PARA BATIDORA',
+'precio':31,08
+},
+{
+'ruta':'AGUJAS PARA COSER',
+'precio':14.13
+},
+{
+'ruta':'ALAMBRE PARA BOBINAR DE COBRE',
+'precio':14.13
+},
+{
+'ruta':'ALARMA PARA CARRO CONTRA ROBO SONIDO',
+'precio':14.13
+},
+{
+'ruta':'ALBUM CON LAS FOTOGRAFIAS',
+'precio':29.95
+},
+{
+'ruta':'ALBUM PARA COLECCIONES(FOTOGRAFIAS)',
+'precio':29.95
+},
+{
+'ruta':'ALBUN CON LAS FOTOGRAFIAS',
+'precio':29.95
+},
+{
+'ruta':'ALBUNES DE MUSETRAS O COLECCIONES',
+'precio':29.95
+},
+{
+'ruta':'ALCANCIA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'ALFOMBRA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ALFOMBRA DE MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'ALFOMBRA DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'ALFOMBRA DE PLASTICO',
+'precio':24.30
+},
+{
+'ruta':'ALFOMBRA DE PVC',
+'precio':24.30
+},
+{
+'ruta':'ALFOMBRA SINTETICA CON MECHON INSERTADO',
+'precio':29.95
+},
+{
+'ruta':'ALICATE COMUN',
+'precio':14.13
+},
+{
+'ruta':'ALICATE DIABLO',
+'precio':14.13
+},
+{
+'ruta':'ALMOHADA',
+'precio':29.95
+},
+{
+'ruta':'ALMOHADA ANILLOS P BODA',
+'precio':29.95
+},
+{
+'ruta':'ALMOHADA PARA MASCOTA',
+'precio':29.95
+},
+{
+'ruta':'ALTERNADOR O GENERADOR ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'ALTERNADOR PARA VEHICULO',
+'precio':42.38
+},
+{
+'ruta':'AMORTIGUADORES DE SUSPENSION',
+'precio':42.78
+},
+{
+'ruta':'AMORTIGUADORES DE VENTANA DE VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'AMORTIGUADORES PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'AMPLIFACADOR DE VOZ ELECTRICO DE SONIDO',
+'precio':14.13
+},
+{
+'ruta':'AMPLIFICADOR DE AUDIOFRECUENCIA',
+'precio':14.13
+},
+{
+'ruta':'AMPLIFICADOR DE MEDIA Y ALTA FRECUENCIA',
+'precio':19.78
+},
+{
+'ruta':'AMPLIFICADOR DE SONIDO',
+'precio':14.13
+},
+{
+'ruta':'ANDADERA',
+'precio':29.95
+},
+{
+'ruta':'ANILLO DE ACERO // RING WEAR',
+'precio':14.13
+},
+{
+'ruta':'ANILLOS DE PISTON PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'ANTENA DE CUALQUIER TIPO',
+'precio':14.13
+},
+{
+'ruta':'ANTENA UTILIZADA EN RADIOTELEFONIA',
+'precio':13.00
+},
+{
+'ruta':'ANTEOJOS (LENTES) BIFOCALES',
+'precio':29.95
+},
+{
+'ruta':'ANTEOJOS (LENTES) BIFOCALES',
+'precio':29.95
+},
+{
+'ruta':'ANTEOJOS (LENTES) DE PROTECCION PARA MOTOCICLISTAS/CICLISTAS',
+'precio':29.95
+},
+{
+'ruta':'ANTEOJOS (LENTES) DE PROTECCION PARA TRABAJADORES',
+'precio':14.13
+},
+{
+'ruta':'ANTEOJOS (LENTES) PARA SOL',
+'precio':29.95
+},
+{
+'ruta':'ANTEOJOS 3D PARA CINE O TELEVISION',
+'precio':29.95
+},
+{
+'ruta':'ANTEOJOS CON LENTE DE AUMENTO P TRABAJAR RELOJERIA O JOYERIA',
+'precio':29.95
+},
+{
+'ruta':'ANTEOJOS DE NATACION',
+'precio':29.95
+},
+{
+'ruta':'ANZUELOS',
+'precio':14.13
+},
+{
+'ruta':'APARATO CONTADOR DE TIEMPO CRONOMETROS',
+'precio':14.13
+},
+{
+'ruta':'APARATO CORTADOR DE VIDRIO',
+'precio':14.13
+},
+{
+'ruta':'APARATO DE ALUMBRADOY SEÑALIZACION VISUAL PARA BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'APARATO DE CONTROL ELECTRONICO PARA FRENOS',
+'precio':14.13
+},
+{
+'ruta':'APARATO DE MEDICION DE LONGITUDES',
+'precio':14.13
+},
+{
+'ruta':'APARATO DE RADAR GPS',
+'precio':14.13
+},
+{
+'ruta':'APARATO DE SEÑALIZACION ACUSTICA ALARMA PARA VALVULA DE PRESION',
+'precio':14.13
+},
+{
+'ruta':'APARATO DE SEÑALIZACION VISUAL SEÑAL DE STOP CON DIRECIONAL',
+'precio':14.13
+},
+{
+'ruta':'APARATO DECODIFICADOR',
+'precio':49.27
+},
+{
+'ruta':'APARATO ELECTRICO PARA MOLER CAFÉ DE USO DOMESTICO',
+'precio':49.27
+},
+{
+'ruta':'APARATO ELECTRONICO DOMESTICO DE CALEFACCION DE ESPACIO',
+'precio':29.95
+},
+{
+'ruta':'APARATO ELECTROTERMICO PARA ESTELIRIZAR BIBERONES',
+'precio':49.27
+},
+{
+'ruta':'APARATO LED DE ALUMBRADO (BOMBILLOS LED)',
+'precio':14.13
+},
+{
+'ruta':'APARATO LOCALIZADOR DE PECES',
+'precio':14.13
+},
+{
+'ruta':'APARATO MEDIDOR DE DIAMETRO PAR DIBUJO',
+'precio':14.13
+},
+{
+'ruta':'APARATO PARA FILTRAR AGUA',
+'precio':14.13
+},
+{
+'ruta':'APARATO PARA FLASH',
+'precio':24.30
+},
+{
+'ruta':'APARATO PARA LA PREPARACION DE CAFE',
+'precio':49.27
+},
+{
+'ruta':'APARATO PARA MEDIR LA VELOCIDAD DEL VIENTO ANEMOMETRO',
+'precio':14.13
+},
+{
+'ruta':'APARATO TRANSMISOR DE DATOS (TELECOMUNICACION)',
+'precio':13.00
+},
+{
+'ruta':'APARATOS DE ALUMBRADO PARA VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'APARATOS DE SEÑALIZACION ACUSTICA',
+'precio':14.13
+},
+{
+'ruta':'APARATOS PARA LA PREPARACION DE CAFÉ O TE',
+'precio':49.27
+},
+{
+'ruta':'ARBOL DE LEVAS PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'ARBOL DE NAVIDAD PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'ARETE DE MARCAS PARA IDENTIFICACION DE ANIMALES PLASTICO',
+'precio':15.00
+},
+{
+'ruta':'ARMONICAS',
+'precio':24.30
+},
+{
+'ruta':'ARNES DE TELA',
+'precio':29.95
+},
+{
+'ruta':'ARO DE BASKET DE METAL',
+'precio':14.13
+},
+{
+'ruta':'ARO PARA BICICLETA',
+'precio':24.30
+},
+{
+'ruta':'ARO PARA CARRO',
+'precio':42.78
+},
+{
+'ruta':'AROMATIZADOR ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'AROMATIZANTE DE USO DOMESTICO EN BOTELLAS O VASOS',
+'precio':36.39
+},
+{
+'ruta':'ARRANCADOR PARA MOTOR',
+'precio':42.38
+},
+{
+'ruta':'ARTICULO CONFECCIONADO DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'ARTICULO CONFECCIONADO DE SEDA',
+'precio':29.95
+},
+{
+'ruta':'ARTICULOS DE CONSTRUCCION DE METAL',
+'precio':24.30
+},
+{
+'ruta':'ARTICULOS DE MESA O COCINA DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'ARTICULOS DE PLASTICO PARA OFICINA',
+'precio':29.95
+},
+{
+'ruta':'ARTICULOS DE PLASTICO PARA OFICINA',
+'precio':29.95
+},
+{
+'ruta':'ARTICULOS PARA EL DEPORTE ACUATICO (PATAS DE RANA',
+'precio':24.30
+},
+{
+'ruta':'ARTICULOS PARA FIESTA DE CARNAVAL',
+'precio':29.95
+},
+{
+'ruta':'ARTICULOS PARA FIESTA DE CUMPLEAÑOS',
+'precio':29.95
+},
+{
+'ruta':'ARTICULOS PARA FIESTA DE NAVIDAD',
+'precio':29.95
+},
+{
+'ruta':'ASIENTO DE BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'ASIENTO DE MOTO',
+'precio':42.78
+},
+{
+'ruta':'ASIENTO PARA CARRO',
+'precio':29.95
+},
+{
+'ruta':'ASPAS DE ABANICO',
+'precio':19.78
+},
+{
+'ruta':'ASPIRADOR NASAL PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'ASPIRADORA',
+'precio':49.27
+},
+{
+'ruta':'ATOMIZADOR DE AROMAS',
+'precio':14.13
+},
+{
+'ruta':'AUDIFONOS',
+'precio':14.13
+},
+{
+'ruta':'AUDIFONOS CON MICROFONO',
+'precio':14.13
+},
+{
+'ruta':'AUDIFONOS CON MICROFONO MANOS LIBRES',
+'precio':14.13
+},
+{
+'ruta':'AVALORIOS PLASTICOS DE ADORNO',
+'precio':29.95
+},
+{
+'ruta':'AVISADOR ELECTRICO CONTRA ROBO DOMESTICO',
+'precio':14.13
+},
+{
+'ruta':'AVISADORES DE HUMO',
+'precio':14.13
+},
+{
+'ruta':'BABYDOLL DE POLIESTER MUJER',
+'precio':29.95
+},
+{
+'ruta':'BANDEJA DE ACERO COMUN',
+'precio':29.95
+},
+{
+'ruta':'BANDEJA DE CARTON',
+'precio':29.95
+},
+{
+'ruta':'BANDOLERA PARA GUITARRA DE MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'BAÑO MARIA MAQUINA',
+'precio':14.13
+},
+{
+'ruta':'BARANDAS DE HIERRO O ACERO',
+'precio':
+},
+{
+'ruta':'BARANDAS DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'BARANDAS DE PLASTICO',
+'precio':24.30
+},
+{
+'ruta':'BASCULAS PARA PERSONAS',
+'precio':19.78
+},
+{
+'ruta':'BASCULAS PARA PESO INFERIOR A 30 KG',
+'precio':14.13
+},
+{
+'ruta':'BASE ACRILICA PARA CUP CAKE',
+'precio':29.95
+},
+{
+'ruta':'BASE DE ACERO PARA LAPTOP',
+'precio':14.13
+},
+{
+'ruta':'BASE DE CARTON PARA CUPCAKE',
+'precio':29.95
+},
+{
+'ruta':'BASE DE MICROFONO // PEDESTAL SOPORTE',
+'precio':14.13
+},
+{
+'ruta':'BASTONES LATIGO',
+'precio':29.95
+},
+{
+'ruta':'BASTONES PARA CAMINATAS',
+'precio':29.95
+},
+{
+'ruta':'BASURERO DE ACERO COMUN',
+'precio':29.95
+},
+{
+'ruta':'BASURERO DE ACERO INOXIDABLE',
+'precio':29.95
+},
+{
+'ruta':'BASURERO DE ALUMINIO',
+'precio':29.95
+},
+{
+'ruta':'BASURERO PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'BATA DE POLIESTER PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'BATE DE BASEBALL',
+'precio':24.30
+},
+{
+'ruta':'BATERIAS (INSTRUMENTO DE PERCUSION)',
+'precio':24.30
+},
+{
+'ruta':'BATIDOR MANUAL',
+'precio':19.78
+},
+{
+'ruta':'BATIDORA DE USO DOMESTICO',
+'precio':49.27
+},
+{
+'ruta':'BAUL DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'BEARING, RODAMIENTOS',
+'precio':14.13
+},
+{
+'ruta':'BERING / RODAMIENTO DE BOLAS',
+'precio':14.13
+},
+{
+'ruta':'BIBERONES',
+'precio':29.95
+},
+{
+'ruta':'BICICLETA',
+'precio':13.00
+},
+{
+'ruta':'BILLETERA DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'BILLETERA DE MATERIAL TEXTIL,PLASTICO,SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'BINOCULARES',
+'precio':29.95
+},
+{
+'ruta':'BISAGRAS DE METAL PARA PUERTA',
+'precio':24.30
+},
+{
+'ruta':'BISUTERIA (COLLARES, ARETES, PULSERAS, ANILLOS)',
+'precio':29.95
+},
+{
+'ruta':'BLUETOOH PARA CELULAR',
+'precio':13.00
+},
+{
+'ruta':'BLUSA DE ALGODÓN PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'BLUSA DE LICRA',
+'precio':29.95
+},
+{
+'ruta':'BLUSA DE SEDA PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'BOBINA DE ENCENDIDO',
+'precio':42.38
+},
+{
+'ruta':'BOBINA ELECTRICA DE ENCENDIDO',
+'precio':42.38
+},
+{
+'ruta':'BOCINAS PARTE PARA RUEDA DE VEHICULO',
+'precio':24.30
+},
+{
+'ruta':'BOLA ANTIESTRES',
+'precio':29.95
+},
+{
+'ruta':'BOLA DE BASEBALL',
+'precio':24.30
+},
+{
+'ruta':'BOLA DE CAUCHO',
+'precio':19.78
+},
+{
+'ruta':'BOLA DE JUGUETE',
+'precio':29.95
+},
+{
+'ruta':'BOLA DE TENIS',
+'precio':24.30
+},
+{
+'ruta':'BOLA FUTBOL AMERICANO',
+'precio':24.30
+},
+{
+'ruta':'BOLA PARA BALONCESTO',
+'precio':24.30
+},
+{
+'ruta':'BOLA PARA FUTBOL',
+'precio':24.30
+},
+{
+'ruta':'BOLA PARA VOLEYBALL',
+'precio':24.30
+},
+{
+'ruta':'BOLA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'BOLA PLASTICA INFLABLE PARA LA PLAYA',
+'precio':29.95
+},
+{
+'ruta':'BOLAS DE CAUCHO PARA CROSSFIT',
+'precio':24.30
+},
+{
+'ruta':'BOLAS DE GOLF',
+'precio':24.30
+},
+{
+'ruta':'BOLAS DE PING PONG',
+'precio':24.30
+},
+{
+'ruta':'BOLIGRAFO (LAPICERO) DESECHABLE',
+'precio':15.00
+},
+{
+'ruta':'BOLIGRAFO (LAPICERO) NO DESECHABLE',
+'precio':29.95
+},
+{
+'ruta':'BOLSA DE CAUCHO PARA AGUA CALIENTE',
+'precio':19.78
+},
+{
+'ruta':'BOLSA DE PAPEL',
+'precio':24.30
+},
+{
+'ruta':'BOLSA MULTILAMINADA',
+'precio':24.30
+},
+{
+'ruta':'BOLSAS DE MATERIAL RECICLADO',
+'precio':29.95
+},
+{
+'ruta':'BOLSAS DE PAPEL PARA REGALO',
+'precio':24.30
+},
+{
+'ruta':'BOLSAS MULTILAMINADAS TERMOENCOGIBLES',
+'precio':14.13
+},
+{
+'ruta':'BOLSAS PARA ASPIRADORA',
+'precio':14.13
+},
+{
+'ruta':'BOLSAS PLASTICAS',
+'precio':24.30
+},
+{
+'ruta':'BOLSAS PLASTICAS PARA REGALO',
+'precio':24.30
+},
+{
+'ruta':'BOLSOS DE MANO DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'BOLSOS DE MANO DE FIBRAS SINTETICAS',
+'precio':29.95
+},
+{
+'ruta':'BOLSOS DE MANO DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'BOLSOS DEPORTIVOS DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'BOMBA ACEITE PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE ACEITE',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE AGUA',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE AIRE',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE AIRE MANUAL INFLADOR',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE CARBURANTE',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE DIESEL',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE FRENOS',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE GASOLINA',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE LIQUIDO HIDRAULICO PARA VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE VACIO',
+'precio':14.13
+},
+{
+'ruta':'BOMBA DE VACIO PARA BOTELLAS DE VINO',
+'precio':14.13
+},
+{
+'ruta':'BOMBA MANUAL PARA DISPENSAR BEBIDAS',
+'precio':14.13
+},
+{
+'ruta':'BOMBILAS DE XENOS PARA LAMPARAS DE VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'BOMBILAS DE XENOS PARA LAMPARAS DE VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'BOMBILLA PARA LINTERNA',
+'precio':19.78
+},
+{
+'ruta':'BOMBILLA DE INCANDESCENCIA',
+'precio':14.13
+},
+{
+'ruta':'BOMBILLA HALOGENO PAR VEHICULOS',
+'precio':19.78
+},
+{
+'ruta':'BOMBILLO (LUCES/LUMINARIAS) LED',
+'precio':14.13
+},
+{
+'ruta':'BOMBILLO FLUORESCENTE AHORRADOR DE ENERGIA',
+'precio':14.13
+},
+{
+'ruta':'BOOGIE PARA SURF',
+'precio':24.30
+},
+{
+'ruta':'BOOSTER PARA NIÑOS',
+'precio':13.00
+},
+{
+'ruta':'BOOSTER PARA SISTEMA DE FRENOS',
+'precio':42.78
+},
+{
+'ruta':'BOQUILLA METALICA PARA DECORAR PASTELES',
+'precio':29.95
+},
+{
+'ruta':'BOQUILLA PLASTICA DE EXPERSION DE TUBERIA',
+'precio':19.78
+},
+{
+'ruta':'BORRADORES PLASTICOS',
+'precio':10.00
+},
+{
+'ruta':'BOTA DE HULE PARA MUJER U HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'BOTAS CON SUELA Y PARTE SUPERIOR DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'BOTAS CON TACON DE MATERIAL SINTETICO CON SUELA DE PLASTICO CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'BOTAS DE CUERO CON SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'BOTAS DE CUERO CON SUELA DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'BOTAS DE HULE O PVC',
+'precio':29.95
+},
+{
+'ruta':'BOTAS DE MATERIAL SINTETICO CON SUELA DE PLASTICO CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'BOTAS DE MATERIAL TEXTIL CON SUELA DE PLASTICO CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'BOTE INFLABLE',
+'precio':29.95
+},
+{
+'ruta':'BOTE PLASTICO DE REMO',
+'precio':29.95
+},
+{
+'ruta':'BOTELLA DE ALUMINIO',
+'precio':29.95
+},
+{
+'ruta':'BOTELLA DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'BOTELLA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'BOTIN CON TACON DE MATERIAL SINTETICO CON SUELA DE PLASTICO CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'BOTIN DE CUERO CON SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'BOTIN DE MATERIAL SINTETICO CON SUELA DE PLASTICO CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'BOTIN DE MATERIAL TEXTIL CON SUELA DE PLASTICO CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'BOTIQUIN DE PRIMEROS AUXILIOS',
+'precio':29.95
+},
+{
+'ruta':'BOXER 100% ALGODÓN PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'BOXER DE POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'BRASIER DE NAILON',
+'precio':29.95
+},
+{
+'ruta':'BRASIER TODAS LAS MATERIAS',
+'precio':29.95
+},
+{
+'ruta':'BRAZALETE PARA RELOJ',
+'precio':24.30
+},
+{
+'ruta':'BRAZO PARA PUERTA DE CARRO',
+'precio':42.78
+},
+{
+'ruta':'BRAZO PARA SUSPENSION',
+'precio':42.78
+},
+{
+'ruta':'BRAZOS DE SUSPENSION PARA CARRRO',
+'precio':42.78
+},
+{
+'ruta':'BRINCA BRINCA (TRAMPOLIN)',
+'precio':24.30
+},
+{
+'ruta':'BROCHA PARA MAQUILLAJE',
+'precio':19.78
+},
+{
+'ruta':'BROCHAS PARA MAQUILLAJE',
+'precio':19.78
+},
+{
+'ruta':'BROCHAS PARA PINTAR',
+'precio':29.95
+},
+{
+'ruta':'BROCHAS PLASTICAS PARA CABELLO',
+'precio':29.95
+},
+{
+'ruta':'BROCHE',
+'precio':29.95
+},
+{
+'ruta':'BROCHURE',
+'precio':29.95
+},
+{
+'ruta':'BRUJULA',
+'precio':1
+},
+{
+'ruta':'BUFANDAS DE ALGODÓN',
+'precio':29.95
+},
+{
+'ruta':'BUFANDAS DE NAILON',
+'precio':29.95
+},
+{
+'ruta':'BUFANDAS DE POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'BUJIAS',
+'precio':42.38
+},
+{
+'ruta':'BUJIAS DE ENCENDIDO',
+'precio':42.38
+},
+{
+'ruta':'BULBO DE LUZ ULTRAVIOLETA',
+'precio':14.13
+},
+{
+'ruta':'BULBO SELLADO LED',
+'precio':19.78
+},
+{
+'ruta':'CABEZA DE DUCHA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'CABEZA PARA DUCHA',
+'precio':29.95
+},
+{
+'ruta':'CABLE CON PIEZA DE CONEXIÓN DE SUP 80V A 1000 V',
+'precio':29.95
+},
+{
+'ruta':'CABLE CON PIEZA DE CONEXIÓN INF O IGUAL 80V',
+'precio':29.95
+},
+{
+'ruta':'CABLE DE FRENO PARA BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'CABLE DE REVERSA PARA CUADRACICLO',
+'precio':42.78
+},
+{
+'ruta':'CABLE DE SONDA DE NYLON',
+'precio':14.13
+},
+{
+'ruta':'CABLE PARA CARGADOR DE CELULAR',
+'precio':29.95
+},
+{
+'ruta':'CABLE PARA FRENO',
+'precio':42.78
+},
+{
+'ruta':'CABLE PASA CORRIENTE LAGARTOS',
+'precio':29.95
+},
+{
+'ruta':'CABLE PLASTICO',
+'precio':19.78
+},
+{
+'ruta':'CAFETERA DE ALUMINIO',
+'precio':29.95
+},
+{
+'ruta':'CAFETERA ELECTRICA',
+'precio':49.27
+},
+{
+'ruta':'CAJA DE CARTON PARA FIESTA',
+'precio':24.30
+},
+{
+'ruta':'CAJA DE CONEXION HDMI',
+'precio':13.00
+},
+{
+'ruta':'CAJA DE DIRECCION PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'CAJA DE METAL PARA HERRAMIENTAS',
+'precio':14.13
+},
+{
+'ruta':'CAJA DE METAL PARA OFICINA FICHERO',
+'precio':29.95
+},
+{
+'ruta':'CAJA DE MUSICA',
+'precio':24.30
+},
+{
+'ruta':'CAJA DE SEGURIDAD DE METAL COMUN',
+'precio':29.95
+},
+{
+'ruta':'CAJA DE SEGURIDAD DE METAL COMUN',
+'precio':29.95
+},
+{
+'ruta':'CAJA ELECTRICA DE CONEXIÓN',
+'precio':13.00
+},
+{
+'ruta':'CAJA PLASTICA',
+'precio':24.30
+},
+{
+'ruta':'CAJA PLASTICA PARA HERRAMIENTAS',
+'precio':29.95
+},
+{
+'ruta':'CAJA REGISTRADORA',
+'precio':13.00
+},
+{
+'ruta':'CAJA REGISTRADORA PARA PC',
+'precio':13.00
+},
+{
+'ruta':'CAJAS DE CARTON',
+'precio':24.30
+},
+{
+'ruta':'CAJAS PLASTICAS',
+'precio':24.30
+},
+{
+'ruta':'CALADORA DE BANCO',
+'precio':14.13
+},
+{
+'ruta':'CALADORA MANUAL CON MOTOR ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'CALCETINES (MEDIAS) DE ALGODÓN HOMBRE Y MUJER',
+'precio':29.95
+},
+{
+'ruta':'CALCOMANIAS IMPRESAS DE CUALQUIER CLASE',
+'precio':24.30
+},
+{
+'ruta':'CALCULADORA',
+'precio':13.00
+},
+{
+'ruta':'CALENDARIO',
+'precio':29.95
+},
+{
+'ruta':'CALENTADOR DE BAÑO MARIA USO DOMESTICO',
+'precio':29.95
+},
+{
+'ruta':'CALENTADOR ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'CALENTADOR ELECTRICO DE AGUA',
+'precio':24.30
+},
+{
+'ruta':'CALENTADOR SOLAR DE AGUA',
+'precio':24.30
+},
+{
+'ruta':'CALZADO IMPERMEABLE DE CAUCHO PARA CUBRIR ZAPATOS UTILIZADO POR MOTOCICLISTAS POLAINAS',
+'precio':24.30
+},
+{
+'ruta':'CALZONES 100% ALGODON DE TELA PARA BEBE',
+'precio':29.95
+},
+{
+'ruta':'CALZONES,BRAGAS,PANTYS DE ALGODÓN PARA NIÑA Y MUJER',
+'precio':29.95
+},
+{
+'ruta':'CALZONES,BRAGAS,PANTYS DE POLIESTER PARA NIÑA Y MUJER',
+'precio':29.95
+},
+{
+'ruta':'CAMA DE POLIESTER PARA MASCOTA COJIN',
+'precio':29.95
+},
+{
+'ruta':'CAMA DE POLIESTER PARA MOSCOTA',
+'precio':29.95
+},
+{
+'ruta':'CAMA PARA MASCOTA MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'CAMA PORTATIL PARA BEBE',
+'precio':29.95
+},
+{
+'ruta':'CAMARA DIGITAL',
+'precio':14.13
+},
+{
+'ruta':'CAMARA DE REVERSA PARA VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'CAMARA DE SEGURIDAD',
+'precio':14.13
+},
+{
+'ruta':'CAMARA DIGITAL PARA MONITOR DE BEBE',
+'precio':14.13
+},
+{
+'ruta':'CAMARA FOTOGRAFICA',
+'precio':14.13
+},
+{
+'ruta':'CAMARA INSTANTENEA',
+'precio':14.13
+},
+{
+'ruta':'CAMARA WEB',
+'precio':14.13
+},
+{
+'ruta':'CAMILLA O CARRETILLA PARA MECANICO',
+'precio':24.30
+},
+{
+'ruta':'CAMISA DE ALGODÓN PARA HOMBRE Y PARA NIÑO',
+'precio':29.95
+},
+{
+'ruta':'CAMISA DE ALGODÓN PARA MUJER Y PARA NIÑA',
+'precio':29.95
+},
+{
+'ruta':'CAMISA DE POLIESTER PARA MUJER Y PARA NIÑA',
+'precio':29.95
+},
+{
+'ruta':'CAMISA PARA MUJER DE MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'CAMISAS DE POLIESTER PARA HOMBRE Y NIÑO',
+'precio':29.95
+},
+{
+'ruta':'CAMISAS DE POLIESTER PARA HOMBRE Y NIÑO',
+'precio':29.95
+},
+{
+'ruta':'CAMISETA DE ALGODÓN (T-SHIRT) HOMBRE Y MUJER',
+'precio':29.95
+},
+{
+'ruta':'CAMISETA DE FIBRAS SINTETICAS (T-SHIRT) HOMBRE Y MUJER',
+'precio':29.95
+},
+{
+'ruta':'CAMITA TEXTIL PORTATIL PARA BEBE',
+'precio':29.95
+},
+{
+'ruta':'caMITA TEXTIL PORTATIL PARA BEBE',
+'precio':14.13
+},
+{
+'ruta':'CAMPANAS',
+'precio':24.30
+},
+{
+'ruta':'CANASTA O CESTA PLASTICA PARA ROPA',
+'precio':29.95
+},
+{
+'ruta':'CANDADO',
+'precio':14.13
+},
+{
+'ruta':'CANDELAS DECORATIVAS',
+'precio':29.95
+},
+{
+'ruta':'CAÑAS DE PESCAR',
+'precio':24.30
+},
+{
+'ruta':'CAPA 100% POLYESTER PARA NINO',
+'precio':29.95
+},
+{
+'ruta':'CAPA IMPERMEABLE PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'CAPA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'CAPA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'CAPSULA PLASTICA',
+'precio':24.30
+},
+{
+'ruta':'CARCASA DE VIDRIO PARA LAMPARA',
+'precio':19.78
+},
+{
+'ruta':'CARCASA PLASTICA PARA LAPTOP',
+'precio':13.00
+},
+{
+'ruta':'CARCAZA PARA GUITARRA',
+'precio':19.78
+},
+{
+'ruta':'CARETA TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'CARGADOR DE ACUMULADOR',
+'precio':14.13
+},
+{
+'ruta':'CARGADOR PARA BEBE DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'CARGADOR SOLAR',
+'precio':13.00
+},
+{
+'ruta':'CARRETE PARA PESCA',
+'precio':14.13
+},
+{
+'ruta':'CARRETES MANUALES POLIPASTO',
+'precio':14.13
+},
+{
+'ruta':'CARRETILLO',
+'precio':24.30
+},
+{
+'ruta':'CARRITO DE REMOLQUE DE USO DOMESTICO',
+'precio':24.30
+},
+{
+'ruta':'CARRO ALUMNIO PARA COMPRAS',
+'precio':24.30
+},
+{
+'ruta':'CARTA DE COLECCIÓN O POSTALES IMPRESAS',
+'precio':29.95
+},
+{
+'ruta':'CARTERAS DE MANO DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'CARTERAS DE MANO DE FIBRAS SINTETICAS',
+'precio':29.95
+},
+{
+'ruta':'CARTERAS DE MANO DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'CARTERAS DE MANO DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'CARTUCHERA DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'CARTUCHERA MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'CARTUCHO DE VIDEO JUEGO',
+'precio':29.95
+},
+{
+'ruta':'CARTUCHOS DE TONER PARA IMPRESORA',
+'precio':13.00
+},
+{
+'ruta':'CASCO DE PROTECCION DE TRABAJADORES',
+'precio':29.95
+},
+{
+'ruta':'CASCO DE PROTECCION PARA EL DEPORTE',
+'precio':29.95
+},
+{
+'ruta':'CASCO DE SEGURIDAD PARA CONDUCTORES DE VEHICULOS',
+'precio':29.95
+},
+{
+'ruta':'CASE PARA COMPUTADORA ESTUCHE',
+'precio':29.95
+},
+{
+'ruta':'CASSETTE DE VIDEO JUEGO',
+'precio':13.00
+},
+{
+'ruta':'CATALOGOS COMERCIALES',
+'precio':29.95
+},
+{
+'ruta':'CELULARX',
+'precio':13.00
+},
+{
+'ruta':'CEPILLO CON MANGO PARA LIMPIEZA',
+'precio':29.95
+},
+{
+'ruta':'CEPILLO DE DIENTES',
+'precio':15.00
+},
+{
+'ruta':'CEPILLO DE DIENTES ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'CEPILLO DE LIMPIEZA DE USO DOMESTICO',
+'precio':29.95
+},
+{
+'ruta':'CEPILLO DE METAL PARA PERRO',
+'precio':29.95
+},
+{
+'ruta':'CEPILLO LIMPIADOR DE VIDRIOS',
+'precio':29.95
+},
+{
+'ruta':'CEPILLO PARA CABELLO ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'CEPILLO PARA MASCOTA',
+'precio':29.95
+},
+{
+'ruta':'CEPILLOS PARA PEINAR',
+'precio':29.95
+},
+{
+'ruta':'CERRADURA (LLAVIN) PARA PUERTA DE CIERRE DE BOTON',
+'precio':24.30
+},
+{
+'ruta':'CERRADURA DE PUERTA FRONTAL Y TRASERA',
+'precio':14.13
+},
+{
+'ruta':'CERRADURAS (LLAVIN)',
+'precio':14.13
+},
+{
+'ruta':'CHALECO DE HOMBRE DE MATERIAL SINTETICO TALLA M NEGRO HECHO EN CHINA',
+'precio':29.95
+},
+{
+'ruta':'CHALECO DE POLIESTER PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'CHALECO PLASTICO PARA MOTOCROSS',
+'precio':29.95
+},
+{
+'ruta':'CHALECO PLASTICO REFLECTIVO',
+'precio':29.95
+},
+{
+'ruta':'CHALECO REFLECTOR TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'CHALECO SALVAVIDAS',
+'precio':14.13
+},
+{
+'ruta':'CHALECO TEXTIL PARA MOTOCROSS',
+'precio':29.95
+},
+{
+'ruta':'CHALECO TEXTIL REFLECTIVO',
+'precio':29.95
+},
+{
+'ruta':'CHAPAS PARA ENVASES DE VIDRIO',
+'precio':24.30
+},
+{
+'ruta':'CHAQUETA PARA MOTOCROSS DE FIBRAS SINTETICAS',
+'precio':29.95
+},
+{
+'ruta':'CHEQUEADOR DE RONDAS ELECTRONICAS PARA GUARDAS CONTROL DE TIEMPO',
+'precio':14.13
+},
+{
+'ruta':'CHIMENEA ELECTRICA CON CALENTADOR',
+'precio':29.95
+},
+{
+'ruta':'CHINCHES',
+'precio':24.30
+},
+{
+'ruta':'CHUPETAS',
+'precio':24.30
+},
+{
+'ruta':'CHUPONES',
+'precio':29.95
+},
+{
+'ruta':'CIERRA PUERTA AUTOMATICO',
+'precio':14.13
+},
+{
+'ruta':'CIGARRERA ALUMINIO',
+'precio':24.30
+},
+{
+'ruta':'CILINDRO 929569 / 2809974 CYLINDER WHEEL ÁRTE DE CARRETTILLA',
+'precio':14.13
+},
+{
+'ruta':'CINTA 100% POLIESTER',
+'precio':24.30
+},
+{
+'ruta':'CINTA ADHESIVA',
+'precio':19.78
+},
+{
+'ruta':'CINTA DE TEFLON',
+'precio':14.13
+},
+{
+'ruta':'CINTA DE TELA ADHESIVA',
+'precio':14.13
+},
+{
+'ruta':'CINTA DE TELA DECORATIVA',
+'precio':14.13
+},
+{
+'ruta':'CINTA DE VELCRO',
+'precio':14.13
+},
+{
+'ruta':'CINTA REFLECTIVA',
+'precio':19.78
+},
+{
+'ruta':'CINTURON DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'CINTURON DE PROTECCION 73% POLIESTER 27% LATEX',
+'precio':29.95
+},
+{
+'ruta':'CINTURON DE seguridad PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'CINTURON DE SEGURIDAD PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'circuito electronico integrado (tarjeta de Video )',
+'precio':13.00
+},
+{
+'ruta':'CIRCUITO ELECTRONICO INTEGRADO DIMM DE MEMORIA NO DIGITAL',
+'precio':13.00
+},
+{
+'ruta':'CIRCUITO INTEGRADO HIBRIDO',
+'precio':13.00
+},
+{
+'ruta':'CIRCUITO INTEGRADO PARA IMPRESORA INTERFACE',
+'precio':13.00
+},
+{
+'ruta':'CLAVOS TIPO TACHUELA',
+'precio':24.30
+},
+{
+'ruta':'CLIPS',
+'precio':29.95
+},
+{
+'ruta':'COBERTOR DE ALGODÓN PARA CAMA EDREDON',
+'precio':29.95
+},
+{
+'ruta':'COBERTOR DE LONA PARA SPACE CAB DE VEHICULO',
+'precio':29.95
+},
+{
+'ruta':'COBERTOR DE MATERIAL SINTETICO PARA BOTAS POLAINA',
+'precio':24.30
+},
+{
+'ruta':'COBERTOR DE VOLANTE DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'COBERTOR DE VOLANTE DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'COBERTOR MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'COBERTOR METALICO PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'COBERTOR PARA SOFA',
+'precio':29.95
+},
+{
+'ruta':'COBERTOR PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'COBERTOR PLASTICO PARA MOTOCICLETA',
+'precio':29.95
+},
+{
+'ruta':'COBERTOR TOLDO PLASTICO PARA RACK DE VEHICULO',
+'precio':29.95
+},
+{
+'ruta':'COBERTORES METALICOS PARA ARO DE LLANTA DE VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'COBIJA DE ALGODON',
+'precio':29.95
+},
+{
+'ruta':'COBIJA DE POLYESTER',
+'precio':29.95
+},
+{
+'ruta':'COBIJA ELECTRICA',
+'precio':29.95
+},
+{
+'ruta':'COCHE PARA BEBE',
+'precio':29.95
+},
+{
+'ruta':'COCHE PARA PERRO',
+'precio':24.30
+},
+{
+'ruta':'COJIN',
+'precio':29.95
+},
+{
+'ruta':'COJINES',
+'precio':29.95
+},
+{
+'ruta':'COJINETE METALICO (ROL)',
+'precio':14.13
+},
+{
+'ruta':'COLADOR TAMIZ CON MANGO PLASTICO',
+'precio':14.13
+},
+{
+'ruta':'COLAS PLASTICAS',
+'precio':29.95
+},
+{
+'ruta':'COLCHON',
+'precio':29.95
+},
+{
+'ruta':'COLCHON INFLABLE',
+'precio':29.95
+},
+{
+'ruta':'COLCHONES DE CAUCHO INFLABLES',
+'precio':19.78
+},
+{
+'ruta':'COLCHONES DE ESPUMA DE PLASTICO O CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'COLCHONES PLASTICOS INFLABLES',
+'precio':29.95
+},
+{
+'ruta':'COLETAS PARA VEHICULO',
+'precio':31,08
+},
+{
+'ruta':'COLGADOR DE METAL',
+'precio':24.30
+},
+{
+'ruta':'COLGADORES PERCHAS SOPORTES Y ARTICULOS SIMILARES',
+'precio':24.30
+},
+{
+'ruta':'COLLAR PARA PERRO DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'COLUMNA DE DIRECCION PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'COLUMPIO SILLA CON ARMAZON DE METAL PARA BEBE',
+'precio':29.95
+},
+{
+'ruta':'COMEDERO DE ALUMINIO PARA MASCOTAS',
+'precio':24.30
+},
+{
+'ruta':'COMEDERO PLASTICO PARA PAJAROS',
+'precio':29.95
+},
+{
+'ruta':'COMPENSADOR PARA VEHICULO',
+'precio':24.30
+},
+{
+'ruta':'COMPONENTES DE SUSPENSION',
+'precio':42.78
+},
+{
+'ruta':'COMPRESOR DE AIRE SIN RUEDAS',
+'precio':14.13
+},
+{
+'ruta':'COMPUTADORA DE CARRO',
+'precio':14.13
+},
+{
+'ruta':'COMPUTADORA DE CARRO',
+'precio':14.13
+},
+{
+'ruta':'COMPUTADORA DE ESCRITORIO',
+'precio':13.00
+},
+{
+'ruta':'COMPUTADORAX PORTATIL',
+'precio':13.00
+},
+{
+'ruta':'CONECTOR ADAPTADOR DE UHF A USB',
+'precio':13.00
+},
+{
+'ruta':'CONECTOR ELECTRICO',
+'precio':13.00
+},
+{
+'ruta':'CONECTOR ELECTRICO DE AC/DC',
+'precio':14.13
+},
+{
+'ruta':'CONECTORES ELECTRICOS CON FORRO PLASTICO',
+'precio':13.00
+},
+{
+'ruta':'CONJUNTO 100% ALGODÓN PARA HOMBRE O NIÑO',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO 100% ALGODÓN PARA MUJER O NIÑA',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE ALGODON PARA BEBE',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE ALGODON PARA NIÑA',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE ALGODON PARA NIÑO',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE CLUTCH',
+'precio':42.78
+},
+{
+'ruta':'CONJUNTO DE PIJAMAS PARA BEBE 100% ALGODON',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE UNIFORME DEPORTIVO 55% ALGODON 45% POLIESTER TALLA 3XL MUJER',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE VESTIR DE ALGODÓN PARA NIÑA',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE VESTIR DE ALGODÓN PARA NIÑO',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE VESTIR DE POLIESTER PARA NIÑA',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE VESTIR DE POLIESTER PARA NIÑO',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE VESTIR SINTETICO PARA NIÑA',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO DE VESTIR SINTETICO PARA NIÑO',
+'precio':29.95
+},
+{
+'ruta':'CONJUNTO PARA HOMBRE PARA EL DEPORTE DE POLYESTER',
+'precio':29.95
+},
+{
+'ruta':'CONSOLA DE GRABACION DE AUDIO Y VIDEO DVDR',
+'precio':49.27
+},
+{
+'ruta':'CONSOLA PARA VIDEO JUEGOS',
+'precio':55.71
+},
+{
+'ruta':'CONTADOR DE BILLETES',
+'precio':14.13
+},
+{
+'ruta':'CONTADOR DE TIEMPO RELOJ DE MESA PARA AJEDREZ',
+'precio':14.13
+},
+{
+'ruta':'CONTROL PARA VIDEO JUEGO',
+'precio':29.95
+},
+{
+'ruta':'CONTROL PARA JUGUETE CON MOTOR',
+'precio':29.95
+},
+{
+'ruta':'CONTROL REMOTO',
+'precio':14.13
+},
+{
+'ruta':'CONTROLADOR',
+'precio':13.00
+},
+{
+'ruta':'CONVERTIDOR DE CORRIENTE',
+'precio':14.13
+},
+{
+'ruta':'CONVERTIDOR DE CORRIENTE BALASTRO',
+'precio':14.13
+},
+{
+'ruta':'CONVERTIDOR DE SEÑAL',
+'precio':49.27
+},
+{
+'ruta':'CONVERTIDOR DE SEÑAL DIGITAL DE TELEVISION',
+'precio':14.13
+},
+{
+'ruta':'COPA TIPO SHOT DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'COPAS DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'COPAS PARA CARRO',
+'precio':42.78
+},
+{
+'ruta':'COPAS PLASTICAS',
+'precio':29.95
+},
+{
+'ruta':'COPAS TIPO SHOT PLASTICAS',
+'precio':29.95
+},
+{
+'ruta':'CORBATA DE POLYESTER',
+'precio':29.95
+},
+{
+'ruta':'CORBATAS DE FIBRAS SINTETICAS',
+'precio':29.95
+},
+{
+'ruta':'CORDON DE CUERO',
+'precio':14.13
+},
+{
+'ruta':'CORDON PARA CUELLO',
+'precio':29.95
+},
+{
+'ruta':'CORDONES PARA ZAPATOS',
+'precio':24.30
+},
+{
+'ruta':'CORREAS CINTURONES DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'CORREAS DE SEGURIDAD',
+'precio':14.13
+},
+{
+'ruta':'CORSET DE POLIESTER PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'CORSET DE POLYESTER',
+'precio':29.95
+},
+{
+'ruta':'CORTACIRCUITOS DE FUSIBLE',
+'precio':24.30
+},
+{
+'ruta':'CORTADORA DE CABELLO',
+'precio':42.78
+},
+{
+'ruta':'CORTADORA DE CESPED',
+'precio':14.13
+},
+{
+'ruta':'CORTADORA DE VIDRIO MANUAL',
+'precio':14.13
+},
+{
+'ruta':'CORTADORA Y PERFORADORA DE PAPEL CON DISEÑOS',
+'precio':14.13
+},
+{
+'ruta':'CORTINAS DE BAÑO',
+'precio':29.95
+},
+{
+'ruta':'CORTINAS DE TELA DE ALGODÓN',
+'precio':29.95
+},
+{
+'ruta':'CORTINAS DE TELA DE FIBRAS SINTETICAS',
+'precio':29.95
+},
+{
+'ruta':'CORTINAS DE TELA DE OTROS MATERIALES TEXTILES',
+'precio':29.95
+},
+{
+'ruta':'COSTADORA DE CESPED',
+'precio':14.13
+},
+{
+'ruta':'CRAYONES // CRAYOLAS',
+'precio':10.00
+},
+{
+'ruta':'CRONOMETRO',
+'precio':14.13
+},
+{
+'ruta':'CUADERNOS',
+'precio':15.00
+},
+{
+'ruta':'CUADRO PARA BICICLETA',
+'precio':24.30
+},
+{
+'ruta':'CUADROS DE PINTURA A MANO CON MARCO',
+'precio':24.30
+},
+{
+'ruta':'CUADROS DE PINTURA A MANO SIN MARCO',
+'precio':19.78
+},
+{
+'ruta':'CUADROS IMPRESOS',
+'precio':29.95
+},
+{
+'ruta':'CUBOS DE AJUSTE INTERCAMBIALE DE AJUSTE',
+'precio':14.13
+},
+{
+'ruta':'CUCHARA DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'CUCHARAS,TENEDORES,CUBIERTOS DE ACERO',
+'precio':24.30
+},
+{
+'ruta':'CUCHARAS,TENEDORES,CUBIERTOS DE ALUMINIO',
+'precio':24.30
+},
+{
+'ruta':'CUCHARAS,TENEDORES,CUCHILLOS PLASTICOS',
+'precio':29.95
+},
+{
+'ruta':'cuchilla navaja',
+'precio':24.30
+},
+{
+'ruta':'CUCHILLO DE HOJA FIJA',
+'precio':24.30
+},
+{
+'ruta':'CUCHILLO ELECTRICO PARA COCINA',
+'precio':49.27
+},
+{
+'ruta':'CUCHILLOS COMUNES',
+'precio':24.30
+},
+{
+'ruta':'CUCHILLOS COMUNES (COCINA)',
+'precio':24.30
+},
+{
+'ruta':'CUCHILLOS DE MESA',
+'precio':24.30
+},
+{
+'ruta':'CUCHILLOS DE MESA (CUBIERTOS)',
+'precio':24.30
+},
+{
+'ruta':'CUENTA REVOLUCIONES O CONTADORES SIMILARES',
+'precio':14.13
+},
+{
+'ruta':'CUENTAS DE VIDRIO PARA MATERIA PRIMA',
+'precio':29.95
+},
+{
+'ruta':'CUERDA DE NYLON',
+'precio':14.13
+},
+{
+'ruta':'CUERDA TEXTIL ( MECATE)',
+'precio':29.95
+},
+{
+'ruta':'CUERDAS PARA GUITARRA O OTROS INSTRUMENTOS',
+'precio':19.78
+},
+{
+'ruta':'CUERDAS SUIZAS',
+'precio':29.95
+},
+{
+'ruta':'CUNA DE BEBE PLEGADIZA (ENCIERRO)',
+'precio':29.95
+},
+{
+'ruta':'CUNA METALICA',
+'precio':29.95
+},
+{
+'ruta':'CUNA PLASTICA CON FORRO DE TELA PARA BEBE (MOISES)',
+'precio':29.95
+},
+{
+'ruta':'CUTER',
+'precio':24.30
+},
+{
+'ruta':'DEFENSA DE METAL PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'DEFENSA PLASTICA PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'DELANTAL DE POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'DEPILADORA ELECTRICA',
+'precio':42.78
+},
+{
+'ruta':'DESATORNILLADOR',
+'precio':14.13
+},
+{
+'ruta':'DESATORNILLADORES',
+'precio':14.13
+},
+{
+'ruta':'DESATORNILLAR ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'DESHIDRATADOR DE ALIMENTOS ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'DESTAPADOR PARA BOTELLA',
+'precio':24.30
+},
+{
+'ruta':'DESTORNILLADOR ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'DIADEMA DE MINNIE Y MICKEY MOUSE PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'DICCIONARIO',
+'precio':1
+},
+{
+'ruta':'DIFOSORES DE LAMPARA PARA ESTUDIO FOTOGRAFICO',
+'precio':19.78
+},
+{
+'ruta':'DIFUSORES DE LUZ',
+'precio':19.78
+},
+{
+'ruta':'DISCO DE CLUTH MONTADO',
+'precio':42.78
+},
+{
+'ruta':'DISCO DE CLUTH SIN MONTAR CON ASBESTO',
+'precio':14.13
+},
+{
+'ruta':'DISCO DE CLUTH SIN MONTAR SIN ASBESTO',
+'precio':14.13
+},
+{
+'ruta':'DISCO DE FRENO',
+'precio':42.78
+},
+{
+'ruta':'DISCO DE FRENO',
+'precio':42.78
+},
+{
+'ruta':'DISCO DE FRENO MONTADO',
+'precio':42.78
+},
+{
+'ruta':'DISCO GRABADO CON AUDIO Y VIDEO',
+'precio':14.13
+},
+{
+'ruta':'DISCO GRABADO CON MUSICA',
+'precio':24.30
+},
+{
+'ruta':'DISCO GRABADO CON PELICULA',
+'precio':14.13
+},
+{
+'ruta':'DISCO GRABADO CON VIDEO JUEGO',
+'precio':13.00
+},
+{
+'ruta':'DISCO PARA FRENO DE MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'DISCOS DE ACETATO',
+'precio':29.95
+},
+{
+'ruta':'DISCOS DE LECTURA LASER SIN GRABAR PARA BLU RAY',
+'precio':13.00
+},
+{
+'ruta':'DISCOS PARA FRENO',
+'precio':42.78
+},
+{
+'ruta':'DISFRAZ DE MATERIA TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'DISPENSADOR DE ACERO INOXIDABLE',
+'precio':29.95
+},
+{
+'ruta':'DISPENSADOR DE AGUA PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'DISPENSADOR DE JABON DE ACERO INOXIDABLE',
+'precio':29.95
+},
+{
+'ruta':'DISPENSADOR DE JABON DE CERAMICA',
+'precio':29.95
+},
+{
+'ruta':'DISPENSADOR DE TOALLAS ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'DISPENSADOR DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'DISPENSADOR PARA PARED DE ACERO INOXIDABLE NO SE SABE QUE ES ESO??',
+'precio':
+},
+{
+'ruta':'DISPENSADOR PLASTICO PARA CEREAL',
+'precio':29.95
+},
+{
+'ruta':'DISPENSADOR PLASTICO PARA JABON',
+'precio':29.95
+},
+{
+'ruta':'DISPENSADOR PLASTICO PARA MASCOTAS',
+'precio':29.95
+},
+{
+'ruta':'DISPENSADORES PLASTICOS DE CINTA',
+'precio':29.95
+},
+{
+'ruta':'DISPOSITIOVOS CONTRA ROBO DE VEHICULOS',
+'precio':14.13
+},
+{
+'ruta':'DISPOSITIVO DE ALMACENAMIENTO PERMANENTE DE DATOS SIN GRABAR',
+'precio':13.00
+},
+{
+'ruta':'DISPOSITIVO PARA COMBATIR INSECTOS LAMPARA CON ELECTRICIDAD',
+'precio':14.13
+},
+{
+'ruta':'DISYUNTOR ( BREACKER)',
+'precio':14.13
+},
+{
+'ruta':'DUCHA (calentadora de agua)',
+'precio':29.95
+},
+{
+'ruta':'DVD (RERODUCTOR)',
+'precio':49.27
+},
+{
+'ruta':'ECUALIZADOR DE SONIDO',
+'precio':14.13
+},
+{
+'ruta':'EDREDON',
+'precio':29.95
+},
+{
+'ruta':'ELECTROIMANES (IMANES)',
+'precio':14.13
+},
+{
+'ruta':'ELECTROIMANES (IMANES)',
+'precio':14.13
+},
+{
+'ruta':'EMBLEMA PARA VEHICULO PLASTICO',
+'precio':19.78
+},
+{
+'ruta':'EMBLEMAS PLASTICOS PARA CARRO',
+'precio':19.78
+},
+{
+'ruta':'EMPAQUE DE CAUCHO',
+'precio':19.78
+},
+{
+'ruta':'EMPAQUES DE ACERO',
+'precio':14.13
+},
+{
+'ruta':'EMPAQUES DE CARTON',
+'precio':24.30
+},
+{
+'ruta':'EMPAQUES DE CAUCHO',
+'precio':19.78
+},
+{
+'ruta':'EMPAQUES DE DIVERSAS MATERIAS',
+'precio':19.78
+},
+{
+'ruta':'EMPAQUES DE HULE',
+'precio':19.78
+},
+{
+'ruta':'EMPAQUES DE METAL DE ACERO',
+'precio':14.13
+},
+{
+'ruta':'EMPAQUES METALOPLASTICAS',
+'precio':19.78
+},
+{
+'ruta':'EMPAQUES PLASTICOS',
+'precio':19.78
+},
+{
+'ruta':'EMPAQUETADURA DE METAL Y CAUCHO',
+'precio':19.78
+},
+{
+'ruta':'ENAGUA DE ALGODÓN',
+'precio':29.95
+},
+{
+'ruta':'ENAGUA DE POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'ENAGUA SINTETICA',
+'precio':29.95
+},
+{
+'ruta':'ENCICLOPEDIA',
+'precio':1
+},
+{
+'ruta':'ENGRANAJE',
+'precio':14.13
+},
+{
+'ruta':'ENGRANAJE PARA CARRO',
+'precio':14.13
+},
+{
+'ruta':'ENRUTADOR PARA SISTEMA DE DATOS INFORMATICOS',
+'precio':13.00
+},
+{
+'ruta':'ENTERISOS PARA BEBE ALGODON',
+'precio':29.95
+},
+{
+'ruta':'EQUIPO DE AMPLIFICACION DE SONIDO',
+'precio':14.13
+},
+{
+'ruta':'ESCALERA DE ALUMINIO',
+'precio':24.30
+},
+{
+'ruta':'ESCALERA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'ESCANER DE BARRAS',
+'precio':13.00
+},
+{
+'ruta':'ESCOBA',
+'precio':15.00
+},
+{
+'ruta':'ESCOBILLAS DE CARRO (LIMPIAPARABRISAS (BRAZO))',
+'precio':19.78
+},
+{
+'ruta':'ESCOBILLAS DE CARRO (REPUESTO) DE CAUCHO',
+'precio':19.78
+},
+{
+'ruta':'ESCOBILLAS PARA LIMPIAR',
+'precio':29.95
+},
+{
+'ruta':'ESCUDO DE VELCRO',
+'precio':24.30
+},
+{
+'ruta':'ESCURRIDOR DE ALUMINIO PARA PLATOS',
+'precio':29.95
+},
+{
+'ruta':'ESCURRIDOR DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'ESCURRIDOR DE METAL PARA PLATOS DE ACERO INOX',
+'precio':29.95
+},
+{
+'ruta':'ESCURRIDOR PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'ESPACIADOR METALICO',
+'precio':14.13
+},
+{
+'ruta':'ESPACIADOR PARA RUEDA',
+'precio':24.30
+},
+{
+'ruta':'ESPACIADORES DE ALUMINIO PARA RUEDA DE VEHICULO',
+'precio':24.30
+},
+{
+'ruta':'ESPATULA DE ACERO INOXIDABLE',
+'precio':24.30
+},
+{
+'ruta':'ESPATULA Y PINZA DE METAL PARA REPOSTERIA',
+'precio':24.30
+},
+{
+'ruta':'ESPEJO CON MARCO',
+'precio':29.95
+},
+{
+'ruta':'ESPEJOS RETROVISORES',
+'precio':14.13
+},
+{
+'ruta':'ESPERSORES PLASTICOS PARA RIEGO',
+'precio':14.13
+},
+{
+'ruta':'ESPINILLERA, RODILLERA PARA DEPORTE',
+'precio':24.30
+},
+{
+'ruta':'ESPONJAS DE CUALQUIER TIPO',
+'precio':19.78
+},
+{
+'ruta':'ESTAMPILLAS',
+'precio':19.78
+},
+{
+'ruta':'ESTANTE DE METAL',
+'precio':29.95
+},
+{
+'ruta':'ESTRIBO DE METAL PARA SILLA DE JINETE',
+'precio':14.13
+},
+{
+'ruta':'ESTRIBO PARA CARRO',
+'precio':42.78
+},
+{
+'ruta':'ESTRUCTURA DE TUBOS METALICOS',
+'precio':24.30
+},
+{
+'ruta':'ESTUCHE DE CAUCHO PARA CONTROL DE TV',
+'precio':29.95
+},
+{
+'ruta':'ESTUCHE DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'ESTUCHE DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'ESTUCHE DE MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'ESTUCHE DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'ESTUCHE PARA CAMARA',
+'precio':29.95
+},
+{
+'ruta':'ESTUCHE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'ESTUDIO FOTOGRAFICO',
+'precio':29.95
+},
+{
+'ruta':'ETIQUETADORA',
+'precio':14.13
+},
+{
+'ruta':'ETIQUETAS AUTOADHESIVAS IMPRESAS',
+'precio':29.95
+},
+{
+'ruta':'EXHIBIDOR DE PISO PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'EXPANSOR DE HORMA PARA ZAPATO HERRAMIENTA MANUAL',
+'precio':14.13
+},
+{
+'ruta':'EXTENSION DE CABELLO',
+'precio':29.95
+},
+{
+'ruta':'EXTENSION ELECTRICA CONDUCTORA DE ELECTRICIDAD',
+'precio':29.95
+},
+{
+'ruta':'EXTENSIONES PARA CABELLO',
+'precio':29.95
+},
+{
+'ruta':'EXTRACTOR DE GRASA PARA COCINA',
+'precio':24.30
+},
+{
+'ruta':'EXTRACTOR DE JUGOS',
+'precio':49.27
+},
+{
+'ruta':'EXTRACTOR DE PIEZAS MECANICAS PARA MOTOR',
+'precio':14.13
+},
+{
+'ruta':'EXTRACTOR MANUAL DE JUGO',
+'precio':49.27
+},
+{
+'ruta':'FAJA DE MATERIAL TEXTIL',
+'precio':14.13
+},
+{
+'ruta':'FAJA DE SEGURIDAD MATERIAL TEXTIL',
+'precio':14.13
+},
+{
+'ruta':'FAJAS DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'FAJAS DE DISTRIBUCION',
+'precio':14.13
+},
+{
+'ruta':'FELPAS',
+'precio':14.13
+},
+{
+'ruta':'FIBRAS PARA FRENO MONTADAS',
+'precio':42.78
+},
+{
+'ruta':'FILTRO DE ACEITE',
+'precio':24.30
+},
+{
+'ruta':'filtro de aceite hidraulico para transmision automatica',
+'precio':24.30
+},
+{
+'ruta':'filtro de aceite transmision automatica',
+'precio':24.30
+},
+{
+'ruta':'FILTRO DE AGUA',
+'precio':14.13
+},
+{
+'ruta':'FILTRO DE AIRE INDUSTRIAL',
+'precio':14.13
+},
+{
+'ruta':'filtro de aire para admision de motor de combustion interna ( PERA )',
+'precio':24.30
+},
+{
+'ruta':'FILTRO DE AIRE PARA MOTOR DE GASOLINA',
+'precio':24.30
+},
+{
+'ruta':'FILTRO DE AIRE PARA VEHICULO',
+'precio':24.30
+},
+{
+'ruta':'FILTRO DE GASOLINA,DIESEL',
+'precio':24.30
+},
+{
+'ruta':'FILTRO DE PAPEL PARA COFFEMAKER',
+'precio':14.13
+},
+{
+'ruta':'FILTRO DE PLASTICO PARA COFFEEMAKER',
+'precio':31,08
+},
+{
+'ruta':'FILTRO DE TELA PARA CAFÉ',
+'precio':29.95
+},
+{
+'ruta':'FILTRO PARA MONITOR PRIVACIDAD NEGRO ( PROTECTOR PARA PANTALLA GLASS )',
+'precio':14.13
+},
+{
+'ruta':'FIRE TV',
+'precio':13.00
+},
+{
+'ruta':'FLASH PARA CAMARA',
+'precio':24.30
+},
+{
+'ruta':'FLAUTA TRANSVERSAL',
+'precio':24.30
+},
+{
+'ruta':'FLORES ARTIFICIALES',
+'precio':29.95
+},
+{
+'ruta':'FLOTADOR DEPORTIVO',
+'precio':24.30
+},
+{
+'ruta':'FOCO PARA MOTOCICLETA',
+'precio':19.78
+},
+{
+'ruta':'FOCOS CERRRADOS DE HALOGENOS PARA VEHICULO',
+'precio':30.80
+},
+{
+'ruta':'FOCOS DE ALUMBRADO DELANTEROS PARA VEHICULO',
+'precio':30.80
+},
+{
+'ruta':'FOLDER DE PAPEL',
+'precio':29.95
+},
+{
+'ruta':'FORMULARIOS IMPRESOS',
+'precio':29.95
+},
+{
+'ruta':'FORRO PARA ASIENTO DE VEHICULO DE MATERIAL TEXTIL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'FORRO PARA ENCIERRO',
+'precio':29.95
+},
+{
+'ruta':'FORRO PLASTICO PARA GUARDABARRO DE VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'FOTOCELDAS SOLARES',
+'precio':13.00
+},
+{
+'ruta':'FRANELA PAÑOS PARA FREGAR LAVAR ENTRE OTROS SIMILARES',
+'precio':29.95
+},
+{
+'ruta':'FRASCOS DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'FREGADERO DE ACERO INOXIDABLE',
+'precio':29.95
+},
+{
+'ruta':'FREIDORA ELECTRICA DE USO DEMESTICO',
+'precio':49.27
+},
+{
+'ruta':'FRENO SIN MONTAR SIN ASBESTO',
+'precio':24.63
+},
+{
+'ruta':'FUENTE DE ALIMENTACION INTERRUMPIDA',
+'precio':13.00
+},
+{
+'ruta':'FUENTE DE CHOCOLATE',
+'precio':49.27
+},
+{
+'ruta':'FUENTE DE ENERGIA ELECTRICA PARA EQUIPO ELECTRICO',
+'precio':13.00
+},
+{
+'ruta':'FUENTE DE PODER',
+'precio':14.13
+},
+{
+'ruta':'FUNDA DE ALGODON PARA ALMOHADA',
+'precio':29.95
+},
+{
+'ruta':'FUNDA PARA ARMA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'FUNDA PLASTICA ( HOJAS )',
+'precio':29.95
+},
+{
+'ruta':'FUSIBLES',
+'precio':14.13
+},
+{
+'ruta':'FUTBOLIN',
+'precio':29.95
+},
+{
+'ruta':'GABACHA DE POLIESTER PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'GABACHAS DE UNIFORME',
+'precio':29.95
+},
+{
+'ruta':'GAFAS PROTECTORAS PARA LA PRACTICA DE NATACION',
+'precio':29.95
+},
+{
+'ruta':'GALON DE PLASTICO',
+'precio':24.30
+},
+{
+'ruta':'GANCHO DE ACERO',
+'precio':14.13
+},
+{
+'ruta':'GANCHO DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'GANCHO DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'GARFIO DE PIRATA JUGUETE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'GATA HIDRAULICA',
+'precio':14.13
+},
+{
+'ruta':'GAVETA PLASTICA PARA REFRIGERADORA',
+'precio':14.13
+},
+{
+'ruta':'GAZA DE METAL CON TORNILLO',
+'precio':14.13
+},
+{
+'ruta':'GEMELOS Y PASADORES PARA SACOS DE VESTIR',
+'precio':29.95
+},
+{
+'ruta':'GENERADOR DE CARBONO, GENERADOR DE GAS',
+'precio':14.13
+},
+{
+'ruta':'GENERADOR DE SEÑAL PARA ENCONTRAR OBJETOS',
+'precio':14.13
+},
+{
+'ruta':'GENERADOR ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'GLOBO TERRAQUEO',
+'precio':14.13
+},
+{
+'ruta':'GLOBOS DE CUALQUIER MATERIAL',
+'precio':29.95
+},
+{
+'ruta':'GORRA DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'GORRO 100% POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'GORRO ACRILICO PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'GORRO DE CAUCHO PARA NATACION',
+'precio':29.95
+},
+{
+'ruta':'GORRO PARA NATACION',
+'precio':29.95
+},
+{
+'ruta':'GPS GENERADOR DE SEÑALES',
+'precio':14.13
+},
+{
+'ruta':'GRABADOR DE AUDIO Y VIDEO',
+'precio':49.27
+},
+{
+'ruta':'GRABADORA DE CASSETE',
+'precio':49.27
+},
+{
+'ruta':'GRADA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'GRAPADORA',
+'precio':14.13
+},
+{
+'ruta':'GRAPAS EN TIRAS DE OFICINA',
+'precio':29.95
+},
+{
+'ruta':'GRIFOS',
+'precio':29.95
+},
+{
+'ruta':'GUADAÑADORA PARA CESPED',
+'precio':1
+},
+{
+'ruta':'GUANTE DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'GUANTE DE CUERO PARA BASEBALLY SOFTBALL',
+'precio':24.30
+},
+{
+'ruta':'GUANTE DE CUERO PARA EL DEPORTE',
+'precio':24.30
+},
+{
+'ruta':'GUANTE DE CUERO PARA EL TRABAJO',
+'precio':24.30
+},
+{
+'ruta':'GUANTE DE MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'GUANTES DE BOXEO',
+'precio':29.95
+},
+{
+'ruta':'GUANTES DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'GUANTES DE LATEX',
+'precio':29.95
+},
+{
+'ruta':'GUANTES DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'GUANTES DE NIÑA DE MATERIA TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'GUARDABARRO PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'GUARDABARRO PLASTICO PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'GUARNICIONES DE FRENO MONTADAS',
+'precio':42.78
+},
+{
+'ruta':'GUITARRA ACUSTICA',
+'precio':29.95
+},
+{
+'ruta':'GUITARRAS ELECTRICAS',
+'precio':24.30
+},
+{
+'ruta':'HAMACA 100% NYLON',
+'precio':29.95
+},
+{
+'ruta':'HAMACA TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'HERRAGE PARA VENTANA DE VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'HERRAJE DE METAL PARA EDIFICIOS',
+'precio':24.30
+},
+{
+'ruta':'HERRAJE DE METAL PARA MUEBLE',
+'precio':19.78
+},
+{
+'ruta':'HERRAMIENTA DE USO MANUAL ALICATE CORTANTE',
+'precio':14.13
+},
+{
+'ruta':'HERRAMIENTA ELECTRICA DE USO MANUAL',
+'precio':14.13
+},
+{
+'ruta':'HERRAMIENTA MANUAL DE USO DOMESTICO',
+'precio':19.78
+},
+{
+'ruta':'HERRAMIENTA MANUAL PARA ACORDONAR',
+'precio':14.13
+},
+{
+'ruta':'HERRAMIENTA MANUAL PARA LA RECOLECCION DE FRUTAS',
+'precio':19.78
+},
+{
+'ruta':'HERRAMIENTA MANUAL PERFORADOR CON FIGURAS PARA TRABAJAR CUERO',
+'precio':14.13
+},
+{
+'ruta':'HERRAMIENTA PARA LIMPIAR PISCINA',
+'precio':29.95
+},
+{
+'ruta':'HERRAMIENTA PARA MANICURE',
+'precio':24.30
+},
+{
+'ruta':'HERRAMIENTA PRENZA DE METAL DE MESA PRENSA CARPINTERO',
+'precio':14.13
+},
+{
+'ruta':'HERRAMIENTA ROTATORIA ELECTRICA',
+'precio':14.13
+},
+{
+'ruta':'HERRAMIENTAS MANUALES DE CAUCHO',
+'precio':24.30
+},
+{
+'ruta':'HIDROLAVALORA',
+'precio':14.13
+},
+{
+'ruta':'HIELERA POLIETILENO',
+'precio':29.95
+},
+{
+'ruta':'HILADORA ELECTRICA',
+'precio':14.13
+},
+{
+'ruta':'HILO DE ALGODÓN',
+'precio':19.78
+},
+{
+'ruta':'HOJA DE SIERRA CIRCULAR',
+'precio':14.13
+},
+{
+'ruta':'HOJA PLASTICA TRANSFERENCIA ADHESIVA',
+'precio':14.13
+},
+{
+'ruta':'HOJAS DE AFEITAR NAVAJAS DE AFEITAR',
+'precio':24.30
+},
+{
+'ruta':'HOJAS DE ESPATULA HERRAMIENTA MANUAL',
+'precio':14.13
+},
+{
+'ruta':'HOJAS DE SIERRA',
+'precio':14.13
+},
+{
+'ruta':'HOJAS PARA MAQUINA DE AFEITAR',
+'precio':14.13
+},
+{
+'ruta':'HOJAS PARA SIERRA',
+'precio':14.13
+},
+{
+'ruta':'HOME THEATER CON DVD',
+'precio':49.27
+},
+{
+'ruta':'HOME THEATER SIN DVD',
+'precio':14.13
+},
+{
+'ruta':'HOME THEATER SIN DVD SOLO SONIDO',
+'precio':14.13
+},
+{
+'ruta':'HORNO ELECTRICO',
+'precio':42.83
+},
+{
+'ruta':'HORNO ELECTRICO TOSTADOR DE PAN',
+'precio':49.27
+},
+{
+'ruta':'HORNO MICROONDAS',
+'precio':37.58
+},
+{
+'ruta':'HORNO PARA CAMPING HORNILLO DE METAL',
+'precio':29.95
+},
+{
+'ruta':'HORNO PARA PANADERIA',
+'precio':14.13
+},
+{
+'ruta':'HORQUILLAS PARA BICICLETA',
+'precio':24.30
+},
+{
+'ruta':'HORQUILLAS; RIZADORES, BIGUDIES Y ARTICULOS SIMILARES PARA EL CABELLO',
+'precio':29.95
+},
+{
+'ruta':'HUB, PUERTO USB',
+'precio':13.00
+},
+{
+'ruta':'HUMIDIFICADOR',
+'precio':49.27
+},
+{
+'ruta':'IMPRESORA',
+'precio':
+},
+{
+'ruta':'IMPRESORA DE ETIQUETAS',
+'precio':14.13
+},
+{
+'ruta':'IMPRESORA MULTIFUNCIONAL',
+'precio':13.00
+},
+{
+'ruta':'IMPRESORA TERMICA',
+'precio':14.13
+},
+{
+'ruta':'INFLABLE DEPORTIVO',
+'precio':24.30
+},
+{
+'ruta':'INFLABLE PARA EXTERIORES',
+'precio':24.30
+},
+{
+'ruta':'INFLABLES PARA PISCINA PARA JUEGOS DE PLAYA',
+'precio':29.95
+},
+{
+'ruta':'INFLADOR ELECTRICO DE GLOBOS BOMBA DE AIRE',
+'precio':14.13
+},
+{
+'ruta':'INODORO PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'INODORO TIPO ORINAL PLASTICO PARA NIÑO',
+'precio':24.30
+},
+{
+'ruta':'INSTRUMENTO DE MEDICION COMPAS PARA ANGULOS',
+'precio':1
+},
+{
+'ruta':'INSTRUMENTO DE MEDICION DE DIAMETROS',
+'precio':14.13
+},
+{
+'ruta':'INSTRUMENTO DE PERCUSION ELECTRONICO',
+'precio':24.30
+},
+{
+'ruta':'INSTRUMENTO UKULELE',
+'precio':24.30
+},
+{
+'ruta':'INSTRUMENTOS DE CUERDA ACUSTICOS DE ARCO',
+'precio':24.30
+},
+{
+'ruta':'INSTRUMENTOS DE PERCUCION',
+'precio':24.30
+},
+{
+'ruta':'INSTRUMENTOS DE SENALIZACION VISUAL PARA MOTOCICLETA',
+'precio':14.13
+},
+{
+'ruta':'INSTRUMENTOS DE VIENTO',
+'precio':24.30
+},
+{
+'ruta':'INSTRUMENTOS PEQUEÑO DE CUERDA BANJO',
+'precio':24.30
+},
+{
+'ruta':'INTERCOMUNICADOR',
+'precio':14.13
+},
+{
+'ruta':'INTERRUPTOR',
+'precio':13.00
+},
+{
+'ruta':'INTERRUPTOR DE LUZ DE FRENO PARA VEHICULO',
+'precio':13.00
+},
+{
+'ruta':'INTERRUPTOR DE SEÑALES DE DIRECCION PARA VEHICULO',
+'precio':13.00
+},
+{
+'ruta':'JABONERA DE METAL',
+'precio':29.95
+},
+{
+'ruta':'JABONERA DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'JACKET ALGODON PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'JACKET DE CUERO PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'JACKET DE NAILON PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'JACKET DE NYLON PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'JACKET DE POLIESTER PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'JACKET PARA HOMBRE DE POLYESTER',
+'precio':29.95
+},
+{
+'ruta':'JARRA DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'JARRAS DE CERAMICA',
+'precio':29.95
+},
+{
+'ruta':'JAULA DE METAL',
+'precio':24.30
+},
+{
+'ruta':'JOYERO DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'JOYERO DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'JOYERO DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'JOYERO DE METAL',
+'precio':14.13
+},
+{
+'ruta':'JUEGO COMPLETO DE GRIFERIA PARA BAÑO (DUCHA)',
+'precio':29.95
+},
+{
+'ruta':'JUEGO DE CUBOS INTERCAMBIABLE',
+'precio':14.13
+},
+{
+'ruta':'JUEGO DE CUCHILLOS',
+'precio':24.30
+},
+{
+'ruta':'JUEGO DE DESATORNILLADORES',
+'precio':14.13
+},
+{
+'ruta':'JUEGO DE OLLAS DE ALUMINIO BATERIA DE COCINA',
+'precio':29.95
+},
+{
+'ruta':'JUEGO DE SOCIEDAD',
+'precio':29.95
+},
+{
+'ruta':'JUEGO DE SOCIEDAD NAIPE',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE CARRO PARA TRANSPORTE DE NIÑO',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE COCHE PARA MUÑECA',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE CON MOTOR',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE CON MOTOR DRON, SI TOMA FOTOS Y VIDEOS AL 852580',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE DE PELUCHE',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE DIARIO',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE ELECTRONICO',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE FICCION Y FANTASIA',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE GIMNASIO',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE MUÑECA',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE MUSICAL',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE SCOOTER',
+'precio':29.95
+},
+{
+'ruta':'JUGUETE TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES DE CONSTRUCCION',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES INFLABLES FIGURA ANIMAL',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES INFLABLES FIGURA HUMANA',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES INFLABLES REDUCIDO A ESCALA',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES PATINES',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES PATINETOS',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES PLASTICOS CON FIGURA HUMANA',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES PLASTICOS REPRESENTACION ANIMAL',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES PLASTICOS VARIOS',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES SURTIDOS',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES TAMAÑO A ESCALA',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES TAMAÑO A ESCALA TREN ELECTRICO',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES TITERES',
+'precio':29.95
+},
+{
+'ruta':'JUGUETES TREN NO ELECTRICO',
+'precio':29.95
+},
+{
+'ruta':'JUNTA DE METAL Y CAUCHO',
+'precio':19.78
+},
+{
+'ruta':'KIT DE HALOGENO PARA VEHICULO',
+'precio':19.78
+},
+{
+'ruta':'KIT DE BUCEO',
+'precio':24.30
+},
+{
+'ruta':'KIT DE CILINDRO',
+'precio':14.13
+},
+{
+'ruta':'KIT DE ESPACIADORES DE SUSPENSION PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'KIT DE MEDIDOR DE RANGOS DE SEÑAL TELECOMUNICACION',
+'precio':13.00
+},
+{
+'ruta':'KIT DE PARTES DE SUSPENSION',
+'precio':42.78
+},
+{
+'ruta':'KIT DE SARTENES DE ACERO INOXIDABLE(OLLAS)',
+'precio':29.95
+},
+{
+'ruta':'LAMINADOR TERMICO',
+'precio':49.27
+},
+{
+'ruta':'LAMINAS DE FOAM PARA DECORACION',
+'precio':19.78
+},
+{
+'ruta':'LAMINAS PLASTICAS',
+'precio':24.30
+},
+{
+'ruta':'LAMPARA DE CANFIN',
+'precio':29.95
+},
+{
+'ruta':'LAMPARA DE JARDIN DE ENERGIA SOLAR',
+'precio':29.95
+},
+{
+'ruta':'LAMPARA DE MESA PARA SECAR UÑAS',
+'precio':29.95
+},
+{
+'ruta':'LAMPARA DE MESA Y DE PIE',
+'precio':29.95
+},
+{
+'ruta':'LAMPARA DE PAPEL',
+'precio':29.95
+},
+{
+'ruta':'LAMPARA DE PARED',
+'precio':29.95
+},
+{
+'ruta':'LAMPARA DE TECHO',
+'precio':29.95
+},
+{
+'ruta':'LAMPARA LED',
+'precio':29.95
+},
+{
+'ruta':'LAMPARA LED PARA CARRO',
+'precio':19.78
+},
+{
+'ruta':'LAMPARA LED SOLAR',
+'precio':29.95
+},
+{
+'ruta':'LAMPARA SOLAR DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'LAMPARAS LED PARA PARED',
+'precio':29.95
+},
+{
+'ruta':'LAMPARAS MANUALES (FOCO/LINTERNAS LINTERNA DE CABEZA)',
+'precio':19.78
+},
+{
+'ruta':'LAMPARAS ULTRAVIOLETAS',
+'precio':29.95
+},
+{
+'ruta':'LANYARD DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'LAPICES DE COLOR',
+'precio':10.00
+},
+{
+'ruta':'LAPICES DE MINA Y PORTAMINAS',
+'precio':10.00
+},
+{
+'ruta':'LAPIZ CON FUNDA DE MADERA',
+'precio':10.00
+},
+{
+'ruta':'LAPIZ DE GRAFITO',
+'precio':10.00
+},
+{
+'ruta':'LAS DEMAS CONSTRUCCIONES PREFABRICADAS, CUARTO PARA CULTIVO DE PLANTAS HIDROPONICAS',
+'precio':29.95
+},
+{
+'ruta':'LAVADO PLASTICO (LAVACABEZAS)',
+'precio':29.95
+},
+{
+'ruta':'LAVAMANOS ,ORINALES E INODOROS CERAMICA',
+'precio':29.95
+},
+{
+'ruta':'LAVAMANOS ,ORINALES E INODOROS PORCELANA',
+'precio':29.95
+},
+{
+'ruta':'LAVAMANOS DE PEDESTAL Y INODOROS 1 PIEZA DE PORCELANA',
+'precio':29.95
+},
+{
+'ruta':'LECTOR DE CODIGO DE BARRAS FIJO',
+'precio':13.00
+},
+{
+'ruta':'LECTOR DE DISCOS BLU RAY',
+'precio':49.27
+},
+{
+'ruta':'LECTOR DE DVD',
+'precio':49.27
+},
+{
+'ruta':'LECTOR DE TARJETAS SD',
+'precio':13.00
+},
+{
+'ruta':'LENTE DE VIDRIO',
+'precio':14.13
+},
+{
+'ruta':'LENTE DE VIDRIO PARA ANTEOJOS',
+'precio':14.13
+},
+{
+'ruta':'LENTE PARA ANTEOJOS',
+'precio':29.95
+},
+{
+'ruta':'LENTE PARA CAMARA',
+'precio':14.13
+},
+{
+'ruta':'LENTE PARA CELULAR',
+'precio':13.00
+},
+{
+'ruta':'LENTES 3D',
+'precio':29.95
+},
+{
+'ruta':'LIBRETAS',
+'precio':29.95
+},
+{
+'ruta':'LIBRO DE COLOREAR',
+'precio':19.78
+},
+{
+'ruta':'LIBRO DE DIBUJAR',
+'precio':19.78
+},
+{
+'ruta':'LIBRO DE PASATIEMPOS',
+'precio':1
+},
+{
+'ruta':'LIBRO DE TIRAS COMICAS',
+'precio':1
+},
+{
+'ruta':'LIBROS DE ENSEÑANZA',
+'precio':1
+},
+{
+'ruta':'LIBROS DE LECTURA',
+'precio':1
+},
+{
+'ruta':'LICRA DE MUJER DE POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'LICUADORA DE USO DOMESTICO',
+'precio':49.27
+},
+{
+'ruta':'LIENZO',
+'precio':14.13
+},
+{
+'ruta':'LIMA',
+'precio':24.30
+},
+{
+'ruta':'LIMPIADOR DE VAPOR',
+'precio':49.27
+},
+{
+'ruta':'LINGA DE CAUCHO CON GANCHO DE METAL',
+'precio':19.78
+},
+{
+'ruta':'LINGA DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'LINGAS',
+'precio':29.95
+},
+{
+'ruta':'LLANTA DE CAUCHO PARA BICICLETAS',
+'precio':14.13
+},
+{
+'ruta':'LLANTA DE CAUCHO PARA MOTOCICLETA',
+'precio':19.78
+},
+{
+'ruta':'LLANTA MASIZA PARA MONTACARGA DIAMETRO INFERIOR A 90CM',
+'precio':24.30
+},
+{
+'ruta':'LLANTAS DE CAUCHO NUMERACION CAMION NO RADIAL',
+'precio':24.30
+},
+{
+'ruta':'LLANTAS DE CAUCHO NUMERACION CAMION RADIAL ( R )',
+'precio':19.78
+},
+{
+'ruta':'LLANTAS PARA MONTACARGAS',
+'precio':19.78
+},
+{
+'ruta':'LLAVE DE AJUSTE AJUSTABLE',
+'precio':14.13
+},
+{
+'ruta':'LLAVE DE AJUSTE DE BOCA FIJA',
+'precio':14.13
+},
+{
+'ruta':'LLAVE DE AJUSTE RACK PARA CUBOS DE AJUSTE VARIABLE',
+'precio':14.13
+},
+{
+'ruta':'LLAVE DE GRIFO METALICO PARA LAVAMANOS',
+'precio':14.13
+},
+{
+'ruta':'LLAVE PARA CERRADURA',
+'precio':19.78
+},
+{
+'ruta':'LLAVERO ACERO INOXIDABLE',
+'precio':14.13
+},
+{
+'ruta':'LLAVERO DE METAL',
+'precio':14.13
+},
+{
+'ruta':'LLAVERO PLASTICO CON ARGOLLA DE METAL',
+'precio':29.95
+},
+{
+'ruta':'LLAVERO PLASTICO CON ARGOLLA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'LLAVIN PARA ARRANCADOR DE VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'LLAVINES PARA VENTANA',
+'precio':14.13
+},
+{
+'ruta':'LODERAS PLASTICAS PARA CARRO',
+'precio':42.78
+},
+{
+'ruta':'LONCHERA DE ALUMINIO CAJA DE ALUMINIO',
+'precio':19.78
+},
+{
+'ruta':'LONCHERA DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'LONCHERA DE METAL',
+'precio':14.13
+},
+{
+'ruta':'LONCHERA MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'LONCHERA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'LONCHERA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'LONCHERA TERMICA ELECTRICA',
+'precio':49.27
+},
+{
+'ruta':'LOS DEMAS APARATOS DE SEÑALIZACION ACUSTICA SENSOR Y ALARMA',
+'precio':14.13
+},
+{
+'ruta':'LUCES DE SEÑALIZACION',
+'precio':14.13
+},
+{
+'ruta':'LUCES ELCTRICAS PARA NAVIDAD',
+'precio':29.95
+},
+{
+'ruta':'LUCES INTERMITENTES PARA VEHICULO (DIRECCIONALES)',
+'precio':14.13
+},
+{
+'ruta':'LUPA',
+'precio':14.13
+},
+{
+'ruta':'LUZ DE XENON PARA CARRO',
+'precio':19.78
+},
+{
+'ruta':'LUZ PARA BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'LYNCH PARA KAYAK',
+'precio':24.30
+},
+{
+'ruta':'MACHETE',
+'precio':15.00
+},
+{
+'ruta':'MAGNETO',
+'precio':42.38
+},
+{
+'ruta':'MALETA DE VIAJE PLASTICA CON RODINES',
+'precio':29.95
+},
+{
+'ruta':'MALETIN O MALETA DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'MALETIN O MALETA DE FIBRAS SINTETICAS',
+'precio':29.95
+},
+{
+'ruta':'MALLA MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'MAMELUCO DE POLIESTER BEBE',
+'precio':29.95
+},
+{
+'ruta':'MANGAS DE POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'MANGUERA DE CAUCHO CON ACCESORIOS',
+'precio':19.78
+},
+{
+'ruta':'MANGUERA DE CAUCHO CON PIEZA DE ACOPLE REFORZADA',
+'precio':19.78
+},
+{
+'ruta':'MANGUERA DE CAUCHO REFORZADA CON OTRA MATERIA SIN ACCESORIOS',
+'precio':19.78
+},
+{
+'ruta':'MANGUERA DE PLASTICO',
+'precio':19.78
+},
+{
+'ruta':'MANGUERA DE PVC',
+'precio':19.78
+},
+{
+'ruta':'MANGUERA MATERIAL TEXTIL',
+'precio':14.13
+},
+{
+'ruta':'MANIFUL PARA CARRO',
+'precio':24.30
+},
+{
+'ruta':'MANIJA DE METAL PARA PUERTA DE MUEBLE',
+'precio':19.78
+},
+{
+'ruta':'MANIJA PARA PUERTA DE CAJON DE VEHICULO PICK UP',
+'precio':14.13
+},
+{
+'ruta':'MANILLA PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'MANIQUI',
+'precio':29.95
+},
+{
+'ruta':'MANIVELA PARA BICICLETA',
+'precio':24.30
+},
+{
+'ruta':'MANIVELA PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'MANIVELA Y PEDAL PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'MANOS LIBRE PARA TELEFONO,TABLETS, ETC',
+'precio':14.13
+},
+{
+'ruta':'MANTA ELECTRICA',
+'precio':29.95
+},
+{
+'ruta':'MANTA PARA ESTUDIO FOTOGRAFICO',
+'precio':29.95
+},
+{
+'ruta':'MANTEL DE ALGODÓN PARA MESA',
+'precio':29.95
+},
+{
+'ruta':'MANTEL DE MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'MANTEL DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'MANTEL PARA MESA MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'MANTILLA 100% ALGODON',
+'precio':29.95
+},
+{
+'ruta':'MANTILLA 100% POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'MANUBRIO PARA BICICLETA',
+'precio':24.30
+},
+{
+'ruta':'MANUFACTURA DE ACERO INOXIDABLE',
+'precio':14.13
+},
+{
+'ruta':'MANUFACTURA DE ALUMINIO',
+'precio':24.30
+},
+{
+'ruta':'MANUFACTURA DE CARTON',
+'precio':24.30
+},
+{
+'ruta':'MANUFACTURA DE CAUCHO',
+'precio':19.78
+},
+{
+'ruta':'MANUFACTURA DE CUERO PARA TALABARTERIA',
+'precio':29.95
+},
+{
+'ruta':'MANUFACTURA DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'MANUFACTURA DE PAPEL',
+'precio':24.30
+},
+{
+'ruta':'MANUFACTURA DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'MANUFACTURA METALICA',
+'precio':14.13
+},
+{
+'ruta':'MANUFACTURA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'MANUFACTURA PLASTICA AGARRADERAS PARA MALETA DE VAIJE',
+'precio':29.95
+},
+{
+'ruta':'MANUFACTURAS DIVERSAS DE METAL COMUN CIERRES',
+'precio':14.13
+},
+{
+'ruta':'MAPA',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA CORTAR EMBUTIDOS',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA DE AFILAR',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA DE COSER DOMESTICA',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA DE HACER HUMO PARA FIESTAS',
+'precio':49.27
+},
+{
+'ruta':'MAQUINA ELECTRICA CONTADORA DE BILLETES',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA ELECTRICA DE USO DOMESTICO(MAQUINA DE HELADOS)',
+'precio':49.27
+},
+{
+'ruta':'MAQUINA ELECTRICA PARA GENERAR NIEBLA',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA MANUAL PARA CORTAR CERAMICA',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA MANUAL PARA HACER PASTA',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA MOLEDORA DE CAFÉ',
+'precio':49.27
+},
+{
+'ruta':'MAQUINA PARA HACER ALGODON DE AZUCAR INDUSTRIAL',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA PARA HACER EJERCICIOS',
+'precio':24.30
+},
+{
+'ruta':'MAQUINA PARA HACER HELADOS DOMESTICA MEZCLADORA',
+'precio':49.27
+},
+{
+'ruta':'MAQUINA PARA HORNEAR CUPCAKES',
+'precio':42.83
+},
+{
+'ruta':'MAQUINA PARA LIJAR O PULIR MADERA',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA PARA LIJAR O PULIR PIEDRA',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA PARA LIJAR O PULIR VIDRIO',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA PARA PALOMITAS',
+'precio':49.27
+},
+{
+'ruta':'MAQUINA PARA PICAR,TRITURAR HIELO',
+'precio':49.27
+},
+{
+'ruta':'MAQUINA PARA PREPARAR SANDWICHWS',
+'precio':49.27
+},
+{
+'ruta':'MAQUINA PARA PULIR MOTOTUL',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA PARA SOLDAR DE ARCO',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA PROCESADORA CARNE INDUSTRIAL',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA REGISTRADORA PARA COMPUTADORA',
+'precio':13.00
+},
+{
+'ruta':'MAQUINA SELLADORA DE BOLSAS',
+'precio':24.30
+},
+{
+'ruta':'MAQUINA TROQUELADORA MANUAL',
+'precio':14.13
+},
+{
+'ruta':'MAQUINA TROQUELADORA PARA PAPEL ELECTRICA',
+'precio':14.13
+},
+{
+'ruta':'MAQUINAS Y APARATOS CORTADOR DE PAPEL',
+'precio':14.13
+},
+{
+'ruta':'MAQUINAS Y APARATOS PARA LA CULTURA FISICA',
+'precio':24.30
+},
+{
+'ruta':'MARCA PASOS CARDIACO',
+'precio':14.13
+},
+{
+'ruta':'MARCADOR',
+'precio':29.95
+},
+{
+'ruta':'MARCADOR CON PUNTA DE FIELTRO PERMANENTE',
+'precio':29.95
+},
+{
+'ruta':'MARCO DE FUTBOL',
+'precio':24.30
+},
+{
+'ruta':'MARCO DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'MARCO DIGITAL PARA FOTOGRAFIA',
+'precio':49.27
+},
+{
+'ruta':'MARCO PARA BICICLETA',
+'precio':24.30
+},
+{
+'ruta':'MARCO PLASTICO PARA EXIBIR HISTORIETA',
+'precio':29.95
+},
+{
+'ruta':'MARCOS DE CARTON',
+'precio':24.30
+},
+{
+'ruta':'MARTILLO',
+'precio':14.13
+},
+{
+'ruta':'MARTILLO ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'MASCARA DE FON PARA FIESTA',
+'precio':29.95
+},
+{
+'ruta':'MASCARA PARA DORMIR',
+'precio':29.95
+},
+{
+'ruta':'MASCARILLAS DESECHABLES',
+'precio':14.13
+},
+{
+'ruta':'MATERIAS TEXTILES PARA INVERNADEROS',
+'precio':15.00
+},
+{
+'ruta':'MECATE PLASTICO DE CORTE PARA GUARAÑA',
+'precio':14.13
+},
+{
+'ruta':'MEDIAS 65% NYLON 35% LICRA',
+'precio':29.95
+},
+{
+'ruta':'MEDIAS DE COMPRESION PARA VARICES',
+'precio':14.13
+},
+{
+'ruta':'MEDIAS DE POLIESTER PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'MEDIDOR (CONTADOR) DE GAS',
+'precio':14.13
+},
+{
+'ruta':'MEDIDOR DE COMBUSTIBLE PARA VEHICULO',
+'precio':13.00
+},
+{
+'ruta':'MEDIDOR DE HUMEDAD',
+'precio':13.00
+},
+{
+'ruta':'MEDIDOR DE PRESION DE AIRE',
+'precio':13.00
+},
+{
+'ruta':'MEDIDOR DE PRESION DE LIQUIDOS',
+'precio':13.00
+},
+{
+'ruta':'MEDIDOR DE TEMPERATURA TERMOSTATO REGULADOR',
+'precio':14.13
+},
+{
+'ruta':'MEDIDOR DIGITAL DE PRESION DE LLANTAS',
+'precio':13.00
+},
+{
+'ruta':'MEGAFONO',
+'precio':14.13
+},
+{
+'ruta':'MEMORIA DE ALMACENAMIENTO USB (LLAVE MAYA)',
+'precio':13.00
+},
+{
+'ruta':'MEMORIA STICK',
+'precio':14.13
+},
+{
+'ruta':'MESA DE ACERO INOXIDABLE,BARRA DE AUTOSERVICIO PARA HOTELES',
+'precio':29.95
+},
+{
+'ruta':'MESA DE BILLAR',
+'precio':29.95
+},
+{
+'ruta':'MESA DE JARDIN PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'MESA DE METAL',
+'precio':29.95
+},
+{
+'ruta':'MESA DE TENIS',
+'precio':29.95
+},
+{
+'ruta':'METRONOMO',
+'precio':19.78
+},
+{
+'ruta':'METRONOMO',
+'precio':19.78
+},
+{
+'ruta':'MEZCLADOR DE MUSICA MEZCLADOR DE SONIDO CON AMPLIFICADOR',
+'precio':14.13
+},
+{
+'ruta':'MICROFONO',
+'precio':14.13
+},
+{
+'ruta':'MICROSCOPIO DE BOLSILLO',
+'precio':14.13
+},
+{
+'ruta':'MINI PROJECTOR PORTATIL DE IMÁGENES',
+'precio':31,08
+},
+{
+'ruta':'MIRA TELESCOPICA',
+'precio':19.78
+},
+{
+'ruta':'MOLDES DE PAPEL',
+'precio':24.30
+},
+{
+'ruta':'MOLDES DE PLASTICO USO DOMESTICO',
+'precio':29.95
+},
+{
+'ruta':'MOLDES DE SILICONE PARA COCINA',
+'precio':29.95
+},
+{
+'ruta':'MOLDES Y BANDEJAS DE ACERO COMUN DE USO DOMESTICO',
+'precio':29.95
+},
+{
+'ruta':'MONITOR CARDIACO',
+'precio':14.13
+},
+{
+'ruta':'MONITOR DE COMPUTADORA',
+'precio':49.27
+},
+{
+'ruta':'MONITOR DE COMPUTADORA',
+'precio':49.27
+},
+{
+'ruta':'MONOCULAR',
+'precio':14.13
+},
+{
+'ruta':'MONTURA PLASTICA PARA LENTE',
+'precio':14.13
+},
+{
+'ruta':'MOSTRARIO DE PAPEL TAPIZ PARA PARED',
+'precio':24.30
+},
+{
+'ruta':'MOTOR FUERA DE BORDA BARCOS',
+'precio':14.13
+},
+{
+'ruta':'MOTOR ALTERNADOR DE ENERGIA ELECTRICA PARA TERMOKING',
+'precio':14.13
+},
+{
+'ruta':'MOTOR DE ARRANQUE PARA MOTOR DE COMBUSTION INTERNA',
+'precio':42.38
+},
+{
+'ruta':'MOTOR ELECTRICO 1.5 VOLTIOS',
+'precio':14.13
+},
+{
+'ruta':'MOTOR ELECTRICO PARA VENTANA DE VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'MOTOR FUERABORDA',
+'precio':14.13
+},
+{
+'ruta':'MOTOR PARA PORTON ELECTRICO SUPERIOR A 750W',
+'precio':14.13
+},
+{
+'ruta':'MOUSE PARA COMPUTADORA',
+'precio':13.00
+},
+{
+'ruta':'MOVIL PARA BEBE',
+'precio':29.95
+},
+{
+'ruta':'MUEBLE DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'MUEBLE DE MADERA PARA COCINA',
+'precio':29.95
+},
+{
+'ruta':'MUFLA PARA MOTO',
+'precio':14.13
+},
+{
+'ruta':'MUFLA PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'MUNICIONES DE JUGUETE',
+'precio':29.95
+},
+{
+'ruta':'MUÑEQUERA DE MATERIAL SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'MUÑEQUERAS PARA BOXEO',
+'precio':24.30
+},
+{
+'ruta':'MUSICA IMPRESA ENCUADERNADA EN LIBROS',
+'precio':6.00
+},
+{
+'ruta':'NAVAJAS DE AFEITAR',
+'precio':24.30
+},
+{
+'ruta':'NAVAJAS PARA MAQUINAS DE AFEITAR',
+'precio':14.13
+},
+{
+'ruta':'NEUMATICO PARA BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'NEUMATICOS PARA MOTOCICLETA',
+'precio':14.13
+},
+{
+'ruta':'NEUMATICOS PARA TRACTORES AGRICOLAS',
+'precio':6.00
+},
+{
+'ruta':'NEUMATICOS PARA VEHICULOS',
+'precio':19.78
+},
+{
+'ruta':'NIVEL',
+'precio':14.13
+},
+{
+'ruta':'OBEROL DE ALGODÓN PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'OLLA ARROCERA',
+'precio':49.27
+},
+{
+'ruta':'OLLA DE COCIMIENTO LENTO ELECTRICA',
+'precio':49.27
+},
+{
+'ruta':'OLLA DE PRESION DE ACERO INOXIDABLE',
+'precio':29.95
+},
+{
+'ruta':'OLLA DE PRESION ELECTRICA',
+'precio':49.27
+},
+{
+'ruta':'OLLA ELECTRICA MULTI USO',
+'precio':49.27
+},
+{
+'ruta':'OLLA FREIDORA ELECTRICA',
+'precio':42.83
+},
+{
+'ruta':'OLLAS DE ACERO INOXIDABLE',
+'precio':29.95
+},
+{
+'ruta':'OLLAS DE ALUMINIO (UN SOLO ESTILO)',
+'precio':29.95
+},
+{
+'ruta':'OREJERAS DE TELA',
+'precio':29.95
+},
+{
+'ruta':'ORGANETAS',
+'precio':24.30
+},
+{
+'ruta':'ORGANIZADOR DE ALUMINIO',
+'precio':24.30
+},
+{
+'ruta':'ORGANIZADOR DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'ORGANIZADOR DE MATERIAL SINTETICO // TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'ORGANIZADOR DE TELA PARA ROPA',
+'precio':29.95
+},
+{
+'ruta':'ORGANIZADOR PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'ORGANIZAR PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'PAD MOUSE CAUCHO',
+'precio':19.78
+},
+{
+'ruta':'PAD MOUSE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'PAJILLA DE PLASTICO',
+'precio':19.78
+},
+{
+'ruta':'PAJILLAS PLASTICAS',
+'precio':19.78
+},
+{
+'ruta':'PALO DE HOCKEY',
+'precio':24.30
+},
+{
+'ruta':'PALO DE PISO',
+'precio':6.00
+},
+{
+'ruta':'PALOS DE GOLF',
+'precio':24.30
+},
+{
+'ruta':'PANEL DE CONTROL',
+'precio':24.30
+},
+{
+'ruta':'PANEL DE REPUESTO PARA COCINA ELECTRICA',
+'precio':31,08
+},
+{
+'ruta':'PANEL SOLAR',
+'precio':13.00
+},
+{
+'ruta':'PANOS DE FREGAR PARA BANO',
+'precio':29.95
+},
+{
+'ruta':'PANTALLA PARA PROYECCION',
+'precio':14.13
+},
+{
+'ruta':'PANTALLAS DE TV',
+'precio':49.27
+},
+{
+'ruta':'PANTALONETA DE POLIESTER PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'PANTUFLAS',
+'precio':29.95
+},
+{
+'ruta':'PANTY MEDIAS',
+'precio':29.95
+},
+{
+'ruta':'PAÑO DE ALGODÓN',
+'precio':29.95
+},
+{
+'ruta':'PAÑOLETA 100% POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'PAÑOS DE MICROFIBRA PARA LIMPIEZA',
+'precio':29.95
+},
+{
+'ruta':'PAÑUELOS DE BOLSILLO DE ALGODÓN',
+'precio':29.95
+},
+{
+'ruta':'PAÑUELOS DE BOLSILLO LAS DEMAS TELAS',
+'precio':29.95
+},
+{
+'ruta':'PAPEL ADHESIVO PARA IMPRESION',
+'precio':24.30
+},
+{
+'ruta':'PAPEL BOND PARA ESCRIBIR SIN RAYAS EN ROLLOS',
+'precio':24.30
+},
+{
+'ruta':'PAPEL FOOGRAFICO PARA IMPRESION NO SENCIBILIZADOS EN ROLLOS',
+'precio':14.13
+},
+{
+'ruta':'PAPEL FOTOGRAFICO',
+'precio':14.13
+},
+{
+'ruta':'PAPEL METALIZADO PARA IMPRESION SIN IMPRIMIR',
+'precio':19.78
+},
+{
+'ruta':'PAPEL PARA DECORAR PAREDES',
+'precio':24.30
+},
+{
+'ruta':'PARABRISAS PARA VEHICULO',
+'precio':19.78
+},
+{
+'ruta':'PARCHE PARA CAMISA',
+'precio':29.95
+},
+{
+'ruta':'PARCHES PARA TAMBOR',
+'precio':19.78
+},
+{
+'ruta':'PARLANTES',
+'precio':14.13
+},
+{
+'ruta':'PARRILLA DE GAS ESTUFA PORTATIL',
+'precio':24.30
+},
+{
+'ruta':'PARRILLA DE METAL',
+'precio':24.30
+},
+{
+'ruta':'PARRILLA ELECTRICA',
+'precio':42.83
+},
+{
+'ruta':'PARRILLA PARA CARRO',
+'precio':24.30
+},
+{
+'ruta':'PARRILLA PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'PARRILLA PLASTICA PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'PARTE DE BICICLETA BARRA DE REMOLQUE',
+'precio':14.13
+},
+{
+'ruta':'PARTE DE BOMBA DE ACEITE',
+'precio':14.13
+},
+{
+'ruta':'PARTE DE BUMPER',
+'precio':42.78
+},
+{
+'ruta':'PARTE DE CARROCERIA BARRA DE METAL',
+'precio':42.78
+},
+{
+'ruta':'PARTE DE INSTRUMENTO DE PERCUCION',
+'precio':19.78
+},
+{
+'ruta':'PARTE DE JUGUETES',
+'precio':29.95
+},
+{
+'ruta':'PARTE DE MOTOCICLETA COBERTORES DE MOTOR',
+'precio':42.78
+},
+{
+'ruta':'PARTE DE MOTOR PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'PARTE DE MUEBLE DE METAL',
+'precio':19.78
+},
+{
+'ruta':'PARTE DE SCOOTER Y PATINETA',
+'precio':29.95
+},
+{
+'ruta':'PARTE FORRO INTERNO PARA CASCO DE CICLISTA',
+'precio':19.78
+},
+{
+'ruta':'PARTE PARA ABANICO DE MOTOR DE VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA ANTENA CAJA DE CONEXION DE CABLES COAXIAL',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA ASADOR BARBACOA',
+'precio':19.78
+},
+{
+'ruta':'PARTE PARA BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA BICICLETA MARCO',
+'precio':24.30
+},
+{
+'ruta':'PARTE PARA BOMBA DE INYECCION JUNTA DE INYECTOR PARA MOTOR DE ENCENDIDO A COMPRESION',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA CABINA DE CARRO',
+'precio':42.78
+},
+{
+'ruta':'PARTE PARA CAMARA',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA CARRO TIJERETAS',
+'precio':42.78
+},
+{
+'ruta':'PARTE PARA CELULAR',
+'precio':13.00
+},
+{
+'ruta':'PARTE PARA CHASIS DE MOTOCICLETA',
+'precio':19.78
+},
+{
+'ruta':'PARTE PARA COMPUTADORA PORTATIL',
+'precio':13.00
+},
+{
+'ruta':'PARTE PARA EMBRIAGUE DE VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'PARTE PARA FILTRO DE ACEITE',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA FILTRO DE AGUA',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA FILTRO DE AIRE',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA FOTOCOPIADORA TAMBOR DE TONER Y PARTES',
+'precio':13.00
+},
+{
+'ruta':'PARTE PARA FRENO DE MOTOCICLETA',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA FRENO DE VEHICULO CALIPER',
+'precio':42.78
+},
+{
+'ruta':'PARTE PARA INSTRUMENTO DE PERCUSION',
+'precio':19.78
+},
+{
+'ruta':'PARTE PARA LAMPARA',
+'precio':24.30
+},
+{
+'ruta':'PARTE PARA LAVADORA',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA MAQUINA PARA TRABAJAR METAL',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'PARTE PARA MOTOCICLETA MALETERO',
+'precio':42.78
+},
+{
+'ruta':'PARTE PARA MUFLA DE MOTOCICLETA (FIBRA)',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA MUFLA DE VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'PARTE PARA RADIADOR',
+'precio':42.78
+},
+{
+'ruta':'PARTE PARA SIERRA ELECTRICA GUIA DE CORTE',
+'precio':14.13
+},
+{
+'ruta':'PARTE PARA VEHICULO CONJUNTO DE CLOUTH',
+'precio':42.78
+},
+{
+'ruta':'PARTE PARA VIOLIN SOPORTE PARA HOMBRO',
+'precio':19.78
+},
+{
+'ruta':'PARTE PLASTICA PARA IMPRESORA',
+'precio':14.13
+},
+{
+'ruta':'PARTE PLASTICA PARA SISTEMA DE FILTRACION DE AIRE PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'PARTES DE BOTON DE METAL SIN FORRAR CON TELA',
+'precio':19.78
+},
+{
+'ruta':'PARTES PARA ANTENA DE TECHO',
+'precio':14.13
+},
+{
+'ruta':'PARTES PARA AUDIFONOS',
+'precio':14.13
+},
+{
+'ruta':'PARTES PARA CARROCERIA',
+'precio':42.78
+},
+{
+'ruta':'PARTES PARA INSTRUMENTO DE CUERDAS',
+'precio':19.78
+},
+{
+'ruta':'PARTES PARA INSTRUMENTOS DE VIENTO',
+'precio':19.78
+},
+{
+'ruta':'PARTES PARA INSTRUMENTOS ELECTRICOS',
+'precio':19.78
+},
+{
+'ruta':'PARTES PARA MOTOR DE DIESEL O GASOLINA',
+'precio':14.13
+},
+{
+'ruta':'PARTES PARA MOTOR ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'PARTES PARA PIANO',
+'precio':19.78
+},
+{
+'ruta':'PASADOR DE CAMBIOS PARA BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'PASTILLA DE FRENO MONTADO',
+'precio':42.78
+},
+{
+'ruta':'PATINES PARA DEPORTE',
+'precio':24.30
+},
+{
+'ruta':'PEDAL DE BATERIA',
+'precio':19.78
+},
+{
+'ruta':'PEDAL PARA GUITARRA',
+'precio':19.78
+},
+{
+'ruta':'PEDALES PARA BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'PEINE CON MANGO DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'PEINE ELECTRICO PARA EL CABELLO',
+'precio':49.27
+},
+{
+'ruta':'PEINES, PEINETAS, PASADORES DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'PEINES, PEINETAS, PASADORES Y ARTICULOS SIMILARES otras materias',
+'precio':29.95
+},
+{
+'ruta':'PELADOR DE PAPAS MANUAL',
+'precio':24.30
+},
+{
+'ruta':'PELADOR ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'PELADOR MANUAL',
+'precio':24.30
+},
+{
+'ruta':'PELICULA AUTOREVELABLE',
+'precio':24.30
+},
+{
+'ruta':'PELUCA PARA DISFRAZ',
+'precio':29.95
+},
+{
+'ruta':'PELUCA QUE CUBRE TODA LA CABEZA',
+'precio':29.95
+},
+{
+'ruta':'PERCHAS DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'PERCHERO DE METAL COMUN',
+'precio':24.30
+},
+{
+'ruta':'PERCHERO PARA ROPA DE METAL(GANCHO PARA ROPA)',
+'precio':24.30
+},
+{
+'ruta':'PERFORADORA MANUAL DE PAPEL',
+'precio':14.13
+},
+{
+'ruta':'PERSIANAS PLASTICAS',
+'precio':29.95
+},
+{
+'ruta':'PESTAÑAS POSTISAS DE MUJER',
+'precio':29.95
+},
+{
+'ruta':'PIANOS DE COLA DE PEDAL',
+'precio':24.30
+},
+{
+'ruta':'PIANOS VERTICALES DE PEDAL',
+'precio':24.30
+},
+{
+'ruta':'PICHEL DE ALUMINIO',
+'precio':29.95
+},
+{
+'ruta':'PICHEL PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'PIEDRA DE AFILAR A MANO',
+'precio':14.13
+},
+{
+'ruta':'PIEZA DE CONEXION PARA CABLES DE TRANSMISION DE DATOS',
+'precio':13.00
+},
+{
+'ruta':'PIEZAS CONECTORES ELECTRONICOS',
+'precio':13.00
+},
+{
+'ruta':'PIJAMA DE ALGODÓN PARA HOMBRE O NIÑO',
+'precio':29.95
+},
+{
+'ruta':'PIJAMA DE ALGODÓN PARA MUJER Y NIÑA',
+'precio':29.95
+},
+{
+'ruta':'PIJAMA DE POLIESTER Y SINTETICA PARA HOMBRE O NIÑO',
+'precio':29.95
+},
+{
+'ruta':'PIJAMA DE POLIESTER Y SINTETICA PARA MUJER Y IÑA',
+'precio':29.95
+},
+{
+'ruta':'PIJAMA PARA NIÑO DE POLYESTER',
+'precio':29.95
+},
+{
+'ruta':'PILAS',
+'precio':14.13
+},
+{
+'ruta':'PILOT',
+'precio':29.95
+},
+{
+'ruta':'PINCELES',
+'precio':19.78
+},
+{
+'ruta':'PINON DE ENGRANAJE',
+'precio':14.13
+},
+{
+'ruta':'PINTURA CON MARCO',
+'precio':24.30
+},
+{
+'ruta':'PIÑATA',
+'precio':29.95
+},
+{
+'ruta':'PIÑON BICICLETA',
+'precio':14.13
+},
+{
+'ruta':'PISCINA INFLABLE',
+'precio':24.30
+},
+{
+'ruta':'PISTOLA DE AIRE',
+'precio':14.13
+},
+{
+'ruta':'PISTOLA ELECTRICA PARA PINTURA',
+'precio':14.13
+},
+{
+'ruta':'PISTOLA PARA PINTAR',
+'precio':14.13
+},
+{
+'ruta':'PISTOLA PARA SOLDADOR ESTAÑO DE MARCA MINC',
+'precio':14.13
+},
+{
+'ruta':'PISTON 927651 PARA MOTOR DE GASOLINA',
+'precio':14.13
+},
+{
+'ruta':'PIZARRA',
+'precio':29.95
+},
+{
+'ruta':'PLACA DE ALUMINIO PARA TOMACORIRENTE',
+'precio':24.30
+},
+{
+'ruta':'PLACA PARA CARRO',
+'precio':29.95
+},
+{
+'ruta':'PLANCHA ELECTRICA',
+'precio':24.30
+},
+{
+'ruta':'PLANCHA ELECTRICA A VAPOR PARA ROPA DE USO DOMESTICO',
+'precio':24.30
+},
+{
+'ruta':'PLANCHA PARA SERIGRAFIA',
+'precio':14.13
+},
+{
+'ruta':'PLANCHAS PARA CABELLO',
+'precio':49.27
+},
+{
+'ruta':'PLANTILLA ELECTRICA',
+'precio':49.27
+},
+{
+'ruta':'PLASTICO ADHESIVO',
+'precio':14.13
+},
+{
+'ruta':'PLATILLOS DE PERCUSION',
+'precio':24.30
+},
+{
+'ruta':'PLATOS DE ALUMINIO',
+'precio':29.95
+},
+{
+'ruta':'PLATOS DE CARTON',
+'precio':29.95
+},
+{
+'ruta':'PLATOS DE CERAMICA',
+'precio':29.95
+},
+{
+'ruta':'PLATOS PLASTICOS',
+'precio':29.95
+},
+{
+'ruta':'PLIMA ELECTRONICA P DIBUJAR EN 3D',
+'precio':14.13
+},
+{
+'ruta':'PLUMEROS',
+'precio':29.95
+},
+{
+'ruta':'POLEA',
+'precio':14.13
+},
+{
+'ruta':'POLEA PARA CIGUENAL',
+'precio':14.13
+},
+{
+'ruta':'POLIETILENO',
+'precio':29.95
+},
+{
+'ruta':'POLIPASTO ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'PORTA FUSIBLES',
+'precio':13.00
+},
+{
+'ruta':'PORTA LAMPARAS',
+'precio':29.95
+},
+{
+'ruta':'PORTA PAPEL HIGIENICO DE ACERO',
+'precio':29.95
+},
+{
+'ruta':'PORTA PLACA PARA VEHICULO DE HIEROO O ACERO',
+'precio':14.13
+},
+{
+'ruta':'PORTA VASOS DE CORCHO PARA VASO',
+'precio':14.13
+},
+{
+'ruta':'PORTAFOLIO',
+'precio':29.95
+},
+{
+'ruta':'PORTARETRATO DE CERAMICA',
+'precio':29.95
+},
+{
+'ruta':'PORTARETRATO DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'PORTARETRATO DIGITAL',
+'precio':49.27
+},
+{
+'ruta':'PORTARETRATOS DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'POSTER PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'PRENDEDORES DE ALUMINIO',
+'precio':29.95
+},
+{
+'ruta':'PRENSAS PLASTICAS',
+'precio':29.95
+},
+{
+'ruta':'PRENSAS PLASTICAS PARA CABELLO',
+'precio':29.95
+},
+{
+'ruta':'PRENSAS PLASTICAS PARA OFICINA',
+'precio':29.95
+},
+{
+'ruta':'PROBADOR DE CORRIENTE',
+'precio':14.13
+},
+{
+'ruta':'PROCESADOR DE ALIMENTOS DE USO DOMESTICO',
+'precio':49.27
+},
+{
+'ruta':'PROCESADOR DE AUDIO AMPLIFICACION DE AUDIO',
+'precio':14.13
+},
+{
+'ruta':'PROCESADOR PARA COMPUTADORA EJ INTEL AMD',
+'precio':13.00
+},
+{
+'ruta':'PROTECTOR DE CABEZA PARA LA PRACTICA DEL BOXEO',
+'precio':24.30
+},
+{
+'ruta':'PROTECTOR DE CAUCHO ANTIDESLIZANTE PARA NEUMATICO',
+'precio':19.78
+},
+{
+'ruta':'PROTECTOR DE OIDOS OREJERAS DE PLASTICO',
+'precio':14.13
+},
+{
+'ruta':'PROTECTOR DE SOBRE CORRIENTE COMPLETA PARA EL HOGAR',
+'precio':14.13
+},
+{
+'ruta':'PROTECTORES BUCALES DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'PROTECTORES PLASTICOS',
+'precio':29.95
+},
+{
+'ruta':'PROYECTOR',
+'precio':31,08
+},
+{
+'ruta':'PUBLICACIONES PERIODICAS',
+'precio':1
+},
+{
+'ruta':'PUERTA PLASTICA PARA ACCESO DE MASCOTA',
+'precio':29.95
+},
+{
+'ruta':'PULIDORA DE CEMENTO // PIEDRA',
+'precio':14.13
+},
+{
+'ruta':'PULSERA DE PLATA',
+'precio':29.95
+},
+{
+'ruta':'PULSERAS DE METAL PARA RELOJ',
+'precio':24.30
+},
+{
+'ruta':'PUNTAS DE TALADRO',
+'precio':14.13
+},
+{
+'ruta':'PUNTERO LASER',
+'precio':14.13
+},
+{
+'ruta':'PUNTERO PARA PANTALLA TACTIL',
+'precio':14.13
+},
+{
+'ruta':'PUÑOS DE CAUCHO PARA BICICLETA Y MOTOCICLETA',
+'precio':19.78
+},
+{
+'ruta':'PUÑOS DE PLASTICO PARA BICICLETA',
+'precio':29.95
+},
+{
+'ruta':'PURIFICADOR DE AIRE',
+'precio':14.13
+},
+{
+'ruta':'QUEMADORES DE COMBUSTIBLE PARA HOGARES',
+'precio':14.13
+},
+{
+'ruta':'QUITA SOL CON FINES PUBLICITARIOS',
+'precio':29.95
+},
+{
+'ruta':'RACKS DE BICICLETA PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'RACKS DE METAL PARA TELEVISOR',
+'precio':24.30
+},
+{
+'ruta':'RADIADOR PARA MONTA CARGA PARTE 8110186',
+'precio':14.13
+},
+{
+'ruta':'RADIADOR PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'RADIO COMUNICADOR',
+'precio':13.00
+},
+{
+'ruta':'RADIO COMUNICADOR DE BEBE',
+'precio':13.00
+},
+{
+'ruta':'RADIO DE COMUNICACION',
+'precio':13.00
+},
+{
+'ruta':'RADIO FM',
+'precio':49.27
+},
+{
+'ruta':'RADIO GRABADORA',
+'precio':49.27
+},
+{
+'ruta':'RADIO PARA VEHICULO',
+'precio':49.27
+},
+{
+'ruta':'RADIO PORTABLE FM',
+'precio':49.27
+},
+{
+'ruta':'RADIO RELOJ',
+'precio':49.27
+},
+{
+'ruta':'RALLADOR ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'RAQUETA DE TENNIS',
+'precio':24.30
+},
+{
+'ruta':'RAQUETA PARA PING PONG',
+'precio':24.30
+},
+{
+'ruta':'RAQUETA PARA TENNIS DE MESA',
+'precio':24.30
+},
+{
+'ruta':'RAYADOR ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'RAYADOR MANUAL METALICO',
+'precio':19.78
+},
+{
+'ruta':'RAYADOR MANUAL, ABRELATAS',
+'precio':24.30
+},
+{
+'ruta':'RAYOS DE MOTOCICLETA',
+'precio':14.13
+},
+{
+'ruta':'REBANADOR DE PAN MANUAL',
+'precio':24.30
+},
+{
+'ruta':'REBANADOR MANUAL PARA VERDURAS',
+'precio':14.13
+},
+{
+'ruta':'RECIPIENTE DE ACERO INOXIDABLE',
+'precio':29.95
+},
+{
+'ruta':'RECIPIENTE DE ALUMINIO',
+'precio':19.78
+},
+{
+'ruta':'RECIPIENTE DE CERAMICA',
+'precio':29.95
+},
+{
+'ruta':'RECIPIENTE DE MADERA PARA COCINAR CON VAPOR',
+'precio':29.95
+},
+{
+'ruta':'RECIPIENTE DE METAL',
+'precio':24.30
+},
+{
+'ruta':'RECIPIENTE DE VIDRIO (PICHEL)',
+'precio':29.95
+},
+{
+'ruta':'RECIPIENTE PLASTICO',
+'precio':24.30
+},
+{
+'ruta':'RED DE MALLA DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'REGISTRADOR DE ASISTENCIA CON HUELLA DIGITAL',
+'precio':14.13
+},
+{
+'ruta':'REGISTRADOR DE ASISTENSIA',
+'precio':14.13
+},
+{
+'ruta':'REGLA GUIA PARA CORTES',
+'precio':14.13
+},
+{
+'ruta':'REGLAS',
+'precio':14.13
+},
+{
+'ruta':'REGLAS DE USO ESCOLAR',
+'precio':1
+},
+{
+'ruta':'REGLETA',
+'precio':14.13
+},
+{
+'ruta':'REGLETA DE TOMAS DE CORRIENTE',
+'precio':13.00
+},
+{
+'ruta':'REGULADOR DE LUZ PARA CASA',
+'precio':13.00
+},
+{
+'ruta':'RELE PARA SISTEMA ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'RELOJ CON MUEBLE DE MADERA',
+'precio':29.95
+},
+{
+'ruta':'RELOJ DE BOLSILLO',
+'precio':29.95
+},
+{
+'ruta':'RELOJ DE MESA',
+'precio':29.95
+},
+{
+'ruta':'RELOJ DE PARED',
+'precio':29.95
+},
+{
+'ruta':'RELOJ DE PULSERA',
+'precio':29.95
+},
+{
+'ruta':'RELOJ INTELIGENTE',
+'precio':13.00
+},
+{
+'ruta':'RELOJ POLAR',
+'precio':29.95
+},
+{
+'ruta':'REMACHADORA MANUAL',
+'precio':14.13
+},
+{
+'ruta':'REMACHES',
+'precio':14.13
+},
+{
+'ruta':'REPELENTE SONICO PARA AVES',
+'precio':14.13
+},
+{
+'ruta':'REPRODUCTOR DE DVD',
+'precio':49.27
+},
+{
+'ruta':'REPRODUCTOR DE MUSICA',
+'precio':49.27
+},
+{
+'ruta':'REPRODUCTOR DE VOZ',
+'precio':49.27
+},
+{
+'ruta':'REPUESTO DE MAQUINA DE AFEITAR',
+'precio':31,08
+},
+{
+'ruta':'REPUESTO DE MOTOR',
+'precio':14.13
+},
+{
+'ruta':'REPUESTO DE MOTOR',
+'precio':14.13
+},
+{
+'ruta':'REPUESTO PARA CASCO DE MOTOCICLETA',
+'precio':29.95
+},
+{
+'ruta':'REPUESTO PARA CEPILLO DE DIENTES ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'REPUESTO PARA LAPTOP',
+'precio':13.00
+},
+{
+'ruta':'REPUESTO PARA LAPTOP PANTALLA',
+'precio':13.00
+},
+{
+'ruta':'REPUESTOS DE CELULAR',
+'precio':13.00
+},
+{
+'ruta':'RESECTACULO Y CONECTOR DE RECEPCION ELECTRICA TIPO TOMA CORRIENTE',
+'precio':13.00
+},
+{
+'ruta':'RESORTE PARA VEHICULO',
+'precio':35.74
+},
+{
+'ruta':'REVISTAS',
+'precio':1
+},
+{
+'ruta':'RIELES DE METAL PARA PUERTA',
+'precio':19.78
+},
+{
+'ruta':'ROBOT LIMPIADOR DE PISO',
+'precio':49.27
+},
+{
+'ruta':'RODAMIENTO DE RODILLOS CILINDRICOS',
+'precio':14.13
+},
+{
+'ruta':'RODILLERA PLASTICA',
+'precio':24.30
+},
+{
+'ruta':'RODILLERA TEXTIL',
+'precio':14.13
+},
+{
+'ruta':'RODILLERAS PLASTICAS PARA MOTOCICLISTA',
+'precio':29.95
+},
+{
+'ruta':'RODILLO DE MADERA PARA COCINA',
+'precio':29.95
+},
+{
+'ruta':'ROLLO DE PAPEL IMPRESO (ROLLO DE PAPEL DE REGALO)',
+'precio':24.30
+},
+{
+'ruta':'ROLLO DE PAPEL PARA SUMADORAS',
+'precio':24.30
+},
+{
+'ruta':'ROLLO DE TELA CAUCHATADO',
+'precio':24.30
+},
+{
+'ruta':'ROMPECABEZAS',
+'precio':29.95
+},
+{
+'ruta':'ROPA DE ALGODÓN PARA BEBE',
+'precio':29.95
+},
+{
+'ruta':'ROPA DE CAMA DE ALGODÓN',
+'precio':29.95
+},
+{
+'ruta':'ROPA DE CAMA DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'ROPA DE CAMA DE POLYESTER',
+'precio':29.95
+},
+{
+'ruta':'ROPA DE FIBRAS SINTETICAS PARA BEBE',
+'precio':29.95
+},
+{
+'ruta':'ROPA DE TOCADOR DE ALGODÓN',
+'precio':29.95
+},
+{
+'ruta':'ROPA INTERIOR DE MUJER',
+'precio':29.95
+},
+{
+'ruta':'ROPA MUÑECA',
+'precio':29.95
+},
+{
+'ruta':'ROPA PARA EL DEPORTE DE POLIESTER PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'ROPA PARA MUÑECA',
+'precio':29.95
+},
+{
+'ruta':'ROTULA DE DIRECCION',
+'precio':42.78
+},
+{
+'ruta':'ROTULAS DE SUSPENSION',
+'precio':42.78
+},
+{
+'ruta':'ROTULO DE ALUMINIO',
+'precio':29.95
+},
+{
+'ruta':'RUEDA PARA CUADRACICLO',
+'precio':42.78
+},
+{
+'ruta':'RUEDA PARA VEHICULO SIN LEOMATICO (AROS)',
+'precio':42.78
+},
+{
+'ruta':'RUEDAS PARA PATINETA',
+'precio':29.95
+},
+{
+'ruta':'RUEDAS PARA SILLA',
+'precio':14.13
+},
+{
+'ruta':'SACA LECHE ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'SACA LECHE MANUAL PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'SACACORCHO ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'SACACORCHO MANUAL',
+'precio':24.30
+},
+{
+'ruta':'SACO 100% ALGODÓN PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'SACO 100% ALGODÓN PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'SACO DE DORMIR',
+'precio':29.95
+},
+{
+'ruta':'SACO PARA BOXEO',
+'precio':24.30
+},
+{
+'ruta':'SALVAVIDAS',
+'precio':14.13
+},
+{
+'ruta':'SANDALIA DE MATERIAL TEXTIL SUELA DE CAUCHO O PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'SANDALIAS CON SUELA DE CAUCHO O PLASTICO PARTE SUPERIOR DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'SANDALIAS CON SUELA DE CAUCHO PARTE SUPERIOR DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'SANDALIAS CON SUELA DE CAUCHO PARTE SUPERIOR DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'SANDALIAS DE CUERO CON SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'SANDWICHERA ELECTRICA',
+'precio':49.27
+},
+{
+'ruta':'SARTEN DE ACERO',
+'precio':29.95
+},
+{
+'ruta':'SARTEN ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'SCANER DE DATOS',
+'precio':13.00
+},
+{
+'ruta':'SCANER PARA COMPUTADORA DE VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'SCOOTER DE JUGUETE',
+'precio':29.95
+},
+{
+'ruta':'SECADORA DE ROPA CAPACIDAD INFERIOR O IGUAL A 10 KG',
+'precio':42.83
+},
+{
+'ruta':'SECADORA DE ROPA CAPACIDAD SUPERIOR O IGUAL A 10 KG',
+'precio':14.13
+},
+{
+'ruta':'SECADORA PARA CABELLO',
+'precio':49.27
+},
+{
+'ruta':'SELLOS',
+'precio':29.95
+},
+{
+'ruta':'SENSOR DE CONTROL AUTOMATICO',
+'precio':14.13
+},
+{
+'ruta':'SENSOR DE OXIGENO PARA VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'SENSOR DE POSICION DE CIGUEÑAL PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'SENSOR DE TEMPERATURA',
+'precio':14.13
+},
+{
+'ruta':'SENSOR DE VELOCIDAD PARA VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'SENSOR MOVIMIENTOS',
+'precio':14.13
+},
+{
+'ruta':'SENSOR PARA CARRO',
+'precio':14.13
+},
+{
+'ruta':'SENSOR Y CONTROL DE TEMPERATURA TERMOSTATO',
+'precio':14.13
+},
+{
+'ruta':'SERIE DE LUCES LED',
+'precio':29.95
+},
+{
+'ruta':'SERVIDOR',
+'precio':13.00
+},
+{
+'ruta':'SERVILLETAS',
+'precio':29.95
+},
+{
+'ruta':'SET CASSETTE DE MUSICA CON CINTA MAGNETICA',
+'precio':29.95
+},
+{
+'ruta':'SET DE ARANDELAS COMUNES PARTE NUMERO H 1132 2',
+'precio':14.13
+},
+{
+'ruta':'SET DE BASTONES DE JUGUETE',
+'precio':29.95
+},
+{
+'ruta':'SET DE BEARING DE VIELAS PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'SET DE CABLES PARA BUJIAS',
+'precio':19.78
+},
+{
+'ruta':'SET DE CUCHILLOS',
+'precio':24.30
+},
+{
+'ruta':'SET DE DISCOS DE CLUTCH PARA MOTOCICLETA',
+'precio':42.78
+},
+{
+'ruta':'SET DE EMPAQUES DE CAUCHO PARA PUERTAS',
+'precio':19.78
+},
+{
+'ruta':'SET DE ENGRANAJES DENTADOS PARA CAJA DE CAMBIOS',
+'precio':14.13
+},
+{
+'ruta':'SET DE HERRAMIENTAS MANUALES, CUBOS',
+'precio':14.13
+},
+{
+'ruta':'SET DE HERREMIENTAS PARA PEDICURE O MANICURE',
+'precio':24.30
+},
+{
+'ruta':'SET DE LAMPARAS DE PIE PARA ESTUDIO FOTOGRAFICO',
+'precio':29.95
+},
+{
+'ruta':'SET DE LAMPARAS LED PORTATIL',
+'precio':19.78
+},
+{
+'ruta':'SET DE LLANTA PARA PATINETA',
+'precio':29.95
+},
+{
+'ruta':'SET DE PARTES PARA ESCAPE DE VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'SET DE PARTES PARA TURBO CARGADOR PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'SET DE PIÑONES PARA DE CAJA DE TRANSMISION',
+'precio':42.78
+},
+{
+'ruta':'SET DE PISTONES PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'SET DE PRENSAS METALICAS CON MOÑEROS PARA CABELLO',
+'precio':29.95
+},
+{
+'ruta':'SET DE RADIOS DE COMUNICACION WALKIE TALKIE',
+'precio':13.00
+},
+{
+'ruta':'SET DE RELAY PARA GUITARRA',
+'precio':19.78
+},
+{
+'ruta':'SET DE SNORKEL',
+'precio':24.30
+},
+{
+'ruta':'SET DE TIJERAS PARA CORTAR CABELLO',
+'precio':19.78
+},
+{
+'ruta':'SET DE TOALLITAS DESMAQUILLANTES',
+'precio':68.60
+},
+{
+'ruta':'SET DE VALVULAS DE ALIVIO DE METAL COMUN PARA VEHICULO PARTE NUMERO 320113',
+'precio':14.13
+},
+{
+'ruta':'SET PARA JUGAR TENNIS',
+'precio':24.30
+},
+{
+'ruta':'SHORT Y PANTALONETA Y PANTALON DE ALGODÓN PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'SHORT Y PANTALONETA Y PANTALON DE ALGODÓN PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'SHORT Y PANTALONETA Y PANTALON DE POLIESTER PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'SHORT Y PANTALONETA Y PANTALON DE POLIESTER PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'SHORT Y PANTALONETA Y PANTALON SINTETICO PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'SHORT Y PANTALONETA Y PANTALON SINTETICO PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'SIERRA CON MOTOR ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'SIERRA DE MESA',
+'precio':14.13
+},
+{
+'ruta':'SIERRA MANUAL',
+'precio':14.13
+},
+{
+'ruta':'SILLA DE CARRO PARA BEBE',
+'precio':13.00
+},
+{
+'ruta':'SILLA DE MADERA CON RELLENO',
+'precio':29.95
+},
+{
+'ruta':'SILLA GIRATORIA',
+'precio':29.95
+},
+{
+'ruta':'SILLA PARA BEBE CON ARMAZON DE METAL',
+'precio':29.95
+},
+{
+'ruta':'SILLA PLASTICA',
+'precio':29.95
+},
+{
+'ruta':'SILLA PLASTICA BOSTER',
+'precio':13.00
+},
+{
+'ruta':'SILLON TIPO PUF',
+'precio':29.95
+},
+{
+'ruta':'SIRENA PARA AUTOMOVIL',
+'precio':14.13
+},
+{
+'ruta':'SISTEMA DE CAMARA DE SEGURIDAD',
+'precio':14.13
+},
+{
+'ruta':'SISTEMA DE CAMARAS DE SEGURIDAD CON REPRODUCTOR',
+'precio':49.27
+},
+{
+'ruta':'SISTEMA DE DIRECCION DE VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'SISTEMA DE MICROFONOS',
+'precio':14.13
+},
+{
+'ruta':'SISTEMA DE PARLANTES',
+'precio':14.13
+},
+{
+'ruta':'SISTEMA DE VEDEOCAMARAS DE SEGURIDAD',
+'precio':13.00
+},
+{
+'ruta':'SMART CARD',
+'precio':13.00
+},
+{
+'ruta':'SOBRES DE PAPEL // MANILA',
+'precio':29.95
+},
+{
+'ruta':'SOCKET PARA BOMBILLO',
+'precio':13.00
+},
+{
+'ruta':'SOLDADOR ELECTRICO A PILAS',
+'precio':14.13
+},
+{
+'ruta':'SOMBRA PARA LENTE DE TELESCOPIO',
+'precio':14.13
+},
+{
+'ruta':'SOMBRAS PARA FOTOGRAFIA',
+'precio':29.95
+},
+{
+'ruta':'SOMBREROS DE CUALQUIER TIPO',
+'precio':29.95
+},
+{
+'ruta':'SOPLADORA ELECTRICA',
+'precio':14.13
+},
+{
+'ruta':'SOPORTE DE ABANICO PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'SOPORTE DE BRAZO DE SUSPENSION DE VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'SOPORTE DE GRABACION TARJETAS 32 GB SCANDISK',
+'precio':13.00
+},
+{
+'ruta':'SOPORTE DE METAL',
+'precio':24.30
+},
+{
+'ruta':'SOPORTE DE METAL PARA LAPTOP',
+'precio':29.95
+},
+{
+'ruta':'SOPORTE PARA GUITARRA METALICO',
+'precio':19.78
+},
+{
+'ruta':'SOPORTE PARA MOTOR',
+'precio':14.13
+},
+{
+'ruta':'STOP PARA VEHICULO',
+'precio':14.13
+},
+{
+'ruta':'SUETER DE ALGODÓN PARA HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'SURTIDO DE CUCHARAS, TENEDORES Y CUCHILLOS',
+'precio':24.30
+},
+{
+'ruta':'SURTIDO PARA CIGARRILLOS ELECTRICOS BATERIA ACUMULADOR',
+'precio':14.13
+},
+{
+'ruta':'SWITCH APARATO DE CONEXION PARA SISTEMA DE DATOS',
+'precio':13.00
+},
+{
+'ruta':'SWITCH ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'TABLA DE MADERA PARA PICAR',
+'precio':29.95
+},
+{
+'ruta':'TABLA PARA PRACTICAR DEPORTE ACUATICO',
+'precio':24.30
+},
+{
+'ruta':'TABLET',
+'precio':13.00
+},
+{
+'ruta':'TABLET ELECTRONICA',
+'precio':13.00
+},
+{
+'ruta':'TACOMETRO',
+'precio':14.13
+},
+{
+'ruta':'TACON DE MATERIAL TEXTIL CON SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'TACOS DEPORTE MATERIAL SINTETICO CON SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'TAJADOR O SACAPUNTAS DE BOLSILLO',
+'precio':15.00
+},
+{
+'ruta':'TALADRO CON MOTOR ELECTRICO',
+'precio':14.13
+},
+{
+'ruta':'TALONARIO DE NOTAS DE PAPEL',
+'precio':29.95
+},
+{
+'ruta':'TANGA DE POLIESTER PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'TANQUE DE ALUMINIO',
+'precio':19.78
+},
+{
+'ruta':'TANQUE DE GASOLINA PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'TANQUE PLASTICO',
+'precio':24.30
+},
+{
+'ruta':'TAPA PARA DISTRIBUIDOR ELECTRICO',
+'precio':42.38
+},
+{
+'ruta':'TAPA DE ALUMINIO DE USO DOMESTICO',
+'precio':29.95
+},
+{
+'ruta':'TAPA DE INODORO DE PLASTICO',
+'precio':24.30
+},
+{
+'ruta':'TAPA DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'TAPA PARA RADIADOR',
+'precio':24.30
+},
+{
+'ruta':'TAPA PLASTICA',
+'precio':24.30
+},
+{
+'ruta':'TAPASOL',
+'precio':29.95
+},
+{
+'ruta':'TAPON DE CAUCHO PARA TUBO',
+'precio':19.78
+},
+{
+'ruta':'TAPONES DE METAL PARA LLANTA DE CARRO',
+'precio':24.30
+},
+{
+'ruta':'TAPONES PLASTICOS PARA LA NARIZ',
+'precio':29.95
+},
+{
+'ruta':'TAPONES PLASTICOS PARA OIDOS',
+'precio':29.95
+},
+{
+'ruta':'TARJETA DE INVITACION',
+'precio':29.95
+},
+{
+'ruta':'TARJETA DE RED BLUETOOTH',
+'precio':14.13
+},
+{
+'ruta':'TARJETA ELECTRONICA DE CENTRAL TELEFONICA cicuito integrado',
+'precio':13.00
+},
+{
+'ruta':'TARJETA ELECTRONICA PARA COMPUTADORA',
+'precio':13.00
+},
+{
+'ruta':'TARJETA MADRE PARTE DE COMPUTADORA',
+'precio':13.00
+},
+{
+'ruta':'TARJETAS DE COLECCIÓN IMPRESAS',
+'precio':29.95
+},
+{
+'ruta':'TARJETAS DE CONTROL DE ACCESO SMART CARDS',
+'precio':13.00
+},
+{
+'ruta':'TARJETAS DE ENSENANZA',
+'precio':29.95
+},
+{
+'ruta':'TARJETAS DE PRESENTACION',
+'precio':29.95
+},
+{
+'ruta':'TARJETAS PARA COMPUTADORA (AUDIO,VIDEO,WIFI.ETC)',
+'precio':13.00
+},
+{
+'ruta':'TAZAS DE CERAMICA',
+'precio':29.95
+},
+{
+'ruta':'TECLADO INALAMBRICO PARA CELULAR',
+'precio':13.00
+},
+{
+'ruta':'TECLADO PARA COMPUTADOR',
+'precio':13.00
+},
+{
+'ruta':'TELA SINTETICA',
+'precio':24.30
+},
+{
+'ruta':'TELEFONO FIJO',
+'precio':13.00
+},
+{
+'ruta':'TELEFONO INALAMBRICO',
+'precio':13.00
+},
+{
+'ruta':'TELESCOPIO',
+'precio':14.13
+},
+{
+'ruta':'TELEVISOR',
+'precio':49.27
+},
+{
+'ruta':'TENDEDERO PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'TERMO DE ALUMINIO',
+'precio':24.30
+},
+{
+'ruta':'TERMO PLASTICO',
+'precio':24.30
+},
+{
+'ruta':'TERMOMETRO DIGITAL',
+'precio':14.13
+},
+{
+'ruta':'TESTER',
+'precio':14.13
+},
+{
+'ruta':'TESTER PARA MEDIR INTENSIDAD ELECTRICA',
+'precio':14.13
+},
+{
+'ruta':'TIARA PARA DISFRAZ',
+'precio':29.95
+},
+{
+'ruta':'TIENDA DE CAMPAÑA',
+'precio':29.95
+},
+{
+'ruta':'TIJERAS DE PODAR PARA USAR CON DOS BRZAOS',
+'precio':1
+},
+{
+'ruta':'TIJERAS Y SUS HOJAS',
+'precio':19.78
+},
+{
+'ruta':'TIJERETA',
+'precio':42.78
+},
+{
+'ruta':'TIMBRE PARA CASA',
+'precio':29.95
+},
+{
+'ruta':'TIMER',
+'precio':14.13
+},
+{
+'ruta':'TINA DE PLASTICO PARA BAÑO',
+'precio':29.95
+},
+{
+'ruta':'TIRA PARA CARNET',
+'precio':29.95
+},
+{
+'ruta':'TIRANTES PARA PANTALON',
+'precio':29.95
+},
+{
+'ruta':'TIRAS DE COBRE',
+'precio':14.13
+},
+{
+'ruta':'TIZA PARA BILLAR',
+'precio':24.30
+},
+{
+'ruta':'TOALLAS DE PAPEL',
+'precio':29.95
+},
+{
+'ruta':'TOALLITAS HUMEDAS A BASE DE JABON',
+'precio':19.78
+},
+{
+'ruta':'TOBILLERAS DE TELA',
+'precio':14.13
+},
+{
+'ruta':'TOCADISCO CON ALTAVOCES O PARLANTES',
+'precio':49.27
+},
+{
+'ruta':'TOLDO DE MATERIAL TEXTIL',
+'precio':29.95
+},
+{
+'ruta':'TOP DE ALGODÓN PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'TORNILLLOS CON TUERCA',
+'precio':19.78
+},
+{
+'ruta':'TORNILLO DE METAL',
+'precio':19.78
+},
+{
+'ruta':'TORNILLO PLASTICO',
+'precio':19.78
+},
+{
+'ruta':'TORNILLOS CON TUERCAS',
+'precio':19.78
+},
+{
+'ruta':'TORNILLOS DE HIERRO O ACERO',
+'precio':19.78
+},
+{
+'ruta':'TOSTADOR DE PAN ELECTRICO',
+'precio':49.27
+},
+{
+'ruta':'TRAJE DE MATERIAL SINTETICO PARA DEPORTE',
+'precio':29.95
+},
+{
+'ruta':'TRAJE PARA SURF 92% NYLON 8% SPANDEX TALLA M NEGRO QUICK SILVER',
+'precio':29.95
+},
+{
+'ruta':'TRAJES DE BAÑO HOMBRE',
+'precio':29.95
+},
+{
+'ruta':'TRAJES DE BAÑO PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'TRAMPA ELECTRICA PARA INSECTOS',
+'precio':29.95
+},
+{
+'ruta':'TRANSISTOR',
+'precio':13.00
+},
+{
+'ruta':'TRICICLO',
+'precio':29.95
+},
+{
+'ruta':'TRIPODE PARA CAMARA FOTOGRAFICA',
+'precio':14.13
+},
+{
+'ruta':'TRIPODE PARA CELULAR',
+'precio':14.13
+},
+{
+'ruta':'TRIPODE PARA GUITARRA DE METAL',
+'precio':14.13
+},
+{
+'ruta':'TRIPODE PARA TELESCOPIO',
+'precio':14.13
+},
+{
+'ruta':'TRITURADOR DE CAFÉ',
+'precio':49.27
+},
+{
+'ruta':'TRITURADOR ELECTRICO DE ALIMENTOS',
+'precio':49.27
+},
+{
+'ruta':'TRITURADOR MANUAL DE ALIMENTOS',
+'precio':24.30
+},
+{
+'ruta':'TROFEOS',
+'precio':29.95
+},
+{
+'ruta':'TUBO DE ACERO',
+'precio':14.13
+},
+{
+'ruta':'TUBO DE ACERO',
+'precio':14.13
+},
+{
+'ruta':'TUBO DE POLIURETANO',
+'precio':19.78
+},
+{
+'ruta':'TUERCA DE METAL',
+'precio':19.78
+},
+{
+'ruta':'TURBO CARGADOR PARA MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'UNIDAD CENTRAL DE PROCESAMIENTO (CPU)',
+'precio':13.00
+},
+{
+'ruta':'UNIDAD DE ENTRADA BLUETOOTH PARA MOUSE',
+'precio':13.00
+},
+{
+'ruta':'UNIDAD DE ENTRADA PARA COMPUTADORA MARCADOR Y TABLET ELECTRONICO',
+'precio':13.00
+},
+{
+'ruta':'UNIDAD DE ENTRADA PARA COMPUTADORA PAD ELECTRONICO',
+'precio':13.00
+},
+{
+'ruta':'UNIDAD DE ENTRADA TABLET MOUSE',
+'precio':13.00
+},
+{
+'ruta':'UNIDAD DE ENTRADA Y SALIDA',
+'precio':13.00
+},
+{
+'ruta':'UNIDAD DE MEMORIA',
+'precio':13.00
+},
+{
+'ruta':'UÑAS ACRILICAS',
+'precio':29.95
+},
+{
+'ruta':'UTIL INTERCAMBIABLE BROCAS PARA TALADRO',
+'precio':14.13
+},
+{
+'ruta':'UTILES INTERCAMBIABLES',
+'precio':14.13
+},
+{
+'ruta':'VAJILLA DE ALUMINIO',
+'precio':29.95
+},
+{
+'ruta':'VAJILLA DE CERAMICA',
+'precio':29.95
+},
+{
+'ruta':'VAJILLA DE MELAMINA',
+'precio':29.95
+},
+{
+'ruta':'VAJILLA DE PORCELANA',
+'precio':29.95
+},
+{
+'ruta':'VALVULA DE PASO',
+'precio':14.13
+},
+{
+'ruta':'VALVULA DE RETENCION DE GAS DE METAL COMUN',
+'precio':14.13
+},
+{
+'ruta':'VALVULA DE SEGURIDAD PARA SISTEMA DE AIRE',
+'precio':14.13
+},
+{
+'ruta':'VALVULA PLASTICA DE CONTROL DE PRESION PARA MANGUERA',
+'precio':14.13
+},
+{
+'ruta':'VALVULA REDUCTORA DE PRESION',
+'precio':14.13
+},
+{
+'ruta':'VALVULAS DE RIEGO',
+'precio':14.13
+},
+{
+'ruta':'VALVULAS PARA LLANTAS DE CARRO (GUSANO) REDUSTORA DE PRESION',
+'precio':14.13
+},
+{
+'ruta':'VALVULAS PLASTICAS PARA LIQUIDO HIDRAULICO DE METAL',
+'precio':14.13
+},
+{
+'ruta':'VAPORERA',
+'precio':49.27
+},
+{
+'ruta':'VAPORIZADOR DE AROMAS',
+'precio':49.27
+},
+{
+'ruta':'VAPORIZADOR DE PLACAS REPELENTES DE INSECTOS',
+'precio':29.95
+},
+{
+'ruta':'VASCULA(ROMANA // PESA) PARA MERCANCIA INFERIROR A 30 KG',
+'precio':14.13
+},
+{
+'ruta':'VASCULA(ROMANA // PESA) PARA PERSONAS',
+'precio':19.78
+},
+{
+'ruta':'VASO DE PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'VASOS DE ALUMINIO',
+'precio':29.95
+},
+{
+'ruta':'VASOS DE VIDRIO',
+'precio':29.95
+},
+{
+'ruta':'VELOCIMETRO',
+'precio':14.13
+},
+{
+'ruta':'VENTILADOR DE RADIADOR PARA CARRO',
+'precio':42.78
+},
+{
+'ruta':'VENTILADOR ELECTRICO',
+'precio':29.95
+},
+{
+'ruta':'VENTILADOR ELECTRICO DE PISO PARA VIVERO',
+'precio':24.30
+},
+{
+'ruta':'VENTILADOR PARA COMPUTADORA',
+'precio':24.30
+},
+{
+'ruta':'VENTILADORES PARA TECHO'MESA'PARED',
+'precio':29.95
+},
+{
+'ruta':'VESTIDO DE ALGODÓN',
+'precio':29.95
+},
+{
+'ruta':'VESTIDO DE POLIESTER',
+'precio':29.95
+},
+{
+'ruta':'VESTIDO DE RAYON PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'VESTIDO DE VISCOSA PARA MUJER',
+'precio':29.95
+},
+{
+'ruta':'VESTIDO SINTETICO',
+'precio':29.95
+},
+{
+'ruta':'VICERA PARA CASCO DE MOTOCICLETA',
+'precio':19.78
+},
+{
+'ruta':'VIDEO CAMARA DE CIRCUITO CERRADO PARA SEGURIDAD',
+'precio':14.13
+},
+{
+'ruta':'VIDEO CAMARA Y SUS ACCESORIOS',
+'precio':14.13
+},
+{
+'ruta':'VIDEO MONITOR PARA VEHICULO',
+'precio':49.27
+},
+{
+'ruta':'VIDEOCAMARA',
+'precio':14.13
+},
+{
+'ruta':'VIDEOCAMARA DIGITAL',
+'precio':14.13
+},
+{
+'ruta':'VIDRIO DE VENTANA PARA CARRO',
+'precio':19.78
+},
+{
+'ruta':'VIDRIO TEMPLADO VENTANA PARA VEHICULO',
+'precio':19.78
+},
+{
+'ruta':'VIELA DE MOTOR DE COMBUSTION INTERNA',
+'precio':14.13
+},
+{
+'ruta':'VIEW MASTER Y SUS ACCESORIOS',
+'precio':29.95
+},
+{
+'ruta':'VIOLIN Y LOS DEMAS INSTRUMENTOS DE CUERDA',
+'precio':24.30
+},
+{
+'ruta':'VISAGRAS DE METAL PARA PUERTA',
+'precio':24.30
+},
+{
+'ruta':'VISERA DE TELA',
+'precio':19.78
+},
+{
+'ruta':'VOLANTE PARA VEHICULO',
+'precio':42.78
+},
+{
+'ruta':'WAFLERA',
+'precio':49.27
+},
+{
+'ruta':'WALKIETALKIES',
+'precio':13.00
+},
+{
+'ruta':'WINCHER',
+'precio':14.13
+},
+{
+'ruta':'ZAPATO DE MATERIAL SINTETICO CON SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATO MARCA HI TEC DE CUERO SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATO MARCA HI TEC TEXTIL SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATO PARTE SUPERIOR DE CAUCHO SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE CAUCHO CON PUNTERA METALICA DE PROTECCION',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE CAUCHO CON SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE CUERO CON SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE CUERO CON SUELA DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE MATERIAL TEXTIL CON SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE TACON DE CAUCHO O PLASTICO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE TACON DE CUERO Y SUELA DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE TACON DE CUERO Y SUELA DE PLASTICO O CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE TACON SINTETICO Y SUELA DE PLASTICO O CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE TACON TEXTIL Y SUELA DE CUERO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS DE TACON TEXTIL Y SUELA DE PLASTICO O CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS PLASTICOS SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS TENIS CAUCHO,PLASTICO,SINTETICO Y SUELA DE PLASTICO O CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS TENIS CAUCHO,PLASTICO,SINTETICO Y SUELA DE PLASTICO O CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS TENIS CUERO Y SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS TENIS PARA EL DEPORTE',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS TENIS TEXTIL Y SUELA DE CAUCHO',
+'precio':29.95
+},
+{
+'ruta':'ZAPATOS TENIS TEXTIL Y SUELA DE PLASTICO',
+'precio':29.95
+}
+
+};
+

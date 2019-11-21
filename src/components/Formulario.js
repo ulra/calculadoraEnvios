@@ -5,6 +5,8 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import { makeStyles } from '@material-ui/core/styles';
 import Peso from './Peso';
 import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
+import destinos from './destinos.json';
+import MenuItem from '@material-ui/core/MenuItem';
 
 const useStyles = makeStyles({
     TextField: {
@@ -18,22 +20,44 @@ const useStyles = makeStyles({
 
 });
 
+
 export default function Formulario() {
     const classes = useStyles();
+    
+    const [ currency, setCurrency] = React.useState('CR - ASEBAS BAXTER');
+    
+    const handleChange = event => {
+        setCurrency(event.target.value);
+      };
+    
         return (
             <Grid>
                 <Row start="xs">
                     <Col xs={12}  >
                         <TextField 
                             className={classes.TextField}
-                            id="outlined-full-width"
+                            id="standard-select-currency"
+                            select
                             fullWidth
                             label="Articulo"
-                            margin="normal"
+                            value={currency}
                             variant="outlined"
                             style={{ margin: 8 }}
                             color='primary'
-                        />
+                            onChange={handleChange}
+                            SelectProps={{
+                                MenuProps: {
+                                  className: classes.menu,
+                                },
+                              }}
+                        >
+                            {destinos.map(option => (
+                                <MenuItem >
+                            {option.ruta}
+                            </MenuItem>
+                            ))}
+                        </TextField>
+
                     </Col>
                 </Row>
                 
