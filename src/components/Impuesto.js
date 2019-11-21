@@ -3,6 +3,8 @@ import TextField from '@material-ui/core/TextField';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
+import InputAdornment from '@material-ui/core/InputAdornment';
+
 
 const useStyles = makeStyles({
     button: {
@@ -13,17 +15,21 @@ const useStyles = makeStyles({
 
 });
 
+function ccyFormat(num) {
+    return `${num.toFixed(2)}`;
+}
+
 function descripcion(desc, precio) {
     return { desc, precio };
 }
 
 const rows = [
     descripcion('Flete aereo Paq', 10),
-    descripcion('Combustible', 10),
-    descripcion('Seguro', 10),
+    descripcion('Combustible', 20),
+    descripcion('Seguro', 30),
     descripcion('Gestion aduanal', 40),
-    descripcion('Impuesto nacionalizacion', 10),
-    descripcion('Transporte costo por paquete', 20),
+    descripcion('Impuesto nacionalizacion', 50),
+    descripcion('Transporte costo por paquete', 60),
 ];
 
 export default function Impuesto(){
@@ -39,22 +45,28 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                value={rows[0].precio}
+                                value={ccyFormat(rows[0].precio)}                               
                                 label="Flete"
                                 margin="normal"
                                 variant="outlined"
                                 style={{ marginLeft: 16, marginRight: 20 }}
+                                InputProps={{
+                                    endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                                  }}
                             />
                         </Col>
                         <Col>
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                value={rows[3].precio}
+                                value={ccyFormat(rows[3].precio)}
                                 label="Gestion"
                                 margin="normal"
                                 variant="outlined"
                                 style={{ marginLeft: 16, marginRight: 20 }}
+                                InputProps={{
+                                    endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                                  }}
                             />
                         </Col>
                     </Row>
@@ -64,11 +76,14 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                defaultValue="$ 0.00"
+                                value={ccyFormat(rows[1].precio)}
                                 label="Combustible"
                                 margin="normal"
                                 variant="outlined"
                                 style={{ marginLeft: 16, marginRight: 20 }}
+                                InputProps={{
+                                    endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                                  }}
                             />
                         </Col>
 
@@ -76,11 +91,14 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                defaultValue="$ 0.00"
+                                value={ccyFormat(rows[4].precio)}
                                 label="Impuesto"
                                 margin="normal"
                                 variant="outlined"
                                 style={{ marginLeft: 16, marginRight: 20 }}
+                                InputProps={{
+                                    endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                                  }}
                             />
                         </Col>
                     </Row>
@@ -90,11 +108,14 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                defaultValue="$ 0.00"
+                                value={ccyFormat(rows[2].precio)}
                                 label="Seguro"
                                 margin="normal"
                                 variant="outlined"
                                 style={{ marginLeft: 16, marginRight: 20 }}
+                                InputProps={{
+                                    endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                                  }}
                             />
                         </Col>
 
@@ -102,11 +123,14 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                defaultValue="$ 0.00"
+                                value={ccyFormat(rows[5].precio)}
                                 label="Transporte"
                                 margin="normal"
                                 variant="outlined"
                                 style={{ marginLeft: 16, marginRight: 20 }}
+                                InputProps={{
+                                    endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                                  }}
                             />
                         </Col>
                     </Row>
@@ -121,6 +145,9 @@ export default function Impuesto(){
                                 margin="normal"
                                 variant="outlined"
                                 style={{ marginLeft: 16, marginRight: 20 }}
+                                InputProps={{
+                                    endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                                  }}
                             />
                         </Col>
 
@@ -133,6 +160,9 @@ export default function Impuesto(){
                                 margin="normal"
                                 variant="outlined"
                                 style={{ marginLeft: 16, marginRight: 20 }}
+                                InputProps={{
+                                    endAdornment: <InputAdornment position="end">$</InputAdornment>,
+                                  }}
                             />
                         </Col>
                     </Row>
