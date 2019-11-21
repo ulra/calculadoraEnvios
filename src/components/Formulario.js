@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Peso from './Peso';
 import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
 import destinos from './destinos.json';
+import articulos from './articulos.json';
 import MenuItem from '@material-ui/core/MenuItem';
 
 const useStyles = makeStyles({
@@ -24,11 +25,18 @@ const useStyles = makeStyles({
 export default function Formulario() {
     const classes = useStyles();
     
-    const [ currency, setCurrency] = React.useState('CR - ASEBAS BAXTER');
+    const [ currency, setCurrency] = React.useState('');
     
     const handleChange = event => {
         setCurrency(event.target.value);
       };
+
+      const [ currency2, setCurrency2] = React.useState('');
+
+      const handleChange2 = event => {
+        setCurrency2(event.target.value);
+      };
+    
     
         return (
             <Grid>
@@ -40,11 +48,10 @@ export default function Formulario() {
                             select
                             fullWidth
                             label="Articulo"
-                            value={currency}
+                            value={currency2}
                             variant="outlined"
                             style={{ margin: 8 }}
-                            color='primary'
-                            onChange={handleChange}
+                            onChange={handleChange2}
                             SelectProps={{
                                 MenuProps: {
                                   className: classes.menu,
@@ -52,7 +59,7 @@ export default function Formulario() {
                               }}
                         >
                             {destinos.map(option => (
-                                <MenuItem >
+                                <MenuItem key={option.ruta} value={option.ruta} >
                             {option.ruta}
                             </MenuItem>
                             ))}
@@ -67,13 +74,27 @@ export default function Formulario() {
 
                         <TextField
                             className={classes.TextField}
-                            id="outlined-basic"
+                            id="standard-select-currency"
+                            value={currency}
                             label="Destino"
                             margin="normal"
                             variant="outlined"
                             fullWidth
+                            select
                             style={{ margin: 8 }}
-                        />
+                            onChange={handleChange}
+                            SelectProps={{
+                                MenuProps: {
+                                  className: classes.menu,
+                                },
+                              }}
+                        >
+                            {articulos.map(option => (
+                                <MenuItem key={option.ruta} value={option.ruta} >
+                            {option.ruta}
+                            </MenuItem>
+                            ))}
+                        </TextField>
 
                     </Col>
                 </Row>
