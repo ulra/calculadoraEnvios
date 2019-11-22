@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import { makeStyles } from '@material-ui/core/styles';
 import Peso from './Peso';
-import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
+import AirportShuttleIcon from '@material-ui/icons/AirportShuttle';
 import destinos from './destinos.json';
 import articulos from './articulos.json';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -150,7 +150,7 @@ export default function Formulario() {
                         /> 
                     </Col>
                     <Col>
-                        <FlightTakeoffIcon style={{ fontSize: 50, marginTop: 18, color: '#295290'}}/>
+                        <AirportShuttleIcon style={{ fontSize: 50, marginTop: 18, color: '#295290'}}/>
                     </Col>
                 </Row>
 
