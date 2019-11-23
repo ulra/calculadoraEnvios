@@ -1,56 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Formulario from './Formulario';
-import Pagar from './Pagar';
 import AppBar from './AppBar';
-import Impuesto from './Impuesto';
-import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
-const useStyles = makeStyles({
-    container: {
-        background: '#ffffff',
-    },
-
-    typo: {
-        color: '#bf0103',
-        margin: 16,
-    },
-
-
-});
-
-
-export default function Index() {
-    const classes = useStyles();
-    return (
-        <div>
-            <AppBar />
-            <Grid className={classes.container}>
-                <Row start="xs">
-                    <Col xs={12}>
-                    <Typography variant="h4" gutterBottom className={classes.typo}>
-                        Calculadora de costos
+class Index extends Component {
+    
+    render(){
+        return (
+            <div>
+                <AppBar />
+                <Grid style={{ background: '#ffffff' }}>
+                    <Row start="xs">
+                        <Col xs={12}>
+                            <Typography variant="h4" gutterBottom style={{ color: '#bf0103', margin: 16 }}>
+                                Calculadora de costos
                     </Typography>
-                    </Col>
-                </Row>
-                <Row start="xs">         
-                    <Col xs={12}>
-                        <Formulario />
-                    </Col>    
-                </Row>
-
-                <Row> 
-                    <Col xs={12} md={6}>
-                        <Impuesto />
-                    </Col>
-
-                    <Col xs={12} md={6}>
-                        <Pagar />
-                    </Col>
-                </Row>
-            </Grid>
-        </div>
+                        </Col>
+                    </Row>
+                    <Row start="xs">
+                        <Col xs={12}>
+                            <Formulario />
+                        </Col>
+                    </Row>
+                </Grid>
+            </div>
         );
+    }
 }
 
+export default Index();

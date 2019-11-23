@@ -3,11 +3,19 @@ import TextField from '@material-ui/core/TextField';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import { makeStyles } from '@material-ui/core/styles';
-import Peso from './Peso';
+import Impuesto from './Impuesto';
 import AirportShuttleIcon from '@material-ui/icons/AirportShuttle';
 import destinos from './destinos.json';
 import articulos from './articulos.json';
 import MenuItem from '@material-ui/core/MenuItem';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import FormControl from '@material-ui/core/FormControl';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormLabel from '@material-ui/core/FormLabel';
+import Pagar from './Pagar';
+
+
 
 const useStyles = makeStyles({
     TextField: {
@@ -24,24 +32,40 @@ const useStyles = makeStyles({
 
 export default function Formulario() {
     const classes = useStyles();
-    
     const [ currency, setCurrency] = React.useState('');
     
     const handleChange = event => {
+        localStorage.setItem('currency', event.target.value);
         setCurrency(event.target.value);
       };
 
       const [ currency2, setCurrency2] = React.useState('');
 
       const handleChange2 = event => {
+        localStorage.setItem('currency2', event.target.value);
         setCurrency2(event.target.value);
       };
     
+      const [ currency3, setCurrency3] = React.useState('');
+
+      const handleChange3 = event => {
+        localStorage.setItem('currency3', event.target.value);
+        setCurrency3(event.target.value);
+      };
+
+      const [currency4, setValue4] = React.useState('Kilo');
+
+      const handleChange4 = event => {
+          localStorage.setItem('currency4', event.target.value);
+          setValue4(event.target.value);
+      };
+        
     
         return (
             <Grid>
                 <Row start="xs">
-                    <Col xs={12}  >
+                    <Col xs={12} >
+                       
                         <TextField 
                             className={classes.TextField}
                             id="standard-select-currency"
@@ -51,7 +75,7 @@ export default function Formulario() {
                             value={currency2}
                             variant="outlined"
                             style={{ margin: 8 }}
-                            onChange={handleChange2}
+                            onChange={handleChange2.bind(this)}
                             SelectProps={{
                                 MenuProps: {
                                   className: classes.menu,
@@ -64,7 +88,7 @@ export default function Formulario() {
                             </MenuItem>
                             ))}
                         </TextField>
-
+                       
                     </Col>
                 </Row>
                 
@@ -82,7 +106,7 @@ export default function Formulario() {
                             fullWidth
                             select
                             style={{ margin: 8 }}
-                            onChange={handleChange}
+                            onChange={handleChange.bind(this)}
                             SelectProps={{
                                 MenuProps: {
                                   className: classes.menu,
@@ -109,12 +133,15 @@ export default function Formulario() {
                             id="outlined-basic"
                             label="Valor producto"
                             margin="normal"
+                            value={currency3}
+                            onChange={handleChange3.bind(this)}
                             variant="outlined"
                             className={classes.TextField}
                             InputProps={{
                                 endAdornment: <InputAdornment position="end">$</InputAdornment>,
                               }}
                             style={{ margin: 8 }}
+                            
                             
                         />
                     </Col>    
@@ -129,11 +156,21 @@ export default function Formulario() {
                             label="Peso"
                             margin="normal"
                             variant="outlined"
+                            onChange={handleChange4.bind(this)}
                             style={{ marginLeft: 16, marginRight: 20 }}
                         />
                     </Col>
                     <Col >
-                        <Peso />
+                    <div>
+            <FormControl component="fieldset" className={classes.FormControl} style={{ marginLeft: 18, marginTop: 8 }}>
+                <FormLabel component="legend">Medidas</FormLabel>
+                    <RadioGroup aria-label="Medidas" name="medidas"  onChange={handleChange4.bind(this)} row>
+                    <FormControlLabel value="Kilo" control={<Radio color="primary"  labelPlacement="start"/>} label="Kilo" />
+                    <FormControlLabel value="Libras" control={<Radio color="primary"  labelPlacement="start"/>} label="Libra" />
+                    </RadioGroup>
+                
+            </FormControl>
+        </div>
                     </Col>
                 </Row>
                     
@@ -152,8 +189,17 @@ export default function Formulario() {
                     <Col>
                         <AirportShuttleIcon style={{ fontSize: 50, marginTop: 18, color: '#295290'}}/>
                     </Col>
+                    
                 </Row>
+                <Row>
+                    <Col xs={12} md={6}>
+                        <Impuesto />
+                    </Col>
 
+                    <Col xs={12} md={6}>
+                        <Pagar />
+                    </Col>
+                </Row>
             </Grid>
         );
     }

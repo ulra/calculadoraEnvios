@@ -2,7 +2,7 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles } from '@material-ui/core/styles';
-import logo from './images/logo.png';
+import liberty from './images/liberty.png';
 
 const useStyles = makeStyles({
     appbar: {
@@ -25,7 +25,7 @@ export default function Appbar() {
         <div>
             <AppBar position="static" className={classes.appbar}>
                 <Toolbar>
-                    <img src={logo} />
+                    <img src={liberty} />
                 </Toolbar>
             </AppBar>
         </div>

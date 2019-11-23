@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import InputAdornment from '@material-ui/core/InputAdornment';
 
 
+
 const useStyles = makeStyles({
     button: {
         padding: 10,
@@ -19,9 +20,6 @@ const useStyles = makeStyles({
 
 });
 
-function ccyFormat(num) {
-    return `${num.toFixed(2)}`;
-}
 
 function descripcion(desc, precio) {
     return { desc, precio };
@@ -38,18 +36,69 @@ const rows = [
 
 export default function Impuesto(){
     const classes = useStyles();
+    let articulo = localStorage.getItem('currency2');
+    let destino = localStorage.getItem('currency');
+    let valor = localStorage.getItem('currency3');
+    let peso = localStorage.getItem('currency4');
+    let seguro =valor*0.02;
+    let tarifa,vla,gestion,totalGestion,combustible;
+    if(peso>=0.1 && peso<=1){
+        tarifa=6;vla=6;
+    }
+    if(peso>=1.01 && peso<=2){
+        tarifa=9;vla=2.64;
+    }
+    if(peso>=2.01 && peso<=13){
+        tarifa=9;vla=2.64;
+    }
+    if(peso>=13.01 && peso<=24.99){
+        tarifa=9;vla=2.50;
+    }
+    if(peso>=25 && peso<=100){
+        tarifa=9;vla=1.80;
+    }
+    if(peso>=100.01 && peso<=150){
+        tarifa=9;vla=1.72;
+    }
+    if(peso>=150.01 && peso<=200){
+        tarifa=9;vla=1.63;
+    }
+    if(peso>=200.01 && peso<=250){
+        tarifa=9;vla=1.55;
+    }
+    if(peso>=250){
+        tarifa=9;vla=1.48;
+    }
+    gestion=tarifa+seguro+valor;
     
+    if(gestion >=1 && gestion<=25)
+    {
+	totalGestion=3;	
+	}
+	if(gestion >=26 && gestion<=100)
+    {
+	totalGestion=5;	
+	}
+	if(gestion >=101 && gestion<=500)
+    {
+	totalGestion=10;	
+	}
+	if(gestion >=501 && gestion<=1000)
+    {
+	totalGestion=35;	
+	}
+	combustible=tarifa*0.17;
+	
     return (
        
                 <Grid>
             
                     <Row>
                         <Col>
-                
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                value={ccyFormat(rows[0].precio)}                               
+                                value={tarifa}
                                 label="Flete"
                                 margin="normal"
                                 variant="outlined"
@@ -64,7 +113,7 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                value={ccyFormat(rows[3].precio)}
+                                value={totalGestion}
                                 label="Gestion"
                                 margin="normal"
                                 variant="outlined"
@@ -82,7 +131,7 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                value={ccyFormat(rows[1].precio)}
+                                value={combustible}
                                 label="Combustible"
                                 margin="normal"
                                 variant="outlined"
@@ -98,7 +147,7 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                value={ccyFormat(rows[4].precio)}
+                                value={peso}
                                 label="Impuesto"
                                 margin="normal"
                                 variant="outlined"
@@ -116,7 +165,7 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                value={ccyFormat(rows[2].precio)}
+                                value={seguro}
                                 label="Seguro"
                                 margin="normal"
                                 variant="outlined"
@@ -132,7 +181,7 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                value={ccyFormat(rows[5].precio)}
+                                value={peso}
                                 label="Transporte"
                                 margin="normal"
                                 variant="outlined"
