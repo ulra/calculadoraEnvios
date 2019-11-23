@@ -1,9 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Formulario from './Formulario';
-import Pagar from './Pagar';
 import AppBar from './AppBar';
-
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
@@ -40,13 +38,6 @@ export default function Index() {
                     <Col xs={12}>
                         <Formulario />
                     </Col>    
-                </Row>
-
-                <Row> 
-
-                    <Col xs={12} md={6}>
-                        <Pagar />
-                    </Col>
                 </Row>
             </Grid>
         </div>

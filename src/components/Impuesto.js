@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     },
     
     TextField: {
-        width: 250,
+        width: 240,
     }
 
 });
@@ -122,7 +122,7 @@ combustible=0;
 impuesto=0;
 total=0;
 totalArt=0;
-Transporte = 0;
+    Transporte = 0;
     seguro = 0;    
 }
 	
