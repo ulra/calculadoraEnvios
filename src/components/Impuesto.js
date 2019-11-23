@@ -4,7 +4,8 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import InputAdornment from '@material-ui/core/InputAdornment';
-
+import articulos from './articulos.json';
+import destinos from './destinos.json';
 
 
 const useStyles = makeStyles({
@@ -21,56 +22,54 @@ const useStyles = makeStyles({
 });
 
 
-function descripcion(desc, precio) {
-    return { desc, precio };
-}
-
-const rows = [
-    descripcion('Flete aereo Paq', 10),
-    descripcion('Combustible', 20),
-    descripcion('Seguro', 30),
-    descripcion('Gestion aduanal', 40),
-    descripcion('Impuesto nacionalizacion', 50),
-    descripcion('Transporte costo por paquete', 60),
-];
 
 export default function Impuesto(){
     const classes = useStyles();
-    let articulo = localStorage.getItem('currency2');
+    let tributario = localStorage.getItem('currency2');
     let destino = localStorage.getItem('currency');
     let valor = localStorage.getItem('currency3');
     let peso = localStorage.getItem('currency4');
-    let seguro =valor*0.02;
-    let tarifa,vla,gestion,totalGestion,combustible;
-    if(peso>=0.1 && peso<=1){
-        tarifa=6;vla=6;
-    }
-    if(peso>=1.01 && peso<=2){
-        tarifa=9;vla=2.64;
-    }
-    if(peso>=2.01 && peso<=13){
-        tarifa=9;vla=2.64;
-    }
-    if(peso>=13.01 && peso<=24.99){
-        tarifa=9;vla=2.50;
-    }
-    if(peso>=25 && peso<=100){
-        tarifa=9;vla=1.80;
-    }
-    if(peso>=100.01 && peso<=150){
-        tarifa=9;vla=1.72;
-    }
-    if(peso>=150.01 && peso<=200){
-        tarifa=9;vla=1.63;
-    }
-    if(peso>=200.01 && peso<=250){
-        tarifa=9;vla=1.55;
-    }
-    if(peso>=250){
-        tarifa=9;vla=1.48;
-    }
-    gestion=tarifa+seguro+valor;
-    
+   
+     let tarifa,vla,gestion,totalGestion,combustible,impuesto,fin,pagoDestino,den,Transporte,seguro,total,totalArt;
+gestion=0
+seguro =0;
+
+seguro =valor*0.02;
+     if(valor<=0){
+     
+    }else{
+    seguro =valor*0.02;
+   if(peso>=0.1 && peso<=1){
+tarifa=6;vla=6;
+}
+if(peso>=1.01 && peso<=2){
+tarifa=9;vla=2.64;
+}
+if(peso>=2.01 && peso<=13){
+tarifa=9;vla=2.64;
+}
+if(peso>=13.01 && peso<=24.99){
+tarifa=9;vla=2.50;
+}
+if(peso>=25 && peso<=100){
+tarifa=9;vla=1.80;
+}
+if(peso>=100.01 && peso<=150){
+tarifa=9;vla=1.72;
+}
+if(peso>=150.01 && peso<=200){
+tarifa=9;vla=1.63;
+}
+if(peso>=200.01 && peso<=250){
+tarifa=9;vla=1.55;
+}
+if(peso>=250){
+tarifa=9;vla=1.48;
+}
+         valor = parseFloat(valor, 10);
+gestion=(tarifa+seguro)+valor;
+
+   
     if(gestion >=1 && gestion<=25)
     {
 	totalGestion=3;	
@@ -87,18 +86,59 @@ export default function Impuesto(){
     {
 	totalGestion=35;	
 	}
+	
 	combustible=tarifa*0.17;
+	  fin=articulos.filter(d => d.ruta === tributario);
+	  tributario=fin[0].precio;
+	  
+	  den=destinos.filter(e => e.Destinoss === destino);
+	  pagoDestino=den[0].forma;
+	  Transporte=0;
+	  if(pagoDestino==='Tarifa 1')
+	  {
+		Transporte=2;  
+	  }
+	  
+	  if(pagoDestino==='Tarifa 2')
+	  {
+		Transporte=2.35;  
+	  }
+       
+     	
+	tributario=tributario/100;
+	
+	impuesto=(tarifa+seguro+valor)*tributario;
+	
+	}
+	total=tarifa+totalGestion+combustible+impuesto+seguro+Transporte;
+totalArt=total+valor;
+if(peso==0){
+tarifa=0;
+}
+if(tarifa==0)
+{
+totalGestion=0;
+combustible=0;
+impuesto=0;
+total=0;
+totalArt=0;
+Transporte = 0;
+    seguro = 0;    
+}
 	
     return (
        
                 <Grid>
             
                     <Row>
+                     
                         <Col>
+							
                             <TextField
-                                disabled
+								disabled
                                 id="outlined-disabled"
                                 value={tarifa}
+                                defaultValue="0"
                                 label="Flete"
                                 margin="normal"
                                 variant="outlined"
@@ -113,6 +153,7 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
+                                defaultValue="0"
                                 value={totalGestion}
                                 label="Gestion"
                                 margin="normal"
@@ -131,6 +172,7 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
+                                defaultValue="0"
                                 value={combustible}
                                 label="Combustible"
                                 margin="normal"
@@ -147,7 +189,8 @@ export default function Impuesto(){
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                value={peso}
+                                defaultValue="0"
+                                value={impuesto}
                                 label="Impuesto"
                                 margin="normal"
                                 variant="outlined"
@@ -166,6 +209,7 @@ export default function Impuesto(){
                                 disabled
                                 id="outlined-disabled"
                                 value={seguro}
+                                defaultValue="0"
                                 label="Seguro"
                                 margin="normal"
                                 variant="outlined"
@@ -180,8 +224,9 @@ export default function Impuesto(){
                         <Col>
                             <TextField
                                 disabled
+                                defaultValue="0"
                                 id="outlined-disabled"
-                                value={peso}
+                                value={Transporte}
                                 label="Transporte"
                                 margin="normal"
                                 variant="outlined"
@@ -200,6 +245,7 @@ export default function Impuesto(){
                                 disabled
                                 id="outlined-disabled"
                                 defaultValue="$ 0.00"
+                                value={total}
                                 label="Total Articulo"
                                 margin="normal"
                                 variant="outlined"
@@ -216,6 +262,7 @@ export default function Impuesto(){
                                 disabled
                                 id="outlined-disabled"
                                 defaultValue="$ 0.00"
+                                value={totalArt}
                                 label="Total sin articulo"
                                 margin="normal"
                                 className={classes.TextField}
@@ -233,7 +280,7 @@ export default function Impuesto(){
                                 Cálcular envio
                     </Button>
 
-                            <Button variant="contained" className={classes.button} style={{ margin: 16 }}>
+                            <Button variant="contained"  className={classes.button} style={{ margin: 16 }}>
                                 Limpiar formulario
                     </Button>
                     

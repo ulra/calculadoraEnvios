@@ -1,220 +1,220 @@
  [
 
 {
-"ruta":"ASEBAS BAXTER",
-"precio":"N/A"
+"Destinoss":"ASEBAS BAXTER",
+"forma":"N/A"
 },
 {
-"ruta":"ASTRACSA",
-"precio":"N/A"
+"Destinoss":"ASTRACSA",
+"forma":"N/A"
 },
 {
-"ruta":"ENTREGA DOMICILIO AGUAZARCAS",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO AGUAZARCAS",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO ATENAS",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO ATENAS",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"BCD TRAVEL",
-"precio":"N/A"
+"Destinoss":"BCD TRAVEL",
+"forma":"N/A"
 },
 {
-"ruta":"ENTREGA DOMICILIO BELEN GUANACASTE",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO BELEN GUANACASTE",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO BARRANCA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO BARRANCA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO CHACARITA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO CHACARITA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO CAÑAS",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO CAÑAS",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"CIUDAD QUESADA",
-"precio":"Tarifa 2"
+"Destinoss":"CIUDAD QUESADA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"CARTAGO",
-"precio":"N/A"
+"Destinoss":"CARTAGO",
+"forma":"N/A"
 },
 {
-"ruta":"ENTREGA DOMICILIO CUTRIS",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO CUTRIS",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"DESAMPARADOS",
-"precio":"N/A"
+"Destinoss":"DESAMPARADOS",
+"forma":"N/A"
 },
 {
-"ruta":"CR. ENTREGA A DOMICILIO ESPARZA",
-"precio":"Tarifa 2"
+"Destinoss":"CR. ENTREGA A DOMICILIO ESPARZA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO EL ROBLE",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO EL ROBLE",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO FLORENCIA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO FLORENCIA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO FORTUNA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO FORTUNA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO GRECIA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO GRECIA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"GUADALUPE",
-"precio":"N/A"
+"Destinoss":"GUADALUPE",
+"forma":"N/A"
 },
 {
-"ruta":"HEREDIA",
-"precio":"N/A"
+"Destinoss":"HEREDIA",
+"forma":"N/A"
 },
 {
-"ruta":"ENTREGA DOMICILIO JACO",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO JACO",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"LIBERIA",
-"precio":"Tarifa 2"
+"Destinoss":"LIBERIA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"LA FORTUNA",
-"precio":"Tarifa 2"
+"Destinoss":"LA FORTUNA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO LA TIGRA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO LA TIGRA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO MUELLE",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO MUELLE",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO MONTERREY",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO MONTERREY",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO NICOYA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO NICOYA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO NARANJO",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO NARANJO",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO PALMARES",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO PALMARES",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"PLAYAS DEL COCO",
-"precio":"Tarifa 2"
+"Destinoss":"PLAYAS DEL COCO",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO PLAYA FLAMINGO",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO PLAYA FLAMINGO",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO PLAYA HERMOSA GUANACASTE",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO PLAYA HERMOSA GUANACASTE",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO PENÍNSULA DE PUNTARENAS",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO PENÍNSULA DE PUNTARENAS",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"PASEO COLON",
-"precio":"N/A"
+"Destinoss":"PASEO COLON",
+"forma":"N/A"
 },
 {
-"ruta":"ENTREGA DOMICILIO PITAL",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO PITAL",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"PEREZ ZELEDON",
-"precio":"Tarifa 2"
+"Destinoss":"PEREZ ZELEDON",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO ASEBAS BAXTER",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO ASEBAS BAXTER",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO ASTRACSA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO ASTRACSA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO CIUDAD QUESADA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO CIUDAD QUESADA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"CARTAGO",
-"precio":"ENTREGA A DOMICILIO"
+"Destinoss":"CARTAGO",
+"forma":"ENTREGA A DOMICILIO"
 },
 {
-"ruta":"ENTREGA DOMICILIO LIBERIA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO LIBERIA",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO SAN RAMON",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO SAN RAMON",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"ENTREGA DOMICILIO TAMARINDO",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO TAMARINDO",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"RUTA COSTA RICA",
-"precio":"Tarifa 1"
+"Destinoss":"Destinoss COSTA RICA",
+"forma":"Tarifa 1"
 },
 {
-"ruta":"ENTREGA DOMICILIO VALOR GLOBAL",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO VALOR GLOBAL",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"SAN JUAN DE LA UNIÓN",
-"precio":"N/A"
+"Destinoss":"SAN JUAN DE LA UNIÓN",
+"forma":"N/A"
 },
 {
-"ruta":"SAN PEDRO",
-"precio":"N/A"
+"Destinoss":"SAN PEDRO",
+"forma":"N/A"
 },
 {
-"ruta":"ENTREGA DOMICILIO SARCHI",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO SARCHI",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"SAN RAMON",
-"precio":"Tarifa 2"
+"Destinoss":"SAN RAMON",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"SANTA ANA",
-"precio":"N/A"
+"Destinoss":"SANTA ANA",
+"forma":"N/A"
 },
 {
-"ruta":"ENTREGA DOMICILIO SANTA CRUZ",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO SANTA CRUZ",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"TAMARINDO",
-"precio":"Tarifa 2"
+"Destinoss":"TAMARINDO",
+"forma":"Tarifa 2"
 },
 {
-"ruta":"VALOR GLOBAL",
-"precio":"N/A"
+"Destinoss":"VALOR GLOBAL",
+"forma":"N/A"
 },
 {
-"ruta":"ENTREGA DOMICILIO VENECIA",
-"precio":"Tarifa 2"
+"Destinoss":"ENTREGA DOMICILIO VENECIA",
+"forma":"Tarifa 2"
 }
 
 ]

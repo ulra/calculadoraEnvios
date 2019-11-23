@@ -13,7 +13,6 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControl from '@material-ui/core/FormControl';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormLabel from '@material-ui/core/FormLabel';
-import Pagar from './Pagar';
 
 
 
@@ -59,8 +58,7 @@ export default function Formulario() {
           localStorage.setItem('currency4', event.target.value);
           setValue4(event.target.value);
       };
-        
-    
+
         return (
             <Grid>
                 <Row start="xs">
@@ -83,7 +81,7 @@ export default function Formulario() {
                               }}
                         >
                             {articulos.map(option => (
-                                <MenuItem key={option.ruta} value={option.ruta} >
+                                <MenuItem key={option.precio} value={option.ruta}  >
                             {option.ruta}
                             </MenuItem>
                             ))}
@@ -114,8 +112,8 @@ export default function Formulario() {
                               }}
                         >
                             {destinos.map(option => (
-                                <MenuItem key={option.ruta} value={option.ruta} >
-                            {option.ruta}
+                                <MenuItem key={option.Destinoss} value={option.Destinoss} >
+                            {option.Destinoss}
                             </MenuItem>
                             ))}
                         </TextField>
@@ -132,9 +130,11 @@ export default function Formulario() {
                             type="number"
                             id="outlined-basic"
                             label="Valor producto"
+                            defaultValue="0"
                             margin="normal"
                             value={currency3}
                             onChange={handleChange3.bind(this)}
+                            
                             variant="outlined"
                             className={classes.TextField}
                             InputProps={{
@@ -154,6 +154,7 @@ export default function Formulario() {
                             type="number"
                             id="outlined-basic"
                             label="Peso"
+                            value={currency4}
                             margin="normal"
                             variant="outlined"
                             onChange={handleChange4.bind(this)}
@@ -164,7 +165,7 @@ export default function Formulario() {
                     <div>
             <FormControl component="fieldset" className={classes.FormControl} style={{ marginLeft: 18, marginTop: 8 }}>
                 <FormLabel component="legend">Medidas</FormLabel>
-                    <RadioGroup aria-label="Medidas" name="medidas"  onChange={handleChange4.bind(this)} row>
+                    <RadioGroup aria-label="Medidas" name="medidas"  onChange={handleChange4.bind(this)} row >
                     <FormControlLabel value="Kilo" control={<Radio color="primary"  labelPlacement="start"/>} label="Kilo" />
                     <FormControlLabel value="Libras" control={<Radio color="primary"  labelPlacement="start"/>} label="Libra" />
                     </RadioGroup>
@@ -191,15 +192,7 @@ export default function Formulario() {
                     </Col>
                     
                 </Row>
-                <Row>
-                    <Col xs={12} md={6}>
-                        <Impuesto />
-                    </Col>
-
-                    <Col xs={12} md={6}>
-                        <Pagar />
-                    </Col>
-                </Row>
+               <Impuesto />
             </Grid>
         );
     }
