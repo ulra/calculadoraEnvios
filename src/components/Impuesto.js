@@ -244,9 +244,9 @@ totalArt=0;
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                defaultValue="$ 0.00"
+                                defaultValue="0"
                                 value={total}
-                                label="Total Articulo"
+                                label="Total sin articulo"
                                 margin="normal"
                                 variant="outlined"
                                 className={classes.TextField}
@@ -261,9 +261,9 @@ totalArt=0;
                             <TextField
                                 disabled
                                 id="outlined-disabled"
-                                defaultValue="$ 0.00"
+                                defaultValue="0"
                                 value={totalArt}
-                                label="Total sin articulo"
+                                label="Total con articulo"
                                 margin="normal"
                                 className={classes.TextField}
                                 variant="outlined"

@@ -58,6 +58,7 @@ export default function Formulario() {
           setValue4(event.target.value);
       };
 
+
         return (
             <Grid>
                 <Row start="xs">
@@ -162,8 +163,8 @@ export default function Formulario() {
                     </Col>
                     <Col >
                     <div>
-            <FormControl component="fieldset" className={classes.FormControl} style={{ marginLeft: 18, marginTop: 8 }}>
-                <FormLabel component="legend">Medidas</FormLabel>
+                    <FormControl component="fieldset" className={classes.FormControl} style={{ marginLeft: 18, marginTop: 8 }}>
+                    < FormLabel component="legend">Medidas</FormLabel>
                     <RadioGroup aria-label="Medidas" name="medidas"  onChange={handleChange4.bind(this)} row >
                     <FormControlLabel value="Kilo" control={<Radio color="primary"  labelPlacement="start"/>} label="Kilo" />
                     <FormControlLabel value="Libras" control={<Radio color="primary"  labelPlacement="start"/>} label="Libra" />
@@ -187,7 +188,7 @@ export default function Formulario() {
                         /> 
                     </Col>
                     <Col>
-                        <AirportShuttleIcon style={{ fontSize: 50, marginTop: 18, color: '#295290'}}/>
+                        <AirportShuttleIcon id="carro" style={{ fontSize: 50, marginTop: 18, color: '#295290'}} />
                     </Col>
                     
                 </Row>
