@@ -81,11 +81,7 @@ export default function Formulario() {
                             variant="outlined"
                             style={{ margin: 8 }}
                             onChange={handleChange2.bind(this)}
-                            SelectProps={{
-                                MenuProps: {
-                                  className: classes.menu,
-                                },
-                              }}
+                          
                         >
                             {articulos.map(option => (
                                 <MenuItem key={option.precio} value={option.ruta}  >
