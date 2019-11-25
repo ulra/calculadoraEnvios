@@ -58,7 +58,7 @@ export default function Formulario() {
       };
       
       
-       const  [setValue5] = React.useState('Libras');
+       const  [setVacurrency5, setValue5] = React.useState('Libras');
 
       const handleChange5 = event => {
           localStorage.setItem('currency5', event.target.value);
