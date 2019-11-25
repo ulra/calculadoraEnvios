@@ -72,7 +72,7 @@ export default function Formulario() {
                        
                         <TextField 
                             className={classes.TextField}
-                            id="standard-select-currencyssss"
+                            id="standard-select-currencys"
                             select
                             fullWidth
                             label="Articulo"
