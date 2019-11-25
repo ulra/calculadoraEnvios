@@ -3,6 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import "bootstrap/dist/css/bootstrap.css";
+import Table from 'react-bootstrap/Table';
 
 const useStyles = makeStyles(theme =>({
 
@@ -16,6 +17,12 @@ const useStyles = makeStyles(theme =>({
         marginTop: theme.spacing(3),
         overflowX: 'none',
       },
+
+      button: {
+        padding: 10,
+        backgroundColor: '#bf0103',
+        color: '#ffffff'
+    }
 }));
 
 export default function Pagar() {
@@ -398,13 +405,13 @@ function clear(){
                         </Table>
                                     </div>
 
-                                <Button variant="contained"   onClick={ver}style={{ margin: 16 }}>
+                                <Button variant="contained"   onClick={ver}style={{ margin: 16 }} className={classes.button}>
                                 Totalizar
                     </Button>
                     
                     
                     
-                    <Button variant="contained"   onClick={clear}style={{ margin: 16 }}>
+                    <Button variant="contained"   onClick={clear}style={{ margin: 16 }} className={classes.button}>
                                 Limpiar 
                     </Button>
                     </Col>

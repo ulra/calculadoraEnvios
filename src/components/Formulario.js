@@ -4,7 +4,6 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import { makeStyles } from '@material-ui/core/styles';
 import Impuesto from './Impuesto';
-import AirportShuttleIcon from '@material-ui/icons/AirportShuttle';
 import destinos from './destinos.json';
 import articulos from './articulos.json';
 import MenuItem from '@material-ui/core/MenuItem';

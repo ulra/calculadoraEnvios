@@ -7,7 +7,6 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import articulos from './articulos.json';
 import destinos from './destinos.json';
 import "bootstrap/dist/css/bootstrap.css";
-import AirportShuttleIcon from '@material-ui/icons/AirportShuttle';
 import camion from './images/camion.svg';
 import camion_amarillo from './images/camion_amarillo.svg';
 import camion_verde from './images/camion_verde.svg';
