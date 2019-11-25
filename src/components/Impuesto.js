@@ -62,9 +62,23 @@ function clear(){
 
 function guardar(e)
 {
-	
+    if(total==0 || totalArt==0 ){
+
+        mensa='<div class="alert alert-warning alert-dismissable">';
+        //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
+        mensa+='<strong>¡Info:!</strong> Favor No Ingresar Datos Nulos';
+        mensa+='</div>';
+        document.getElementById("mensa").innerHTML  =mensa ;
+    setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+        
+}else{
 
 if(localStorage.cont){
+
+    
+
+
+
 	if(localStorage.cont>2)
 	{
 		//alert('Maximo 3 Articulo a calcular');
@@ -125,7 +139,7 @@ if(localStorage.cont){
 id=localStorage.cont;
 
 
-
+}
 }
 
 let kilo=2.20462;
