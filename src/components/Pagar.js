@@ -83,8 +83,8 @@ function ver(){
 		  
 		  
 		  
-                                 				dato="<div>";
-                                                 dato += "        <Table striped bordered hover>";
+                                 				
+                                                 dato = "        <Table striped bordered hover> ";
                                                  dato+="        <thead>";
              dato += "            <tr>";
              dato += "                <th>";
@@ -179,7 +179,7 @@ function ver(){
                                                  dato+="            </tr> ";
              dato += "        </tbody>";
              dato += "    </Table>";
-                                    dato+="</div>";
+                                    
 		  document.getElementById("id").innerHTML  =dato ;
 	}
 function clear(){
@@ -199,8 +199,8 @@ function clear(){
 					localStorage.removeItem('currency3');
 					localStorage.removeItem('currency4');
 					localStorage.removeItem('currency5');
-												dato="<div>";
-    dato += "        <Table striped bordered hover>";
+												
+    dato = "        <Table striped bordered hover>";
                                         dato+="        <thead>";
     dato += "            <tr>";
     dato += "                <th>";
@@ -295,7 +295,7 @@ function clear(){
                                         dato+="            </tr> ";
     dato += "        </tbody>";
     dato += "    </Table>";
-                                    dato+="</div>";		
+                                    	
 		  document.getElementById("id").innerHTML  =dato ;
 
 		  
@@ -306,8 +306,8 @@ function clear(){
             <Grid>
                 <Row center="xs">
                     <Col xs={10}>
-                                <div id="id" >
-                                <Table striped bordered hover>
+                                
+                                <Table striped bordered hover id="id">
                             <thead>
                                 <tr>
                                     <th>
@@ -403,7 +403,6 @@ function clear(){
                                 </tr> 
                             </tbody>
                         </Table>
-                                    </div>
 
                                 <Button variant="contained"   onClick={ver}style={{ margin: 16 }} className={classes.button}>
                                 Totalizar
