@@ -1,12 +1,8 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import { Paper } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import "bootstrap/dist/css/bootstrap.css";
 
 const useStyles = makeStyles(theme =>({
 
@@ -16,74 +12,401 @@ const useStyles = makeStyles(theme =>({
     },
 
     root: {
-        width: '100%',
+        
         marginTop: theme.spacing(3),
-        overflowX: 'auto',
+        overflowX: 'none',
       },
 }));
 
-function ccyFormat(num) {
-    return `${num.toFixed(2)}`;
-}
-
-function descripcion(desc, precio) {
-    return { desc, precio };
-}
-
-function TotalArt(items) {
-    return items.map(({ precio }) => precio).reduce((sum, i) => sum + i, 0);
-}
-
-const rows = [
-    descripcion('Flete aereo Paq', 10),
-    descripcion('Combustible', 10),
-    descripcion('Seguro', 10),
-    descripcion('Gestion aduanal', 10),
-    descripcion('Impuesto nacionalizacion', 10),
-    descripcion('Transporte costo por paquete', 20),
-];
-
-const invoiceTotalArt = TotalArt(rows);
-
 export default function Pagar() {
+
+let guardado,fin,valor,dato,numero,flete,gestion,combustible,seguro,impuesto,transporte,total1,total2,cont,mensa;
+function ver(){
+	
+	
+
+		  numero=localStorage.getItem("cont");
+		  flete=localStorage.getItem("Cont_flete");
+		  gestion=localStorage.getItem("Cont_gestion");
+		  combustible=localStorage.getItem("Cont_combustible");
+		  seguro=localStorage.getItem("Cont_seguro");
+		  impuesto=localStorage.getItem("Cont_impuesto");
+		  transporte=localStorage.getItem("Cont_transporte");
+		  total1=localStorage.getItem("Cont_total1");
+		  total2=localStorage.getItem("Cont_total2");
+		  
+		  
+		  
+		  if(numero==null)
+		  {
+			  numero="0";
+		  }
+		  if(flete==null)
+		  {
+			  flete="0,00";
+		  }
+		  if(gestion==null)
+		  {
+			  gestion="0,00";
+		  }
+		  if(combustible==null)
+		  {
+			  combustible="0,00";
+		  }
+		  if(seguro==null)
+		  {
+			  seguro="0,00";
+		  }
+		  if(impuesto==null)
+		  {
+			  impuesto="0,00";
+		  }
+		  if(transporte==null)
+		  {
+			  transporte="0,00";
+		  }
+		  if(total1==null)
+		  {
+			  total1="0,00";
+		  }
+		  if(total2==null)
+		  {
+			  total2="0,00";
+		  }
+		  
+		  
+		  
+                                 				dato="<div>";
+                                                 dato += "        <Table striped bordered hover>";
+                                                 dato+="        <thead>";
+             dato += "            <tr>";
+             dato += "                <th>";
+             dato += "                   Resultado(s) de lo(s) envio(s) ";
+             dato += "                </th>";
+                                                 dato+="                <th>"; 
+             dato += "                </th>";
+             dato += "            </tr>";
+             dato += "        </thead>";
+                                                 dato+="        <thead>    ";
+             dato += "            <tr>";
+             dato += "                <th>";
+             dato += "                    Descripción";
+             dato += "                </th>";
+                                                 dato+="                <th>";
+             dato += "                    Precio";
+             dato += "                </th>";
+             dato += "            </tr>";
+             dato += "        </thead>";
+             dato += "        <tbody>";
+                                                 dato+="            <tr>",
+             dato += "                <td>";
+             dato += "                    Numero de articulos ";               
+             dato += "                </td>";
+             dato += "                <td>"
+             +numero+     
+             "                </td>";
+             dato += "            </tr>";
+             dato += "            <tr>";
+                                                 dato+="                <td>";
+             dato += "                    Flete";
+             dato += "                </td>";
+    dato += "                <td>"
+    +flete+
+             "                </td>";
+                                                 dato+="            </tr>    ";
+             dato += "            <tr>";
+             dato += "                <td>";
+                                                 dato+="                    Gestion";
+             dato += "                </td>";
+    dato += "                <td>"
+                +gestion+
+             "                </td>";
+             dato += "            </tr>";
+             dato += "            <tr>";
+             dato += "                <td>";
+             dato += "                    Combustible";
+                                                 dato+="                </td>";
+    dato += "                <td>"
+    +combustible+
+                                                 "                </td>";
+             dato += "            </tr>";
+                                                 dato+="            <tr>";
+             dato += "                <td>";
+             dato += "                    Seguro";
+             dato += "                </td>";
+             dato += "                <td>"
+                        +seguro+
+             "                </td>";
+                                                 dato+="            </tr>";
+             dato += "            <tr>";
+                                                 dato+="                <td>";
+             dato += "                    Impuesto";
+                                                 dato+="                </td>";
+                                                 dato+="                <td>"
+              +impuesto+
+                                                 "                </td>";
+                                                 dato+="            </tr>";
+             dato += "            <tr>";
+             dato += "                <td>";
+             dato += "                    Transporte";
+             dato += "                </td>";
+                                                 dato+="                <td>"
+             +transporte+
+                                                 "                </td>";
+                                                 dato+="            </tr> ";
+             dato += "            <tr>";
+             dato += "                <th>";
+             dato += "                   Total sin articulo"; 
+             dato += "                </th>";
+             dato += "                <td>"
+                                           +total1+ 
+                                                 "                </td>";
+                                                 dato+="            </tr>";
+             dato += "            <tr>";
+             dato += "                <th>";
+             dato += "                    Total con articulo";
+             dato += "                </th>";
+             dato += "                <td>"
+             +total2+
+                                                 "                </td>";
+                                                 dato+="            </tr> ";
+             dato += "        </tbody>";
+             dato += "    </Table>";
+                                    dato+="</div>";
+		  document.getElementById("id").innerHTML  =dato ;
+	}
+function clear(){
+	
+	      localStorage.removeItem("cont");
+		  localStorage.removeItem("Cont_flete");
+		  localStorage.removeItem("Cont_gestion");
+		  localStorage.removeItem("Cont_combustible");
+		  localStorage.removeItem("Cont_seguro");
+		  localStorage.removeItem("Cont_impuesto");
+		  localStorage.removeItem("Cont_transporte");
+		  localStorage.removeItem("Cont_total1");
+		  localStorage.removeItem("Cont_total2");
+	
+					 localStorage.removeItem('currency2');
+					localStorage.removeItem('currency');
+					localStorage.removeItem('currency3');
+					localStorage.removeItem('currency4');
+					localStorage.removeItem('currency5');
+												dato="<div>";
+    dato += "        <Table striped bordered hover>";
+                                        dato+="        <thead>";
+    dato += "            <tr>";
+    dato += "                <th>";
+    dato += "                   Resultado(s) de lo(s) envio(s) ";
+    dato += "                </th>";
+                                        dato+="                <th>"; 
+    dato += "                </th>";
+    dato += "            </tr>";
+    dato += "        </thead>";
+                                        dato+="        <thead>    ";
+    dato += "            <tr>";
+    dato += "                <th>";
+    dato += "                    Descripción";
+    dato += "                </th>";
+                                        dato+="                <th>";
+    dato += "                    Precio";
+    dato += "                </th>";
+    dato += "            </tr>";
+    dato += "        </thead>";
+    dato += "        <tbody>";
+                                        dato+="            <tr>",
+    dato += "                <td>";
+    dato += "                    Numero de articulos ";               
+    dato += "                </td>";
+    dato += "                <td>";
+    dato += "                    0.00   ";     
+    dato += "                </td>";
+    dato += "            </tr>";
+    dato += "            <tr>";
+                                        dato+="                <td>";
+    dato += "                    Flete";
+    dato += "                </td>";
+                                        dato+="                <td>";
+    dato += "                    0.00";
+    dato += "                </td>";
+                                        dato+="            </tr>    ";
+    dato += "            <tr>";
+    dato += "                <td>";
+                                        dato+="                    Gestion";
+    dato += "                </td>";
+                                        dato+="                <td>";
+                                        dato+="                    0.00";
+    dato += "                </td>";
+    dato += "            </tr>";
+    dato += "            <tr>";
+    dato += "                <td>";
+    dato += "                    Combustible";
+                                        dato+="                </td>";
+    dato += "                <td>";
+                                        dato+="                    0.00";
+                                        dato+="                </td>";
+    dato += "            </tr>";
+                                        dato+="            <tr>";
+    dato += "                <td>";
+    dato += "                    Seguro";
+    dato += "                </td>";
+    dato += "                <td>";
+                                        dato+="                    0.00";
+    dato += "                </td>";
+                                        dato+="            </tr>";
+    dato += "            <tr>";
+                                        dato+="                <td>";
+    dato += "                    Impuesto";
+                                        dato+="                </td>";
+                                        dato+="                <td>";
+    dato += "                    0.00";
+                                        dato+="                </td>";
+                                        dato+="            </tr>";
+    dato += "            <tr>";
+    dato += "                <td>";
+    dato += "                    Transporte";
+    dato += "                </td>";
+                                        dato+="                <td>";
+    dato += "                    0.00";
+                                        dato+="                </td>";
+                                        dato+="            </tr> ";
+    dato += "            <tr>";
+    dato += "                <th>";
+    dato += "                   Total sin articulo"; 
+    dato += "                </th>";
+    dato += "                <td>";
+                                        dato+="                    0.00";
+                                        dato+="                </td>";
+                                        dato+="            </tr>";
+    dato += "            <tr>";
+    dato += "                <th>";
+    dato += "                    Total con articulo";
+    dato += "                </th>";
+    dato += "                <td>";
+    dato += "                    0.00";
+                                        dato+="                </td>";
+                                        dato+="            </tr> ";
+    dato += "        </tbody>";
+    dato += "    </Table>";
+                                    dato+="</div>";		
+		  document.getElementById("id").innerHTML  =dato ;
+
+		  
+		  
+	}
     const classes = useStyles();
         return (
             <Grid>
                 <Row center="xs">
                     <Col xs={10}>
-                        <Paper className={classes.root} style={{ margin: 8 }}>
-                            <Table>
-                            <TableHead >
-                                <TableRow >
-                                    <TableCell className={classes.cabecera} colSpan={3}>
-                                        Total a pagar
-                                    </TableCell>
-                                    </TableRow>
-                                <TableRow>
-                                    <TableCell>Descripcion</TableCell>
-                                    <TableCell align="right">Precio</TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>
-                                {rows.map(row => (
-                                    <TableRow key={row.desc}>
-                                    <TableCell>{row.desc}</TableCell>
-                                    <TableCell align="right">{ccyFormat(row.precio)}</TableCell>
-                                    </TableRow>
-                                ))}
-
-                                <TableRow>
-                                    <TableCell rowSpan={2} />
-                                    <TableCell ><b>Total con articulo</b> </TableCell>
-                                    <TableCell align="right">{ccyFormat(invoiceTotalArt)}</TableCell>
-                                </TableRow>
-                                    <TableRow>
-                                    <TableCell ><b>Total sin articulo</b></TableCell>
-                                    <TableCell align="rigth">{ccyFormat(invoiceTotalArt)}</TableCell>
-                                </TableRow>
-                                </TableBody>
+                                <div id="id" >
+                                <Table striped bordered hover>
+                            <thead>
+                                <tr>
+                                    <th>
+                                       Resultado(s) de lo(s) envio(s) 
+                                    </th>
+                                    <th>
+                                            
+                                    </th>
+                                </tr>
+                            </thead>
+                            <thead>    
+                                <tr>
+                                    <th>
+                                        Descripción
+                                    </th>
+                                    <th>
+                                        Precio
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Numero de articulos                
+                                    </td>
+                                    <td>
+                                        0.00        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Flete
+                                    </td>
+                                    <td>
+                                        0.00
+                                    </td>
+                                </tr>    
+                                <tr>
+                                    <td>
+                                        Gestion
+                                    </td>
+                                    <td>
+                                        0.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Combustible
+                                    </td>
+                                    <td>
+                                        0.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Seguro
+                                    </td>
+                                    <td>
+                                        0.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Impuesto
+                                    </td>
+                                    <td>
+                                        0.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Transporte
+                                    </td>
+                                    <td>
+                                        0.00
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <th>
+                                       Total sin articulo 
+                                    </th>
+                                    <td>
+                                        0.00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Total con articulo
+                                    </th>
+                                    <td>
+                                        0.00
+                                    </td>
+                                </tr> 
+                            </tbody>
                         </Table>
-                        </Paper>
+                                    </div>
+
+                                <Button variant="contained"   onClick={ver}style={{ margin: 16 }}>
+                                Totalizar
+                    </Button>
+                    
+                    
+                    
+                    <Button variant="contained"   onClick={clear}style={{ margin: 16 }}>
+                                Limpiar 
+                    </Button>
                     </Col>
                 </Row>
             </Grid>

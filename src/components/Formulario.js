@@ -51,13 +51,20 @@ export default function Formulario() {
         setCurrency3(event.target.value);
       };
 
-      const [currency4, setValue4] = React.useState('Kilo');
+      const [currency4, setValue4] = React.useState('');
 
       const handleChange4 = event => {
           localStorage.setItem('currency4', event.target.value);
           setValue4(event.target.value);
       };
+      
+      
+       const [currency5, setValue5] = React.useState('Libras');
 
+      const handleChange5 = event => {
+          localStorage.setItem('currency5', event.target.value);
+          setValue5(event.target.value);
+      };
 
         return (
             <Grid>
@@ -163,11 +170,11 @@ export default function Formulario() {
                     </Col>
                     <Col >
                     <div>
-                    <FormControl component="fieldset" className={classes.FormControl} style={{ marginLeft: 18, marginTop: 8 }}>
-                    < FormLabel component="legend">Medidas</FormLabel>
-                    <RadioGroup aria-label="Medidas" name="medidas"  onChange={handleChange4.bind(this)} row >
-                    <FormControlLabel value="Kilo" control={<Radio color="primary"  labelPlacement="start"/>} label="Kilo" />
-                    <FormControlLabel value="Libras" control={<Radio color="primary"  labelPlacement="start"/>} label="Libra" />
+            <FormControl component="fieldset" className={classes.FormControl} style={{ marginLeft: 18, marginTop: 8 }}>
+                <FormLabel component="legend">Medidas</FormLabel>
+                    <RadioGroup aria-label="Medidas" name="medidas"  onChange={handleChange5.bind(this)} row >
+                    <FormControlLabel value="Kilo"  control={<Radio color="primary"  labelPlacement="start"/>} label="Kilo" />
+                    <FormControlLabel value="Libras"  control={<Radio color="primary"  labelPlacement="start"/>} label="Libra" />
                     </RadioGroup>
                 
             </FormControl>
@@ -175,23 +182,7 @@ export default function Formulario() {
                     </Col>
                 </Row>
                     
-                <Row start="xs">
-                    <Col>
-                        <TextField
-                            disabled
-                            id="outlined-disabled"
-                            defaultValue="Disponible para el envio"
-                            className={classes.textField}
-                            margin="normal"
-                            variant="outlined"
-                            style={{ marginLeft: 16, marginRight: 20}}
-                        /> 
-                    </Col>
-                    <Col>
-                        <AirportShuttleIcon id="carro" style={{ fontSize: 50, marginTop: 18, color: '#295290'}} />
-                    </Col>
-                    
-                </Row>
+          
                 <Row>
                     <Col xs={12} md={6} >
                         < Impuesto />
