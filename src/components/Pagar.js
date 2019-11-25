@@ -3,7 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 //import "bootstrap/dist/css/bootstrap.min.css";
-import Table from 'react-bootstrap/Table';
+import Table from '@material-ui/core/Table';
 
 const useStyles = makeStyles(theme =>({
 
