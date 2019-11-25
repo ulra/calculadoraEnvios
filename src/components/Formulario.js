@@ -58,7 +58,7 @@ export default function Formulario() {
       };
       
       
-       const [currency5, setValue5] = React.useState('Libras');
+       const  [setValue5] = React.useState('Libras');
 
       const handleChange5 = event => {
           localStorage.setItem('currency5', event.target.value);
@@ -72,7 +72,7 @@ export default function Formulario() {
                        
                         <TextField 
                             className={classes.TextField}
-                            id="standard-select-currency"
+                            id="standard-select-currencyssss"
                             select
                             fullWidth
                             label="Articulo"
@@ -136,9 +136,7 @@ export default function Formulario() {
                             margin="normal"
                             value={currency3}
                             onChange={handleChange3.bind(this)}
-                            
                             variant="outlined"
-                            className={classes.TextField}
                             InputProps={{
                                 endAdornment: <InputAdornment position="end">$</InputAdornment>,
                               }}

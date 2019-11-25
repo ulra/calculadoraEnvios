@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme =>({
 
 export default function Pagar() {
 
-let guardado,fin,valor,dato,numero,flete,gestion,combustible,seguro,impuesto,transporte,total1,total2,cont,mensa;
+let dato,numero,flete,gestion,combustible,seguro,impuesto,transporte,total1,total2;
 function ver(){
 	
 	
@@ -105,7 +105,7 @@ function ver(){
              dato += "            </tr>";
              dato += "        </thead>";
              dato += "        <tbody>";
-                                                 dato+="            <tr>",
+    dato += "            <tr>";
              dato += "                <td>";
              dato += "                    Numero de articulos ";               
              dato += "                </td>";
@@ -221,7 +221,7 @@ function clear(){
     dato += "            </tr>";
     dato += "        </thead>";
     dato += "        <tbody>";
-                                        dato+="            <tr>",
+    dato += "            <tr>";
     dato += "                <td>";
     dato += "                    Numero de articulos ";               
     dato += "                </td>";
