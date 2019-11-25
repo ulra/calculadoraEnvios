@@ -159,7 +159,7 @@ export default function Formulario() {
                         <TextField
                             className={classes.TextField}
                             type="number"
-                            id="outlined-basic"
+                            id="outlined-basicc"
                             label="Peso"
                             value={currency4}
                             margin="normal"
