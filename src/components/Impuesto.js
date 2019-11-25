@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import articulos from './articulos.json';
 import destinos from './destinos.json';
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import camion from './images/camion.svg';
 import camion_amarillo from './images/camion_amarillo.svg';
 import camion_verde from './images/camion_verde.svg';
