@@ -9,7 +9,6 @@ import destinos from './destinos.json';
 import camion from './images/camion.svg';
 import camion_amarillo from './images/camion_amarillo.svg';
 import camion_verde from './images/camion_verde.svg';
-import { GridListTileBar } from '@material-ui/core';
 
 const useStyles = makeStyles({
     button: {
@@ -21,6 +20,10 @@ const useStyles = makeStyles({
     TextField: {
         width: 220,
     },
+
+    p: {
+        color: '#bf0103'
+    }
     
 });
 
@@ -561,6 +564,20 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                                 Cálcular envio
                     </Button>
 						
+                        </Col>
+                        
+                    </Row>
+                    <Row>
+                        <Col>
+                        <ul class="ui list">
+                            <li>1. Ingresa tu producto</li>
+                            <li>2. Coloca el valor de tu producto</li>
+                            <li>3. Coloca el peso de tu producto Kilos o Libras</li>
+                            <p className={classes.p}> (Importante la calculadora inicia en libras por defecto)</p>
+                            <li>4. Selecciona tu destino</li>
+                            <li>5. Si tu destino tiene la opcion de envio se entendera la casilla verde y puedes seleccionar se desea enviar a domicilio</li>
+                            <li>Nota importante solo puede realizar el calculo a 3 productos</li>
+                        </ul>
                         </Col>
                     </Row>
              
