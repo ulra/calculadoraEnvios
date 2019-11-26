@@ -30,7 +30,7 @@ export default function Footer() {
         <div>
             <AppBar position="static" className={classes.appbar}>
                 <Toolbar className={classes.footer}>
-                © Copyright 2019 Liberty Express. All rights reserved
+                Software Digital Soluciond
                 </Toolbar>
             </AppBar>
         </div>
