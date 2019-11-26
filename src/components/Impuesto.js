@@ -9,6 +9,7 @@ import destinos from './destinos.json';
 import camion from './images/camion.svg';
 import camion_amarillo from './images/camion_amarillo.svg';
 import camion_verde from './images/camion_verde.svg';
+import { GridListTileBar } from '@material-ui/core';
 
 const useStyles = makeStyles({
     button: {
@@ -230,6 +231,9 @@ if(peso<=1){
 
 if(peso2>=2){
     calculo=peso2*vla;
+    if(medida=='Kilo'){
+		calculo=calculo*kilo;
+		}
 }
 flete=calculo+tarifa;
 combustible=flete*0.17;
