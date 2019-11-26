@@ -4,6 +4,8 @@ import Formulario from './Formulario';
 import AppBar from './AppBar';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
+import Footer from './Footer';
+import costarica from './images/costarica.svg';
 
 const useStyles = makeStyles({
     container: {
@@ -31,7 +33,9 @@ export default function Index() {
                     <Col xs={12}>
                     <Typography variant="h4" gutterBottom className={classes.typo}>
                         Calculadora de costos
+                        <img src={costarica} style={{ marginLeft: 15}} />
                     </Typography>
+                    
                     </Col>
                 </Row>
                 <Row start="xs">         
@@ -40,6 +44,7 @@ export default function Index() {
                     </Col>    
                 </Row>
             </Grid>
+            <Footer />
         </div>
         );
 }

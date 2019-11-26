@@ -28,6 +28,17 @@ const useStyles = makeStyles(theme =>({
     }
 }));
 
+const alert = [
+    'primary',
+    'secondary',
+    'success',
+    'danger',
+    'warning',
+    'info',
+    'light',
+    'dark',
+];
+
 export default function Pagar() {
 
 let dato,numero,flete,gestion,combustible,seguro,impuesto,transporte,total1,total2;
@@ -88,15 +99,6 @@ function ver(){
 		  
                                  				
                                                  dato = '        <table  class="ui celled table"> ';
-                                                 dato+='        <thead class="">';
-             dato += '            <tr>';
-             dato += '                <th>';
-             dato += '                   Resultado(s) de lo(s) envio(s) ';
-             dato += '                </th>';
-                                                 dato+='                <th>'; 
-             dato += '                </th>';
-             dato += '            </tr>';
-             dato += '        </thead>';
                                                  dato+='        <thead class="">    ';
              dato += '            <tr>';
              dato += '                <th>';
@@ -204,15 +206,6 @@ function clear(){
 					localStorage.removeItem('currency5');
 												
     dato = '        <table  class="ui celled table">';
-                                        dato+='        <thead class="">';
-    dato += '            <tr>';
-    dato += '                <th>';
-    dato += '                   Resultado(s) de lo(s) envio(s) ';
-    dato += '                </th>';
-                                        dato+='                <th>'; 
-    dato += '                </th>';
-    dato += '            </tr>';
-    dato += '        </thead>';
                                         dato+='        <thead class="">    ';
     dato += '            <tr>';
     dato += '                <th>';
@@ -309,18 +302,11 @@ function clear(){
             <Grid className={classes.tabla}>
                 <Row center='xs'>
                     <Col xs={10} cente='xs'>
-                                <Paper style={{ margin: 3}}>
+                        <Paper style={{ margin: 3 }}>
+                        <div class="alert alert-info" role="alert" >
+                        Resultado(s) de lo(s) envio(s)
+                    </div>
                                 <table  class="ui celled table"  id='id'>
-                            <thead class=""> 
-                                <tr>
-                                    <th>
-                                       Resultado(s) de lo(s) envio(s) 
-                                    </th>
-                                    <th>
-                                            
-                                    </th>
-                                </tr>
-                            </thead>
                             <thead class="">    
                                 <tr>
                                     <th>
@@ -416,6 +402,9 @@ function clear(){
                     <Button variant='contained'   onClick={clear}style={{ margin: 16 }} className={classes.button}>
                                 Limpiar 
                     </Button>
+                    <div class="alert alert-info" role="alert" >
+                        Nota: el paquete se entrega entre 24 a 36 horas una vez recibido en Miami
+                    </div>
                     </Paper>
                     </Col>
                 </Row>
