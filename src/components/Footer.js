@@ -30,7 +30,7 @@ export default function Footer() {
         <div>
             <AppBar position="static" className={classes.appbar}>
                 <Toolbar className={classes.footer}>
-                Software Digital Soluciond
+                Copyright © 2019. Todos los derechos reservados. Desarrollado por Software Digital Solucion.
                 </Toolbar>
             </AppBar>
         </div>
