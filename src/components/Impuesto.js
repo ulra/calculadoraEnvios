@@ -9,6 +9,7 @@ import destinos from './destinos.json';
 import camion from './images/camion.svg';
 import camion_amarillo from './images/camion_amarillo.svg';
 import camion_verde from './images/camion_verde.svg';
+import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles({
     button: {
@@ -569,6 +570,7 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                     </Row>
                     <Row>
                         <Col>
+                        <Paper>
                         <ul class="ui list">
                             <li>1. Ingresa tu producto</li>
                             <li>2. Coloca el valor de tu producto</li>
@@ -578,6 +580,7 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                             <li>5. Si tu destino tiene la opcion de envio se entendera la casilla verde y puedes seleccionar se desea enviar a domicilio</li>
                             <li>Nota importante solo puede realizar el calculo a 3 productos</li>
                         </ul>
+                        </Paper>
                         </Col>
                     </Row>
              
