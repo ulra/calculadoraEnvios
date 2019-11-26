@@ -6,8 +6,8 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
     appbar: {
         
-        background: 'linear-gradient(183deg, hsla(216.12, 55.68%, 36.27%, 1) 46%, hsla(216.12, 55.68%, 36.27%, 0) 47%),linear-gradient(335deg, hsla(353.43, 0%, 100%, 1) 100%, hsla(353.43, 0%, 100%, 0) 96%)',
-    
+        background: '#295290'
+     
     },
     icono: {
         margin: 10,
@@ -16,8 +16,9 @@ const useStyles = makeStyles({
     },
 
     footer: {
-        color: '#000000',
+        color: '#ffffff',
         textAlign: 'center'
+
     }
 
 

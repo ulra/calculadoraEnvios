@@ -1,220 +1,221 @@
- [
+[
 
-{
-"Destinoss":"ASEBAS BAXTER",
-"forma":"N/A"
-},
-{
-"Destinoss":"ASTRACSA",
-"forma":"N/A"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO AGUAZARCAS",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO ATENAS",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"BCD TRAVEL",
-"forma":"N/A"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO BELEN GUANACASTE",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO BARRANCA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO CHACARITA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO CAÑAS",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"CIUDAD QUESADA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"CARTAGO",
-"forma":"N/A"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO CUTRIS",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"DESAMPARADOS",
-"forma":"N/A"
-},
-{
-"Destinoss":"CR. ENTREGA A DOMICILIO ESPARZA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO EL ROBLE",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO FLORENCIA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO FORTUNA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO GRECIA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"GUADALUPE",
-"forma":"N/A"
-},
-{
-"Destinoss":"HEREDIA",
-"forma":"N/A"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO JACO",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"LIBERIA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"LA FORTUNA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO LA TIGRA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO MUELLE",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO MONTERREY",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO NICOYA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO NARANJO",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO PALMARES",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"PLAYAS DEL COCO",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO PLAYA FLAMINGO",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO PLAYA HERMOSA GUANACASTE",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO PENÍNSULA DE PUNTARENAS",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"PASEO COLON",
-"forma":"N/A"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO PITAL",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"PEREZ ZELEDON",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO ASEBAS BAXTER",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO ASTRACSA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO CIUDAD QUESADA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"CARTAGO",
-"forma":"ENTREGA A DOMICILIO"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO LIBERIA",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO SAN RAMON",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO TAMARINDO",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"Destinoss COSTA RICA",
-"forma":"Tarifa 1"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO VALOR GLOBAL",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"SAN JUAN DE LA UNIÓN",
-"forma":"N/A"
-},
-{
-"Destinoss":"SAN PEDRO",
-"forma":"N/A"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO SARCHI",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"SAN RAMON",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"SANTA ANA",
-"forma":"N/A"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO SANTA CRUZ",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"TAMARINDO",
-"forma":"Tarifa 2"
-},
-{
-"Destinoss":"VALOR GLOBAL",
-"forma":"N/A"
-},
-{
-"Destinoss":"ENTREGA DOMICILIO VENECIA",
-"forma":"Tarifa 2"
-}
-
-]
+    {
+    "Destinoss":"ASEBAS BAXTER",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ASTRACSA",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO AGUAZARCAS",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO ATENAS",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"BCD TRAVEL",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO BELEN GUANACASTE",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO BARRANCA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO CHACARITA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO CAÑAS",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"CIUDAD QUESADA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"CARTAGO",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO CUTRIS",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"DESAMPARADOS",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ENTREGA A DOMICILIO ESPARZA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO EL ROBLE",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO FLORENCIA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO FORTUNA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO GRECIA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"GUADALUPE",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"HEREDIA",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO JACO",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"LIBERIA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"LA FORTUNA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO LA TIGRA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO MUELLE",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO MONTERREY",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO NICOYA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO NARANJO",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO PALMARES",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"PLAYAS DEL COCO",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO PLAYA FLAMINGO",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO PLAYA HERMOSA GUANACASTE",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO PENÍNSULA DE PUNTARENAS",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"PASEO COLON",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO PITAL",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"PEREZ ZELEDON",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO ASEBAS BAXTER",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO ASTRACSA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO CIUDAD QUESADA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA A DOMICILIO CARTAGO",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO LIBERIA",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO SAN RAMON",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO TAMARINDO",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"RUTA COSTA RICA",
+    "forma":"Tarifa 1"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO VALOR GLOBAL",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"SAN JUAN DE LA UNIÓN",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"SAN PEDRO",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO SARCHI",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"SAN RAMON",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"SANTA ANA",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO SANTA CRUZ",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"TAMARINDO",
+    "forma":"Tarifa 2"
+    },
+    {
+    "Destinoss":"VALOR GLOBAL",
+    "forma":"N/A"
+    },
+    {
+    "Destinoss":"ENTREGA DOMICILIO VENECIA",
+    "forma":"Tarifa 2"
+    }
+    
+    ]
+    

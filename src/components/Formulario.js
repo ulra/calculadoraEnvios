@@ -28,6 +28,8 @@ const useStyles = makeStyles({
 
 
 export default function Formulario() {
+
+    let Pdestinos;
     const classes = useStyles();
     const [ currency, setCurrency] = React.useState('');
     
@@ -65,6 +67,14 @@ export default function Formulario() {
           setValue5(event.target.value);
       };
 
+      function ordenarAsc(p_array_json, p_key) {
+        p_array_json.sort(function (a, b) {
+           return a[p_key] > b[p_key];
+        });
+     }
+    
+     
+     ordenarAsc(destinos, 'Destinoss');
         return (
             <Grid>
                 <Row start="xs">
@@ -82,7 +92,9 @@ export default function Formulario() {
                             onChange={handleChange2.bind(this)}
                           
                         >
-                            {articulos.map(option => (
+                            {
+                                                              
+                                articulos.map(option => (
                                 <MenuItem key={option.precio} value={option.ruta}  >
                             {option.ruta}
                             </MenuItem>
@@ -113,7 +125,13 @@ export default function Formulario() {
                                 },
                               }}
                         >
-                            {destinos.map(option => (
+                            {
+                            
+                            
+                            
+                           
+                               
+                                destinos.map(option => (
                                 <MenuItem key={option.Destinoss} value={option.Destinoss} >
                             {option.Destinoss}
                             </MenuItem>
@@ -188,3 +206,4 @@ export default function Formulario() {
             </Grid>
         );
     }
+

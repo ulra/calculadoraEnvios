@@ -26,6 +26,99 @@ const useStyles = makeStyles({
 
 
 export default function Impuesto(){
+
+    function clear(){
+
+        document.getElementById("Flete").value=0.00;
+        document.getElementById("Gestion").value=0.00;
+           
+           
+       }
+       
+       function guardar(e)
+       {
+           if(total==0 || totalArt==0 ){
+       
+               mensa='<div class="alert alert-warning alert-dismissable">';
+               //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
+               mensa+='<strong>¡Info:!</strong> Favor No Ingresar Datos Nulos';
+               mensa+='</div>';
+               document.getElementById("mensa").innerHTML  =mensa ;
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+               
+       }else{
+       
+       if(localStorage.cont){
+       
+           
+       
+       
+       
+           if(localStorage.cont>2)
+           {
+               //alert('Maximo 3 Articulo a calcular');
+               mensa='Maximo 3 Articulo a calcular';
+               
+               
+               mensa='<div class="alert alert-warning alert-dismissable">';
+               //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
+               mensa+='<strong>¡Info:!</strong> Maximo 3 Articulo a calcular.'
+               mensa+='</div>';
+               document.getElementById("mensa").innerHTML  =mensa ;
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+           
+           }else{
+           localStorage.cont=parseInt(localStorage.cont)+1;
+           localStorage.Cont_flete=parseInt(localStorage.Cont_flete)+flete;
+           localStorage.Cont_gestion=parseInt(localStorage.Cont_gestion)+totalGestion;
+           localStorage.Cont_combustible=parseInt(localStorage.Cont_combustible)+combustible;
+           localStorage.Cont_transporte=parseInt(localStorage.Cont_transporte)+Transporte;
+           localStorage.Cont_impuesto=parseInt(localStorage.Cont_impuesto)+impuesto;
+           localStorage.Cont_seguro=parseInt(localStorage.Cont_seguro)+seguro;
+           localStorage.Cont_total1=parseInt(localStorage.Cont_total1)+total;
+           localStorage.Cont_total2=parseInt(localStorage.Cont_total2)+totalArt;
+           mensa='Movimiento Cargado..'+localStorage.cont;
+           mensa='<div class="alert alert-success" alert-dismissable">';
+               //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
+               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+localStorage.cont;
+               mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
+               mensa+='</div>';
+               document.getElementById("mensa").innerHTML  =mensa ;
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+               document.getElementById("mensa").innerHTML  =mensa ;
+           ;
+           }
+       
+         }else{
+               
+               localStorage.cont=1;
+               localStorage.Cont_flete=flete;
+               localStorage.Cont_gestion=totalGestion;
+               localStorage.Cont_combustible=combustible;
+               localStorage.Cont_transporte=Transporte;
+               localStorage.Cont_impuesto=impuesto;
+               localStorage.Cont_seguro=seguro;
+               localStorage.Cont_total1=total;
+               localStorage.Cont_total2=totalArt;
+               mensa='Movimiento Cargado..'+localStorage.cont;
+               
+               mensa='<div class="alert alert-success" alert-dismissable">';
+               //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
+               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+localStorage.cont;
+               mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
+               mensa+='</div>';
+               document.getElementById("mensa").innerHTML  =mensa ;
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+               document.getElementById("mensa").innerHTML  =mensa ;
+             }
+       id=localStorage.cont;
+       
+       
+       }
+       }
+
+
+
     const classes = useStyles();
     let tributario = localStorage.getItem('currency2');
     let destino = localStorage.getItem('currency');
@@ -36,7 +129,18 @@ export default function Impuesto(){
 
 
      let  tarifa,vla,gestion,totalGestion,combustible,impuesto,fin,pagoDestino,den,Transporte,seguro,total,totalArt,flete,cont;
-    let Cont_flete,Cont_gestion,Cont_combustible,Cont_transporte,Cont_impuesto,Cont_seguro,Cont_total1,Cont_total2, id,mensa,color,avion;
+    let Cont_flete,Cont_gestion,Cont_combustible,Cont_transporte,Cont_impuesto,Cont_seguro,Cont_total1,Cont_total2, id,mensa,color,avion,peso2;
+    let calculo;
+    let iva;
+    let iva1;
+    let iva2;
+    let subtotal3;
+    let subtotal4;
+    let cif;
+    let subtotal;
+    let Iva;
+    Iva=0.13;
+    
     let Objeto = new Object();
 gestion=0;
 seguro =0;
@@ -51,176 +155,143 @@ Cont_total1=0;
 Cont_total2=0;
 
 
-function clear(){
-
- document.getElementById("Flete").value=0.00;
- document.getElementById("Gestion").value=0.00;
-	
-	
-}
-
-function guardar(e)
-{
-    if(total==0 || totalArt==0 ){
-
-        mensa='<div class="alert alert-warning alert-dismissable">';
-        //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-        mensa+='<strong>¡Info:!</strong> Favor No Ingresar Datos Nulos';
-        mensa+='</div>';
-        document.getElementById("mensa").innerHTML  =mensa ;
-    setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
-        
-}else{
-
-if(localStorage.cont){
-
-    
-
-
-
-	if(localStorage.cont>2)
-	{
-		//alert('Maximo 3 Articulo a calcular');
-		mensa='Maximo 3 Articulo a calcular';
-		
-		
-		mensa='<div class="alert alert-warning alert-dismissable">';
-		//mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-		mensa+='<strong>¡Info:!</strong> Maximo 3 Articulo a calcular.'
-		mensa+='</div>';
-		document.getElementById("mensa").innerHTML  =mensa ;
-	setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
-	
-	}else{
-	localStorage.cont=parseInt(localStorage.cont)+1;
-	localStorage.Cont_flete=parseInt(localStorage.Cont_flete)+flete;
-	localStorage.Cont_gestion=parseInt(localStorage.Cont_gestion)+gestion;
-	localStorage.Cont_combustible=parseInt(localStorage.Cont_combustible)+combustible;
-	localStorage.Cont_transporte=parseInt(localStorage.Cont_transporte)+Transporte;
-	localStorage.Cont_impuesto=parseInt(localStorage.Cont_impuesto)+impuesto;
-	localStorage.Cont_seguro=parseInt(localStorage.Cont_seguro)+seguro;
-	localStorage.Cont_total1=parseInt(localStorage.Cont_total1)+total;
-	localStorage.Cont_total2=parseInt(localStorage.Cont_total2)+totalArt;
-	mensa='Movimiento Cargado..'+localStorage.cont;
-	mensa='<div class="alert alert-success" alert-dismissable">';
-		//mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-		mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+localStorage.cont;
-		mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
-		mensa+='</div>';
-		document.getElementById("mensa").innerHTML  =mensa ;
-	setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
-		document.getElementById("mensa").innerHTML  =mensa ;
-	;
-	}
-
-  }else{
-		
-		localStorage.cont=1;
-        localStorage.Cont_flete=flete;
-		localStorage.Cont_gestion=gestion;
-		localStorage.Cont_combustible=combustible;
-		localStorage.Cont_transporte=Transporte;
-		localStorage.Cont_impuesto=impuesto;
-		localStorage.Cont_seguro=seguro;
-		localStorage.Cont_total1=total;
-		localStorage.Cont_total2=totalArt;
-		mensa='Movimiento Cargado..'+localStorage.cont;
-		
-		mensa='<div class="alert alert-success" alert-dismissable">';
-		//mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-		mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+localStorage.cont;
-		mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
-		mensa+='</div>';
-		document.getElementById("mensa").innerHTML  =mensa ;
-	setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
-		document.getElementById("mensa").innerHTML  =mensa ;
-	  }
-id=localStorage.cont;
-
-
-}
-}
-
 let kilo=2.20462;
 seguro =valor*0.02;
      if(valor<=0){
      
     }else{
     seguro =valor*0.02;
+    
+
+    if(peso>2){
+        peso2=peso-2;
+    }
+
+    if(peso<2){
+
+        peso2=peso-1;
+
+    }
+
+    if(peso==2){
+        peso2=2;
+    }
+
     if(medida=='Kilo'){
 		
 	peso=peso*kilo;	
-	}
-   if(peso>=0.1 && peso<=1){
+    }
+    
+    
+
+   if(peso2>=0.1 && peso2<1){
 tarifa=6;vla=6;
 }
-if(peso>=1.01 && peso<=2){
+if(peso2>=1 && peso2<2){
 tarifa=9;vla=2.64;
 }
-if(peso>=2.01 && peso<=13){
+if(peso2>=2 && peso2<13){
 tarifa=9;vla=2.64;
 }
-if(peso>=13.01 && peso<=24.99){
+if(peso2>=13 && peso2<=25){
 tarifa=9;vla=2.50;
 }
-if(peso>=25 && peso<=100){
+if(peso2>=25 && peso2<100){
 tarifa=9;vla=1.80;
 }
-if(peso>=100.01 && peso<=150){
+if(peso2>=100 && peso2<150){
 tarifa=9;vla=1.72;
 }
-if(peso>=150.01 && peso<=200){
+if(peso2>=150 && peso2<200){
 tarifa=9;vla=1.63;
 }
-if(peso>=200.01 && peso<=250){
+if(peso2>=200 && peso2<250){
 tarifa=9;vla=1.55;
 }
-if(peso>250){
+if(peso2>=250){
 tarifa=9;vla=1.48;
 }
-if (peso>=2){
-	
-flete=(peso*vla)+tarifa;
+if(peso>2){
+
+    tarifa=9;
+
 }
-         valor = parseFloat(valor, 10);
-gestion=(tarifa+seguro)+valor;
+if(peso>=2){
+
+    tarifa=9;
+
+}
+
+if(peso<=1){
+
+    tarifa=6;
+
+}
+
+if(peso2>=2){
+    calculo=peso2*vla;
+}
+flete=calculo+tarifa;
+combustible=flete*0.17;
+
+
+subtotal=flete+combustible;
+  valor = parseFloat(valor, 10);
+cif=seguro+valor+flete;
+       
+
 
    
-    if(gestion >=1 && gestion<=25)
+    if(cif >=1 && cif<=25)
     {
 	totalGestion=3;	
 	}
-	if(gestion >=26 && gestion<=100)
+	if(cif >=26 && cif<=100)
     {
 	totalGestion=5;	
 	}
-	if(gestion >=101 && gestion<=500)
+	if(cif >=101 && cif<=500)
     {
 	totalGestion=10;	
 	}
-	if(gestion >=501)
+	if(cif >=501)
     {
 	totalGestion=35;	
 	}
 	if(medida=="Kilo"){
-		totalGestion=totalGestion*kilo;
+		//totalGestion=totalGestion*kilo;
 		}
-	combustible=tarifa*0.17;
+    
+    if(peso2<=1){
+
+        iva1=1;
+    }else{
+        iva1=2;
+
+    }
+
+    
+    iva=(totalGestion*Iva)+totalGestion;
+    let subtotal2;
+    subtotal2=cif;
 	  fin=articulos.filter(d => d.ruta === tributario);
 	  tributario=fin[0].precio;
 	  
 	  den=destinos.filter(e => e.Destinoss === destino);
 	  pagoDestino=den[0].forma;
-	  Transporte=0;
+      Transporte=0;
+      let tipoTransporte; 
 	  if(pagoDestino==='Tarifa 1')
 	  {
-		Transporte=2;  
+        Transporte=2;  
+        tipoTransporte=1;
 		color=<img src={camion_verde} clasName={classes.camion}/>;
 	  }
 	  
 	  if(pagoDestino==='Tarifa 2')
 	  {
-		Transporte=2.35; 
+        Transporte=2.35; 
+        tipoTransporte=2;
 		color=<img src={camion_amarillo} clasName={classes.camion}/>;
 		
 	  }
@@ -236,11 +307,27 @@ gestion=(tarifa+seguro)+valor;
      	  
 	tributario=tributario/100;
 	
-	impuesto=(tarifa+seguro+valor)*tributario;
-	
+    impuesto=cif*tributario;
+    let subtotal3;
+
+    subtotal3=subtotal2+impuesto;
+    
+
+    
+    if(tipoTransporte==1){
+        iva2=2;
+        subtotal4=valor;
+    }else{
+        iva2=peso/kilo;
+        iva2=iva2-1;
+        iva2=iva2*0.5;
+        iva2=iva2+2.35;
+        subtotal4=0;
+
+    }
 	}
-	total=tarifa+totalGestion+combustible+impuesto+seguro+Transporte;
-totalArt=total+valor;
+	totalArt=valor+flete+combustible+seguro+impuesto+iva+iva2;
+	total=flete+combustible+seguro+impuesto+iva+iva2;
 
 
 if(peso==0){
