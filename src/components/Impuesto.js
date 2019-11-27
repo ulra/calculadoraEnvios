@@ -370,8 +370,8 @@ cif=seguro+valor+flete;
 	}
 	totalArt=valor+flete+combustible+seguro+impuesto+Transporte+totalGestion;
 	total=flete+combustible+seguro+impuesto+Transporte+totalGestion;
-/*
 
+/*
 if(peso==0){
 tarifa=0;
 }
@@ -390,6 +390,7 @@ flete=0;
 //impuesto=Number(); 
 //totalArt=totalArt.toFixed(2);
 //total=total.toFixed(2);
+*/
 if (isNaN(flete)) {
     flete=0;      // Se ejecuta
 }
@@ -414,7 +415,7 @@ if (isNaN(Transporte)) {
 if (isNaN(seguro)) {
     seguro=0;      // Se ejecuta
 }
-*/
+
 	
 flete1=Number.parseFloat(flete).toFixed(2);
 totalGestion11=Number.parseFloat(totalGestion).toFixed(2);
