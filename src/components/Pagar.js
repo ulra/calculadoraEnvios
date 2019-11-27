@@ -419,7 +419,7 @@ function clear(){
                                 Limpiar 
                     </Button>
                     <div class="alert alert-info" role="alert" >
-                        Nota: el paquete se entrega entre 24 a 36 horas una vez recibido en Miami
+                        Nota: el paquete se entrega entre 24 a 48 horas una vez recibido en Miami
                     </div>
                     </Paper>
                     </Col>
