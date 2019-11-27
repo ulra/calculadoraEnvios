@@ -70,7 +70,7 @@ combustible1=Number.parseFloat(combustible).toFixed(2);
 impuesto1=Number.parseFloat(impuesto).toFixed(2);
 seguro1=Number.parseFloat(seguro).toFixed(2);
 Transporte1=Number.parseFloat(transporte).toFixed(2);
-total11=Number.parseFloat(total1).toFixed(2);
+total11=Number.parseFloat(total11).toFixed(2);
 totalArt1=Number.parseFloat(total2).toFixed(2);
 
 		  
