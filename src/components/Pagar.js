@@ -42,6 +42,14 @@ const alert = [
 export default function Pagar() {
 
 let dato,numero,flete,gestion,combustible,seguro,impuesto,transporte,total1,total2;
+let flete1;
+let totalGestion1;
+let combustible1;
+let impuesto1;
+let seguro1;
+let Transporte1;
+let total11;
+let totalArt1;
 function ver(){
 	
 	
@@ -53,10 +61,18 @@ function ver(){
 		  seguro=localStorage.getItem('Cont_seguro');
 		  impuesto=localStorage.getItem('Cont_impuesto');
 		  transporte=localStorage.getItem('Cont_transporte');
-		  total1=localStorage.getItem('Cont_total1');
+		  total11=localStorage.getItem('Cont_total1');
 		  total2=localStorage.getItem('Cont_total2');
 		  
-		  
+		  flete1=Number.parseFloat(flete).toFixed(2);
+totalGestion1=Number.parseFloat(gestion).toFixed(2);
+combustible1=Number.parseFloat(combustible).toFixed(2);
+impuesto1=Number.parseFloat(impuesto).toFixed(2);
+seguro1=Number.parseFloat(seguro).toFixed(2);
+Transporte1=Number.parseFloat(transporte).toFixed(2);
+total11=Number.parseFloat(total1).toFixed(2);
+totalArt1=Number.parseFloat(total2).toFixed(2);
+
 		  
 		  if(numero==null)
 		  {
@@ -123,7 +139,7 @@ function ver(){
              dato += '                    Flete';
              dato += '                </td>';
     dato += '                <td>'
-    +flete+
+    +flete1+
              '                </td>';
                                                  dato+='            </tr>    ';
              dato += '            <tr>';
@@ -139,7 +155,7 @@ function ver(){
              dato += '                    Combustible';
                                                  dato+='                </td>';
     dato += '                <td>'
-    +combustible+
+    +combustible1+
                                                  '                </td>';
              dato += '            </tr>';
                                                  dato+='            <tr>';
@@ -155,7 +171,7 @@ function ver(){
              dato += '                    Impuesto';
                                                  dato+='                </td>';
                                                  dato+='                <td>'
-              +impuesto+
+              +impuesto1+
                                                  '                </td>';
                                                  dato+='            </tr>';
              dato += '            <tr>';
@@ -163,7 +179,7 @@ function ver(){
              dato += '                    Transporte';
              dato += '                </td>';
                                                  dato+='                <td>'
-             +transporte+
+             +Transporte1+
                                                  '                </td>';
                                                  dato+='            </tr> ';
              dato += '            <tr>';
@@ -171,7 +187,7 @@ function ver(){
              dato += '                   Total sin articulo'; 
              dato += '                </th>';
              dato += '                <td>'
-                                           +total1+ 
+                                           +total11+ 
                                                  '                </td>';
                                                  dato+='            </tr>';
              dato += '            <tr>';
@@ -179,7 +195,7 @@ function ver(){
              dato += '                    Total con articulo';
              dato += '                </th>';
              dato += '                <td>'
-             +total2+
+             +totalArt1+
                                                  '                </td>';
                                                  dato+='            </tr> ';
              dato += '        </tbody>';

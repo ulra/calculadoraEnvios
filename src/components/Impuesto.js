@@ -145,7 +145,21 @@ export default function Impuesto(){
     let subtotal;
     let Iva;
     Iva=0.13;
+    let pesoKilo;
+    let libraA;
+    let Decimal;
+    calculo=0;
+    let totalGestion1;
+    let flete1;
+let totalGestion11;
+let combustible1;
+let impuesto1;
+let seguro1;
+let Transporte1;
+let total1;
+let totalArt1;
     
+   
     let Objeto = new Object();
 gestion=0;
 seguro =0;
@@ -167,79 +181,74 @@ seguro =valor*0.02;
     }else{
     seguro =valor*0.02;
     
-
-    if(peso>2){
-        peso2=peso-2;
-    }
-
-    if(peso<2){
-
-        peso2=peso-1;
-
-    }
-
-    if(peso==2){
-        peso2=2;
-    }
-
     if(medida=='Kilo'){
-		
-	peso=peso*kilo;	
-    }
-    
-    
-
-   if(peso2>=0.1 && peso2<1){
-tarifa=6;vla=6;
-}
-if(peso2>=1 && peso2<2){
-tarifa=9;vla=2.64;
-}
-if(peso2>=2 && peso2<13){
-tarifa=9;vla=2.64;
-}
-if(peso2>=13 && peso2<=25){
-tarifa=9;vla=2.50;
-}
-if(peso2>=25 && peso2<100){
-tarifa=9;vla=1.80;
-}
-if(peso2>=100 && peso2<150){
-tarifa=9;vla=1.72;
-}
-if(peso2>=150 && peso2<200){
-tarifa=9;vla=1.63;
-}
-if(peso2>=200 && peso2<250){
-tarifa=9;vla=1.55;
-}
-if(peso2>=250){
-tarifa=9;vla=1.48;
-}
-if(peso>2){
-
-    tarifa=9;
-
-}
-if(peso>=2){
-
-    tarifa=9;
-
-}
-
-if(peso<=1){
-
-    tarifa=6;
-
-}
-
-if(peso2>=2){
-    calculo=peso2*vla;
-    if(medida=='Kilo'){
-		calculo=calculo*kilo;
+		peso=peso*kilo;
 		}
-}
-flete=calculo+tarifa;
+			
+    
+
+    if(peso<=0){
+		tarifa=6;
+		flete=tarifa;
+		}
+    
+    
+     if(peso==1){
+		tarifa=6;
+		flete=tarifa;
+		}
+		
+	   if(peso==2){
+		tarifa=9;
+		flete=tarifa;
+		}
+		
+		   if(peso>1 && peso<2){
+			tarifa=6;vla=2.64;
+			Decimal = peso%1;
+			vla=Decimal*2.64;
+			console.log(vla);
+			flete=tarifa+vla;
+			
+			}
+			
+			
+			if(peso>2){
+					
+		
+		if(peso>2 && peso<=13){
+		tarifa=9;vla=2.64 ;
+		}
+		if(peso>13 && peso<25){
+		tarifa=9;vla=2.50;
+		}
+		if(peso>=25 && peso<=100){
+		tarifa=9;vla=1.80;
+		}
+		if(peso>100 && peso<=150){
+		tarifa=9;vla=1.72;
+		}
+		if(peso>150 && peso<=200){
+		tarifa=9;vla=1.63;
+		}
+		if(peso>200 && peso<=250){
+		tarifa=9;vla=1.55;
+		}
+		if(peso>250){
+		tarifa=9;vla=1.48;
+		}
+		
+		
+		peso2=peso-2;			
+		calculo=tarifa+(peso2*vla);
+		flete=calculo;	
+    
+	}
+			
+			
+			
+
+
 combustible=flete*0.17;
 
 
@@ -266,10 +275,9 @@ cif=seguro+valor+flete;
     {
 	totalGestion=35;	
 	}
-	if(medida=="Kilo"){
-		//totalGestion=totalGestion*kilo;
-		}
-    
+
+	totalGestion1=totalGestion*Iva;
+    totalGestion=totalGestion+totalGestion1;
     if(peso2<=1){
 
         iva1=1;
@@ -302,6 +310,31 @@ cif=seguro+valor+flete;
         tipoTransporte=2;
 		color=<img src={camion_amarillo} clasName={classes.camion}/>;
 		
+			if(medida=="Libras"){
+		
+		
+		libraA=0.5;
+		
+		pesoKilo=peso/kilo;
+		//pesoKilo= Number.parseFloat(pesoKilo).toFixed(2);
+		pesoKilo=pesoKilo-1;
+		pesoKilo=pesoKilo*libraA;
+		pesoKilo=pesoKilo+2.35;
+		Transporte=pesoKilo;
+		}
+		
+		if(medida=="Kilo"){
+			
+			
+		pesoKilo=pesoKilo-1;
+		
+		pesoKilo=pesoKilo*libraA;
+		pesoKilo=pesoKilo+2.35;
+		Transporte=pesoKilo;
+			
+			
+			}
+		
 	  }
 	  
 	  if(pagoDestino==='N/A')
@@ -320,7 +353,8 @@ cif=seguro+valor+flete;
 
     subtotal3=subtotal2+impuesto;
     
-
+	
+	
     
     if(tipoTransporte==1){
         iva2=2;
@@ -334,9 +368,9 @@ cif=seguro+valor+flete;
 
     }
 	}
-	totalArt=valor+flete+combustible+seguro+impuesto+iva+iva2;
-	total=flete+combustible+seguro+impuesto+iva+iva2;
-
+	totalArt=valor+flete+combustible+seguro+impuesto+Transporte+totalGestion;
+	total=flete+combustible+seguro+impuesto+Transporte+totalGestion;
+/*
 
 if(peso==0){
 tarifa=0;
@@ -380,21 +414,27 @@ if (isNaN(Transporte)) {
 if (isNaN(seguro)) {
     seguro=0;      // Se ejecuta
 }
-flete=Number.parseFloat(flete).toFixed(2);
-totalGestion=Number.parseFloat(totalGestion).toFixed(2);
-combustible=Number.parseFloat(combustible).toFixed(2);
-impuesto=Number.parseFloat(impuesto).toFixed(2);
-seguro=Number.parseFloat(seguro).toFixed(2);
-Transporte=Number.parseFloat(Transporte).toFixed(2);
-total=Number.parseFloat(total).toFixed(2);
-totalArt=Number.parseFloat(totalArt).toFixed(2);
-
+*/
 	
+flete1=Number.parseFloat(flete).toFixed(2);
+totalGestion11=Number.parseFloat(totalGestion).toFixed(2);
+combustible1=Number.parseFloat(combustible).toFixed(2);
+impuesto1=Number.parseFloat(impuesto).toFixed(2);
+seguro1=Number.parseFloat(seguro).toFixed(2);
+Transporte1=Number.parseFloat(Transporte).toFixed(2);
+total1=Number.parseFloat(total).toFixed(2);
+totalArt1=Number.parseFloat(totalArt).toFixed(2);
+
+
+
+
+
     return (
        
                 <Grid>
                   <Row start="xs">
                     <Col>
+                   
                         <TextField
                             disabled
                             id="outlined-disabled"
@@ -420,7 +460,7 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                             <TextField
 								disabled
                                 id="flete"
-                                value={flete}
+                                value={flete1}
                                 defaultValue="0"
                                 label="Flete"
                                 margin="normal"
@@ -437,7 +477,7 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                                 disabled
                                 id="Gestion"
                                 defaultValue="0"
-                                value={totalGestion}
+                                value={totalGestion11}
                                 label="Gestion"
                                 margin="normal"
                                 variant="outlined"
@@ -456,7 +496,7 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                                 disabled
                                 id="combustible"
                                 defaultValue="0"
-                                value={combustible}
+                                value={combustible1}
                                 label="Combustible"
                                 margin="normal"
                                 variant="outlined"
@@ -473,7 +513,7 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                                 disabled
                                 id="Impuesto"
                                 defaultValue="0"
-                                value={impuesto}
+                                value={impuesto1}
                                 label="Impuesto"
                                 margin="normal"
                                 variant="outlined"
@@ -509,7 +549,7 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                                 disabled
                                 defaultValue="0"
                                 id="Transporte"
-                                value={Transporte}
+                                value={Transporte1}
                                 label="Transporte"
                                 margin="normal"
                                 variant="outlined"
@@ -528,7 +568,7 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                                 disabled
                                 id="Total1"
                                 defaultValue="$ 0.00"
-                                value={total}
+                                value={total1}
                                 label="Total Sin Articulo"
                                 margin="normal"
                                 variant="outlined"
@@ -545,7 +585,7 @@ totalArt=Number.parseFloat(totalArt).toFixed(2);
                                 disabled
                                 id="Total2"
                                 defaultValue="$ 0.00"
-                                value={totalArt}
+                                value={totalArt1}
                                 label="Total Con articulo"
                                 margin="normal"
                                 className={classes.TextField}
