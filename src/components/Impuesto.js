@@ -282,6 +282,7 @@ cif=seguro+valor+flete;
 	
 	
 	
+	
 	totalGestion1=totalGestion*Iva;
     totalGestion=totalGestion+totalGestion1;
     
