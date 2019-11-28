@@ -163,7 +163,7 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
              dato += '                    Seguro';
              dato += '                </td>';
              dato += '                <td>'
-                        +seguro+
+                        +seguro1+
              '                </td>';
                                                  dato+='            </tr>';
              dato += '            <tr>';
