@@ -642,14 +642,16 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                         <Col>
                         <Paper>
                         <ul class="ui list">
-                            <li> Ingresa tu producto</li>
-                            <li> Coloca el valor de tu producto</li>
-                            <li> Coloca el peso de tu producto Kilos o Libras</li>
+                         
+                            <li><p  className="small">Ingresa tu producto</p></li>
+                            <li><p  className="small"> Coloca el valor de tu producto</p></li>
+                            <li><p  className="small"> Coloca el peso de tu producto Kilos o Libras</p></li>
                             <p className={classes.p}> (Importante la calculadora inicia en libras por defecto)</p>
-                            <li> Selecciona tu destino</li>
-                            <li> Si tu destino tiene la opción de envío se entendera la casilla verde y puedes seleccionar se desea enviar a domicilio</li>
-                            <li> Puede realizar en simultaneo 3 cálculos de diferentes productos</li>
+                            <li><p  className="small"> Selecciona tu destino</p></li>
+                            <li><p  className="small"> Si tu destino tiene la opción de envío se entendera la casilla verde y puedes seleccionar se desea enviar a domicilio</p></li>
+                            <li><p  className="small"> Puede realizar en simultaneo 3 cálculos de diferentes productos</p></li>
                         </ul>
+                        
                         </Paper>
                         </Col>
                     </Row>
