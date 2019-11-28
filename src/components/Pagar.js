@@ -48,7 +48,7 @@ let combustible1;
 let impuesto1;
 let seguro1;
 let Transporte1;
-
+let mensa;
 let total11;
 let totalArt1;
 function ver(){
@@ -74,7 +74,8 @@ Transporte1=Number.parseFloat(transporte).toFixed(2);
 total11=Number.parseFloat(total11).toFixed(2);
 totalArt1=Number.parseFloat(total2).toFixed(2);
 
-		  
+   
+	  
 		  if(numero==null)
 		  {
 			  numero='0';
@@ -136,6 +137,15 @@ if (isNaN(Transporte1)) {
 }
 if (isNaN(seguro1)) {
     seguro1='0.00';      // Se ejecuta
+}
+
+if(numero==0){
+mensa='<div class="alert alert-warning alert-dismissable">';
+               //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
+               mensa+='<strong>¡Info:!</strong> Favor Ingresar Datos Calcular.'
+               mensa+='</div>';
+               document.getElementById("mensa1").innerHTML  =mensa ;
+           setTimeout(function(){ document.getElementById("mensa1").innerHTML  ='' ; }, 2000);
 }
 
                                  				
@@ -433,7 +443,7 @@ function clear(){
                                 </tr> 
                             </tbody>
                         </table >
-
+						<div id="mensa1"></div>
                                 <Button variant='contained'   onClick={ver}style={{ margin: 16 }} className={classes.button}>
                                 Totalizar
                     </Button>
@@ -443,6 +453,7 @@ function clear(){
                     <Button variant='contained'   onClick={clear}style={{ margin: 16 }} className={classes.button}>
                                 Limpiar 
                     </Button>
+                    
                     <div class="alert alert-info" role="alert" >
                         Nota: el paquete se entrega entre 24 a 48 horas una vez recibido en Miami
                     </div>
