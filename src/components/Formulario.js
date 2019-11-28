@@ -34,28 +34,28 @@ export default function Formulario() {
     const [ currency, setCurrency] = React.useState('');
     
     const handleChange = event => {
-        localStorage.setItem('currency', event.target.value);
+        sessionStorage.setItem('currency', event.target.value);
         setCurrency(event.target.value);
       };
 
       const [ currency2, setCurrency2] = React.useState('');
 
       const handleChange2 = event => {
-        localStorage.setItem('currency2', event.target.value);
+        sessionStorage.setItem('currency2', event.target.value);
         setCurrency2(event.target.value);
       };
     
       const [ currency3, setCurrency3] = React.useState('');
 
       const handleChange3 = event => {
-        localStorage.setItem('currency3', event.target.value);
+        sessionStorage.setItem('currency3', event.target.value);
         setCurrency3(event.target.value);
       };
 
       const [currency4, setValue4] = React.useState('');
 
       const handleChange4 = event => {
-          localStorage.setItem('currency4', event.target.value);
+          sessionStorage.setItem('currency4', event.target.value);
           setValue4(event.target.value);
       };
       
@@ -63,7 +63,7 @@ export default function Formulario() {
        const  [setVacurrency5, setValue5] = React.useState('Libras');
 
       const handleChange5 = event => {
-          localStorage.setItem('currency5', event.target.value);
+          sessionStorage.setItem('currency5', event.target.value);
           setValue5(event.target.value);
       };
 
