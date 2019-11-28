@@ -532,7 +532,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                             <TextField
                                 disabled
                                 id="Seguro"
-                                value={seguro}
+                                value={seguro1}
                                 defaultValue="0"
                                 label="Seguro"
                                 margin="normal"
