@@ -650,7 +650,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                             <p className={classes.p}> (Importante la calculadora inicia en libras por defecto)</p>
                             <li className="small">Selecciona tu destino</li>
                             <li className="small">Si tu destino tiene la opción de envío se encenderá una casilla de color</li>
-                            <li className="small">Puede realizar en simultaneo 3 cálculos de diferentes productos simultane</li>
+                            <li className="small">Puede realizar en simultaneo 3 cálculos de diferentes productos</li>
                         </ul>
                         
                         </Paper>
