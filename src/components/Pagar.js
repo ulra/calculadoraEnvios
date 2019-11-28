@@ -55,15 +55,15 @@ function ver(){
 	
 	
 
-		  numero=localStorage.getItem('cont');
-		  flete=localStorage.getItem('Cont_flete');
-		  gestion=localStorage.getItem('Cont_gestion');
-		  combustible=localStorage.getItem('Cont_combustible');
-		  seguro=localStorage.getItem('Cont_seguro');
-		  impuesto=localStorage.getItem('Cont_impuesto');
-		  transporte=localStorage.getItem('Cont_transporte');
-		  total11=localStorage.getItem('Cont_total1');
-		  total2=localStorage.getItem('Cont_total2');
+		  numero=sessionStorage.getItem('cont');
+		  flete=sessionStorage.getItem('Cont_flete');
+		  gestion=sessionStorage.getItem('Cont_gestion');
+		  combustible=sessionStorage.getItem('Cont_combustible');
+		  seguro=sessionStorage.getItem('Cont_seguro');
+		  impuesto=sessionStorage.getItem('Cont_impuesto');
+		  transporte=sessionStorage.getItem('Cont_transporte');
+		  total11=sessionStorage.getItem('Cont_total1');
+		  total2=sessionStorage.getItem('Cont_total2');
 		  
 		  flete1=Number.parseFloat(flete).toFixed(2);
 totalGestion1=Number.parseFloat(gestion).toFixed(2);
@@ -230,21 +230,21 @@ if (isNaN(seguro1)) {
 	}
 function clear(){
 	
-	      localStorage.removeItem('cont');
-		  localStorage.removeItem('Cont_flete');
-		  localStorage.removeItem('Cont_gestion');
-		  localStorage.removeItem('Cont_combustible');
-		  localStorage.removeItem('Cont_seguro');
-		  localStorage.removeItem('Cont_impuesto');
-		  localStorage.removeItem('Cont_transporte');
-		  localStorage.removeItem('Cont_total1');
-		  localStorage.removeItem('Cont_total2');
+	      sessionStorage.removeItem('cont');
+		  sessionStorage.removeItem('Cont_flete');
+		  sessionStorage.removeItem('Cont_gestion');
+		  sessionStorage.removeItem('Cont_combustible');
+		  sessionStorage.removeItem('Cont_seguro');
+		  sessionStorage.removeItem('Cont_impuesto');
+		  sessionStorage.removeItem('Cont_transporte');
+		  sessionStorage.removeItem('Cont_total1');
+		  sessionStorage.removeItem('Cont_total2');
 	
-					 localStorage.removeItem('currency2');
-					localStorage.removeItem('currency');
-					localStorage.removeItem('currency3');
-					localStorage.removeItem('currency4');
-					localStorage.removeItem('currency5');
+					 sessionStorage.removeItem('currency2');
+					sessionStorage.removeItem('currency');
+					sessionStorage.removeItem('currency3');
+					sessionStorage.removeItem('currency4');
+					sessionStorage.removeItem('currency5');
 												
     dato = '        <table  class="ui celled table">';
                                         dato+='        <thead class="">    ';

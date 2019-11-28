@@ -54,13 +54,13 @@ export default function Impuesto(){
                
        }else{
        
-       if(localStorage.cont){
+       if(sessionStorage.cont){
        
            
        
        
        
-           if(localStorage.cont>2)
+           if(sessionStorage.cont>2)
            {
                //alert('Maximo 3 Articulo a calcular');
                mensa='Máximo 3 Articulo a calcular';
@@ -74,19 +74,19 @@ export default function Impuesto(){
            setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
            
            }else{
-           localStorage.cont=parseInt(localStorage.cont)+1;
-           localStorage.Cont_flete=parseInt(localStorage.Cont_flete)+flete;
-           localStorage.Cont_gestion=parseInt(localStorage.Cont_gestion)+totalGestion;
-           localStorage.Cont_combustible=parseInt(localStorage.Cont_combustible)+combustible;
-           localStorage.Cont_transporte=parseInt(localStorage.Cont_transporte)+Transporte;
-           localStorage.Cont_impuesto=parseInt(localStorage.Cont_impuesto)+impuesto;
-           localStorage.Cont_seguro=parseInt(localStorage.Cont_seguro)+seguro;
-           localStorage.Cont_total1=parseInt(localStorage.Cont_total1)+total;
-           localStorage.Cont_total2=parseInt(localStorage.Cont_total2)+totalArt;
-           mensa='Movimiento Cargado..'+localStorage.cont;
+           sessionStorage.cont=parseInt(sessionStorage.cont)+1;
+           sessionStorage.Cont_flete=parseInt(sessionStorage.Cont_flete)+flete;
+           sessionStorage.Cont_gestion=parseInt(sessionStorage.Cont_gestion)+totalGestion;
+           sessionStorage.Cont_combustible=parseInt(sessionStorage.Cont_combustible)+combustible;
+           sessionStorage.Cont_transporte=parseInt(sessionStorage.Cont_transporte)+Transporte;
+           sessionStorage.Cont_impuesto=parseInt(sessionStorage.Cont_impuesto)+impuesto;
+           sessionStorage.Cont_seguro=parseInt(sessionStorage.Cont_seguro)+seguro;
+           sessionStorage.Cont_total1=parseInt(sessionStorage.Cont_total1)+total;
+           sessionStorage.Cont_total2=parseInt(sessionStorage.Cont_total2)+totalArt;
+           mensa='Movimiento Cargado..'+sessionStorage.cont;
            mensa='<div class="alert alert-success" alert-dismissable">';
                //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+localStorage.cont;
+               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+sessionStorage.cont;
                mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
@@ -97,27 +97,27 @@ export default function Impuesto(){
        
          }else{
                
-               localStorage.cont=1;
-               localStorage.Cont_flete=flete;
-               localStorage.Cont_gestion=totalGestion;
-               localStorage.Cont_combustible=combustible;
-               localStorage.Cont_transporte=Transporte;
-               localStorage.Cont_impuesto=impuesto;
-               localStorage.Cont_seguro=seguro;
-               localStorage.Cont_total1=total;
-               localStorage.Cont_total2=totalArt;
-               mensa='Movimiento Cargado..'+localStorage.cont;
+               sessionStorage.cont=1;
+               sessionStorage.Cont_flete=flete;
+               sessionStorage.Cont_gestion=totalGestion;
+               sessionStorage.Cont_combustible=combustible;
+               sessionStorage.Cont_transporte=Transporte;
+               sessionStorage.Cont_impuesto=impuesto;
+               sessionStorage.Cont_seguro=seguro;
+               sessionStorage.Cont_total1=total;
+               sessionStorage.Cont_total2=totalArt;
+               mensa='Movimiento Cargado..'+sessionStorage.cont;
                
                mensa='<div class="alert alert-success" alert-dismissable">';
                //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+localStorage.cont;
+               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+sessionStorage.cont;
                mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
            setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
                document.getElementById("mensa").innerHTML  =mensa ;
              }
-       id=localStorage.cont;
+       id=sessionStorage.cont;
        
        
        }
@@ -126,11 +126,11 @@ export default function Impuesto(){
 
 
     const classes = useStyles();
-    let tributario = localStorage.getItem('currency2');
-    let destino = localStorage.getItem('currency');
-    let valor = localStorage.getItem('currency3');
-    let peso = localStorage.getItem('currency4');
-    let medida = localStorage.getItem('currency5');
+    let tributario = sessionStorage.getItem('currency2');
+    let destino = sessionStorage.getItem('currency');
+    let valor = sessionStorage.getItem('currency3');
+    let peso = sessionStorage.getItem('currency4');
+    let medida = sessionStorage.getItem('currency5');
    
 
 
