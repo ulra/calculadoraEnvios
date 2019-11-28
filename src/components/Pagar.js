@@ -235,7 +235,7 @@ function clear(){
     dato += '        <tbody>';
     dato += '            <tr>';
     dato += '                <td>';
-    dato += '                    Numero de articulos ';               
+    dato += '                    Número de articulos ';               
     dato += '                </td>';
     dato += '                <td>';
     dato += '                    0.00   ';     
@@ -336,7 +336,7 @@ function clear(){
                             <tbody>
                                 <tr>
                                     <td>
-                                        Numero de articulos                
+                                        Número de articulos                
                                     </td>
                                     <td>
                                         0.00        
@@ -352,7 +352,7 @@ function clear(){
                                 </tr>    
                                 <tr>
                                     <td>
-                                        Gestion
+                                        Gestión
                                     </td>
                                     <td>
                                         0.00

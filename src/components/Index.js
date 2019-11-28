@@ -32,7 +32,7 @@ export default function Index() {
                 <Row start="xs">
                     <Col xs={12}>
                     <Typography variant="h4" gutterBottom className={classes.typo}>
-                        Calculadora de costos
+                        Calculadora
                         <img src={costarica} style={{ marginLeft: 15}} />
                     </Typography>
                     
