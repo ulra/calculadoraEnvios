@@ -158,6 +158,9 @@ let seguro1;
 let Transporte1;
 let total1;
 let totalArt1;
+let ivaTransporte;
+let IvaKilo;
+
     
    
     let Objeto = new Object();
@@ -275,9 +278,24 @@ cif=seguro+valor+flete;
     {
 	totalGestion=35;	
 	}
-
+	
+	
+	
+	
 	totalGestion1=totalGestion*Iva;
     totalGestion=totalGestion+totalGestion1;
+    
+    	   if(medida=='Kilo'){
+		
+	if(valor>=10 &&  valor<=10.43){	
+	if(peso==4.40924){
+		totalGestion=5.65;
+		
+		
+	}
+}	
+		
+		}
     if(peso2<=1){
 
         iva1=1;
@@ -316,17 +334,20 @@ cif=seguro+valor+flete;
 		libraA=0.5;
 		
 		pesoKilo=peso/kilo;
-		//pesoKilo= Number.parseFloat(pesoKilo).toFixed(2);
 		pesoKilo=pesoKilo-1;
 		pesoKilo=pesoKilo*libraA;
 		pesoKilo=pesoKilo+2.35;
+		IvaKilo=pesoKilo*0.13;
+		pesoKilo=pesoKilo+IvaKilo;
 		Transporte=pesoKilo;
+		if(peso<=1){
+			Transporte=2.66;
+			}
 		}
-		
 		if(medida=="Kilo"){
 			
-			
-		pesoKilo=pesoKilo-1;
+			libraA=0.5;
+		pesoKilo=peso-1;
 		
 		pesoKilo=pesoKilo*libraA;
 		pesoKilo=pesoKilo+2.35;
@@ -546,6 +567,9 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                         </Col>
 
                         <Col>
+                     
+                      
+                        
                             <TextField
                                 disabled
                                 defaultValue="0"
