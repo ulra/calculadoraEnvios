@@ -48,6 +48,7 @@ let combustible1;
 let impuesto1;
 let seguro1;
 let Transporte1;
+
 let total11;
 let totalArt1;
 function ver(){
@@ -78,41 +79,65 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
 		  {
 			  numero='0';
 		  }
-		  if(flete==null)
+		  if(flete1==null)
 		  {
 			  flete='0,00';
 		  }
-		  if(gestion==null)
+		  if(totalGestion1==null)
 		  {
-			  gestion='0,00';
+			  totalGestion1='0,00';
 		  }
-		  if(combustible==null)
+		  if(combustible1==null)
 		  {
-			  combustible='0,00';
+			  combustible1='0,00';
 		  }
-		  if(seguro==null)
+		  if(seguro1==null)
 		  {
-			  seguro='0,00';
+			  seguro1='0,00';
 		  }
-		  if(impuesto==null)
+		  if(impuesto1==null)
 		  {
-			  impuesto='0,00';
+			  impuesto1='0,00';
 		  }
-		  if(transporte==null)
+		  if(Transporte1==null)
 		  {
-			  transporte='0,00';
+			  Transporte1='0,00';
 		  }
-		  if(total1==null)
+		  if(total11==null)
 		  {
-			  total1='0,00';
+			  total11='0,00';
 		  }
-		  if(total2==null)
+		  if(totalArt1==null)
 		  {
 			  total2='0,00';
 		  }
 		  
 		  
-		  
+		  if (isNaN(flete1)) {
+    flete1='0.00';      // Se ejecuta
+}
+if (isNaN(totalGestion1)) {
+    totalGestion1='0.00';      // Se ejecuta
+}
+if (isNaN(combustible1)) {
+    combustible1='0.00';      // Se ejecuta
+}
+if (isNaN(impuesto1)) {
+    impuesto1='0.00';      // Se ejecuta
+}
+if (isNaN(total11)) {
+    total11='0.00';      // Se ejecuta
+}
+if (isNaN(totalArt1)) {
+    totalArt1='0.00';      // Se ejecuta
+}
+if (isNaN(Transporte1)) {
+    Transporte1='0.00';      // Se ejecuta
+}
+if (isNaN(seguro1)) {
+    seguro1='0.00';      // Se ejecuta
+}
+
                                  				
                                                  dato = '        <table  class="ui celled table"> ';
                                                  dato+='        <thead class="">    ';
@@ -128,7 +153,7 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
              dato += '        <tbody>';
     dato += '            <tr>';
              dato += '                <td>';
-             dato += '                    Numero de articulos ';               
+             dato += '                    Número de Artículos ';               
              dato += '                </td>';
              dato += '                <td>'
              +numero+     
@@ -147,7 +172,7 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
                                                  dato+='                    Gestion';
              dato += '                </td>';
     dato += '                <td>'
-                +gestion+
+                +totalGestion1+
              '                </td>';
              dato += '            </tr>';
              dato += '            <tr>';
@@ -184,7 +209,7 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
                                                  dato+='            </tr> ';
              dato += '            <tr>';
              dato += '                <th>';
-             dato += '                   Total sin articulo'; 
+             dato += '                   Total sin Artículo'; 
              dato += '                </th>';
              dato += '                <td>'
                                            +total11+ 
@@ -192,7 +217,7 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
                                                  dato+='            </tr>';
              dato += '            <tr>';
              dato += '                <th>';
-             dato += '                    Total con articulo';
+             dato += '                    Total con Artículo';
              dato += '                </th>';
              dato += '                <td>'
              +totalArt1+
@@ -235,10 +260,10 @@ function clear(){
     dato += '        <tbody>';
     dato += '            <tr>';
     dato += '                <td>';
-    dato += '                    Número de articulos ';               
+    dato += '                    Número de Articulos ';               
     dato += '                </td>';
     dato += '                <td>';
-    dato += '                    0.00   ';     
+    dato += '                    0   ';     
     dato += '                </td>';
     dato += '            </tr>';
     dato += '            <tr>';
@@ -251,7 +276,7 @@ function clear(){
                                         dato+='            </tr>    ';
     dato += '            <tr>';
     dato += '                <td>';
-                                        dato+='                    Gestion';
+                                        dato+='                    Gestión';
     dato += '                </td>';
                                         dato+='                <td>';
                                         dato+='                    0.00';
@@ -291,7 +316,7 @@ function clear(){
                                         dato+='            </tr> ';
     dato += '            <tr>';
     dato += '                <th>';
-    dato += '                   Total sin articulo'; 
+    dato += '                   Total sin Artículo'; 
     dato += '                </th>';
     dato += '                <td>';
                                         dato+='                    0.00';
@@ -299,7 +324,7 @@ function clear(){
                                         dato+='            </tr>';
     dato += '            <tr>';
     dato += '                <th>';
-    dato += '                    Total con articulo';
+    dato += '                    Total con Artículo';
     dato += '                </th>';
     dato += '                <td>';
     dato += '                    0.00';
@@ -320,7 +345,7 @@ function clear(){
                     <Col xs={10} cente='xs'>
                         <Paper style={{ margin: 3 }}>
                         <div class="alert alert-info" role="alert" >
-                        Resultado(s) de lo(s) envio(s)
+                        Resultado(s) de lo(s) envío(s)
                     </div>
                                 <table  class="ui celled table"  id='id'>
                             <thead class="">    
@@ -336,7 +361,7 @@ function clear(){
                             <tbody>
                                 <tr>
                                     <td>
-                                        Número de articulos                
+                                        Número de Articulos                
                                     </td>
                                     <td>
                                         0.00        
@@ -392,7 +417,7 @@ function clear(){
                                 </tr> 
                                 <tr>
                                     <th>
-                                       Total sin articulo 
+                                       Total sin Artículo 
                                     </th>
                                     <td>
                                         0.00
@@ -400,7 +425,7 @@ function clear(){
                                 </tr>
                                 <tr>
                                     <th>
-                                        Total con articulo
+                                        Total con Artículo
                                     </th>
                                     <td>
                                         0.00

@@ -68,7 +68,7 @@ export default function Impuesto(){
                
                mensa='<div class="alert alert-warning alert-dismissable">';
                //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-               mensa+='<strong>¡Info:!</strong> Máximo 3 Articulo a calcular.'
+               mensa+='<strong>¡Info:!</strong> Máximo 3 Artículo a calcular.'
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
            setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
@@ -600,7 +600,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                                 id="Total1"
                                 defaultValue="$ 0.00"
                                 value={total1}
-                                label="Total Sin Articulo"
+                                label="Total Sin Artículo"
                                 margin="normal"
                                 variant="outlined"
                                 className={classes.TextField}
@@ -617,7 +617,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                                 id="Total2"
                                 defaultValue="$ 0.00"
                                 value={totalArt1}
-                                label="Total Con articulo"
+                                label="Total Con Artículo"
                                 margin="normal"
                                 className={classes.TextField}
                                 variant="outlined"
@@ -633,7 +633,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                         <div id="mensa"></div>
                         
                             <Button variant="contained" className={classes.button} onClick={guardar} style={{ margin: 16 }}>
-                                Calcular envio
+                                Calcular envío
                     </Button>
 						
                         </Col>
@@ -649,8 +649,8 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                             <li className="small">Coloca el peso de tu producto Kilos o Libras</li>
                             <p className={classes.p}> (Importante la calculadora inicia en libras por defecto)</p>
                             <li className="small">Selecciona tu destino</li>
-                            <li className="small">Si tu destino tiene la opción de envío se encenderá la casilla verde y puedes seleccionar si desea enviar a domicilio</li>
-                            <li className="small">Puede realizar en simultaneo 3 cálculos de diferentes productos</li>
+                            <li className="small">Si tu destino tiene la opción de envío se encenderá una casilla de color</li>
+                            <li className="small">Puede realizar en simultaneo 3 cálculos de diferentes productos simultane</li>
                         </ul>
                         
                         </Paper>

@@ -85,7 +85,7 @@ export default function Formulario() {
                             id="standard-select-currencys"
                             select
                             fullWidth
-                            label="Articulo"
+                            label="Artículo"
                             value={currency2}
                             variant="outlined"
                             style={{ margin: 8 }}
