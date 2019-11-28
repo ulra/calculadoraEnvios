@@ -297,6 +297,8 @@ cif=seguro+valor+flete;
 }	
 		
 		}
+		
+		
     if(peso2<=1){
 
         iva1=1;
@@ -341,7 +343,7 @@ cif=seguro+valor+flete;
 		IvaKilo=pesoKilo*0.13;
 		pesoKilo=pesoKilo+IvaKilo;
 		Transporte=pesoKilo;
-		if(peso<2){
+		if(peso<2.21){
 			Transporte=2.66;
 			}
 		}
@@ -353,7 +355,9 @@ cif=seguro+valor+flete;
 		pesoKilo=pesoKilo*libraA;
 		pesoKilo=pesoKilo+2.35;
 		Transporte=pesoKilo;
-			
+				if(peso<2.2707585999999997){
+			Transporte=2.66;
+			}
 			
 			}
 		
