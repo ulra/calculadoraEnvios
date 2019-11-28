@@ -169,7 +169,7 @@ if (isNaN(seguro1)) {
                                                  dato+='            </tr>    ';
              dato += '            <tr>';
              dato += '                <td>';
-                                                 dato+='                    Gestion';
+                                                 dato+='                    Gestión';
              dato += '                </td>';
     dato += '                <td>'
                 +totalGestion1+
@@ -260,7 +260,7 @@ function clear(){
     dato += '        <tbody>';
     dato += '            <tr>';
     dato += '                <td>';
-    dato += '                    Número de Articulos ';               
+    dato += '                    Número de Artículos ';               
     dato += '                </td>';
     dato += '                <td>';
     dato += '                    0   ';     
