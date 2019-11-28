@@ -22,9 +22,10 @@ const useStyles = makeStyles({
         width: 220,
     },
 
-    p: {
-        color: '#bf0103'
-    }
+   p: {
+color: '#bf0103',
+fontSize: 13
+}
     
 });
 
