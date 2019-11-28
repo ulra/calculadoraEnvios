@@ -648,7 +648,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                             <li className="small">Coloca el peso de tu producto Kilos o Libras</li>
                             <p className={classes.p}> (Importante la calculadora inicia en libras por defecto)</p>
                             <li className="small">Selecciona tu destino</li>
-                            <li className="small">Si tu destino tiene la opción de envío se encenderá la casilla verde y puedes seleccionar se desea enviar a domicilio</li>
+                            <li className="small">Si tu destino tiene la opción de envío se encenderá la casilla verde y puedes seleccionar si desea enviar a domicilio</li>
                             <li className="small">Puede realizar en simultaneo 3 cálculos de diferentes productos</li>
                         </ul>
                         
