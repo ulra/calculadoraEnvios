@@ -46,8 +46,9 @@ export default function Formulario() {
       };
     
       const [ currency3, setCurrency3] = React.useState('');
-
+		let ff;
       const handleChange3 = event => {
+		 
         sessionStorage.setItem('currency3', event.target.value);
         setCurrency3(event.target.value);
       };
@@ -82,7 +83,7 @@ export default function Formulario() {
                        
                         <TextField 
                             className={classes.TextField}
-                            id="standard-select-currencys"
+                            id="articulo"
                             select
                             fullWidth
                             label="Artículo"
@@ -110,7 +111,7 @@ export default function Formulario() {
 
                         <TextField
                             className={classes.TextField}
-                            id="standard-select-currency"
+                            id="destino"
                             value={currency}
                             label="Destino"
                             margin="normal"
@@ -148,7 +149,7 @@ export default function Formulario() {
                         <TextField
                             className={classes.TextField}
                             type="number"
-                            id="outlined-basic"
+                            id="valor"
                             label="Valor producto"
                             defaultValue="0"
                             margin="normal"
@@ -170,7 +171,7 @@ export default function Formulario() {
                         <TextField
                             className={classes.TextField}
                             type="number"
-                            id="outlined-basicc"
+                            id="peso"
                             label="Peso"
                             value={currency4}
                             margin="normal"

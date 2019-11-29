@@ -176,8 +176,7 @@ Cont_impuesto=0;
 Cont_seguro=0;
 Cont_total1=0;
 Cont_total2=0;
-
-
+if (destino!=null){
 let kilo=2.20462;
 seguro =valor*0.02;
      if(valor<=0){
@@ -395,29 +394,9 @@ cif=seguro+valor+flete;
 
     }
 	}
-	totalArt=valor+flete+combustible+seguro+impuesto+Transporte+totalGestion;
-	total=flete+combustible+seguro+impuesto+Transporte+totalGestion;
 
-/*
-if(peso==0){
-tarifa=0;
-}
 
-if(tarifa==0)
-{
-totalGestion=0;
-combustible=0;
-impuesto=0;
-total=0;
-totalArt=0;
-    Transporte = 0;
-    seguro = 0; 
-flete=0;   
 }
-//impuesto=Number(); 
-//totalArt=totalArt.toFixed(2);
-//total=total.toFixed(2);
-*/
 if (isNaN(flete)) {
     flete=0;      // Se ejecuta
 }
@@ -443,6 +422,8 @@ if (isNaN(seguro)) {
     seguro=0;      // Se ejecuta
 }
 
+	totalArt=valor+flete+combustible+seguro+impuesto+Transporte+totalGestion;
+	total=flete+combustible+seguro+impuesto+Transporte+totalGestion;
 	
 flete1=Number.parseFloat(flete).toFixed(2);
 totalGestion11=Number.parseFloat(totalGestion).toFixed(2);
