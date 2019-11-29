@@ -22,10 +22,17 @@ const useStyles = makeStyles({
         width: 220,
     },
 
+<<<<<<< HEAD
     p: {
         color: '#bf0103',
         fontSize: 13
     }
+=======
+   p: {
+color: '#bf0103',
+fontSize: 13
+}
+>>>>>>> 0646361c3fa52c0a1df656fffe75122a034d0aa9
     
 });
 
@@ -50,17 +57,17 @@ export default function Impuesto(){
                mensa+='<strong>¡Info:!</strong> Favor No Ingresar Datos Nulos';
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
-           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 3500);
                
        }else{
        
-       if(localStorage.cont){
+       if(sessionStorage.cont){
        
            
        
        
        
-           if(localStorage.cont>2)
+           if(sessionStorage.cont>2)
            {
                //alert('Maximo 3 Articulo a calcular');
                mensa='Máximo 3 Articulo a calcular';
@@ -68,56 +75,56 @@ export default function Impuesto(){
                
                mensa='<div class="alert alert-warning alert-dismissable">';
                //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-               mensa+='<strong>¡Info:!</strong> Máximo 3 Articulo a calcular.'
+               mensa+='<strong>¡Info:!</strong> Máximo 3 Artículo a calcular.'
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
-           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 3500);
            
            }else{
-           localStorage.cont=parseInt(localStorage.cont)+1;
-           localStorage.Cont_flete=parseInt(localStorage.Cont_flete)+flete;
-           localStorage.Cont_gestion=parseInt(localStorage.Cont_gestion)+totalGestion;
-           localStorage.Cont_combustible=parseInt(localStorage.Cont_combustible)+combustible;
-           localStorage.Cont_transporte=parseInt(localStorage.Cont_transporte)+Transporte;
-           localStorage.Cont_impuesto=parseInt(localStorage.Cont_impuesto)+impuesto;
-           localStorage.Cont_seguro=parseInt(localStorage.Cont_seguro)+seguro;
-           localStorage.Cont_total1=parseInt(localStorage.Cont_total1)+total;
-           localStorage.Cont_total2=parseInt(localStorage.Cont_total2)+totalArt;
-           mensa='Movimiento Cargado..'+localStorage.cont;
+           sessionStorage.cont=parseInt(sessionStorage.cont)+1;
+           sessionStorage.Cont_flete=parseInt(sessionStorage.Cont_flete)+flete;
+           sessionStorage.Cont_gestion=parseInt(sessionStorage.Cont_gestion)+totalGestion;
+           sessionStorage.Cont_combustible=parseInt(sessionStorage.Cont_combustible)+combustible;
+           sessionStorage.Cont_transporte=parseInt(sessionStorage.Cont_transporte)+Transporte;
+           sessionStorage.Cont_impuesto=parseInt(sessionStorage.Cont_impuesto)+impuesto;
+           sessionStorage.Cont_seguro=parseInt(sessionStorage.Cont_seguro)+seguro;
+           sessionStorage.Cont_total1=parseInt(sessionStorage.Cont_total1)+total;
+           sessionStorage.Cont_total2=parseInt(sessionStorage.Cont_total2)+totalArt;
+           mensa='Movimiento Cargado..'+sessionStorage.cont;
            mensa='<div class="alert alert-success" alert-dismissable">';
                //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+localStorage.cont;
+               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+sessionStorage.cont;
                mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
-           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 3500);
                document.getElementById("mensa").innerHTML  =mensa ;
            ;
            }
        
          }else{
                
-               localStorage.cont=1;
-               localStorage.Cont_flete=flete;
-               localStorage.Cont_gestion=totalGestion;
-               localStorage.Cont_combustible=combustible;
-               localStorage.Cont_transporte=Transporte;
-               localStorage.Cont_impuesto=impuesto;
-               localStorage.Cont_seguro=seguro;
-               localStorage.Cont_total1=total;
-               localStorage.Cont_total2=totalArt;
-               mensa='Movimiento Cargado..'+localStorage.cont;
+               sessionStorage.cont=1;
+               sessionStorage.Cont_flete=flete;
+               sessionStorage.Cont_gestion=totalGestion;
+               sessionStorage.Cont_combustible=combustible;
+               sessionStorage.Cont_transporte=Transporte;
+               sessionStorage.Cont_impuesto=impuesto;
+               sessionStorage.Cont_seguro=seguro;
+               sessionStorage.Cont_total1=total;
+               sessionStorage.Cont_total2=totalArt;
+               mensa='Movimiento Cargado..'+sessionStorage.cont;
                
                mensa='<div class="alert alert-success" alert-dismissable">';
                //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
-               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+localStorage.cont;
+               mensa+='<strong>¡Bien!</strong> Movimiento Cargado..'+sessionStorage.cont;
                mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
-           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 3500);
                document.getElementById("mensa").innerHTML  =mensa ;
              }
-       id=localStorage.cont;
+       id=sessionStorage.cont;
        
        
        }
@@ -126,11 +133,11 @@ export default function Impuesto(){
 
 
     const classes = useStyles();
-    let tributario = localStorage.getItem('currency2');
-    let destino = localStorage.getItem('currency');
-    let valor = localStorage.getItem('currency3');
-    let peso = localStorage.getItem('currency4');
-    let medida = localStorage.getItem('currency5');
+    let tributario = sessionStorage.getItem('currency2');
+    let destino = sessionStorage.getItem('currency');
+    let valor = sessionStorage.getItem('currency3');
+    let peso = sessionStorage.getItem('currency4');
+    let medida = sessionStorage.getItem('currency5');
    
 
 
@@ -176,8 +183,7 @@ Cont_impuesto=0;
 Cont_seguro=0;
 Cont_total1=0;
 Cont_total2=0;
-
-
+if (destino!=null){
 let kilo=2.20462;
 seguro =valor*0.02;
      if(valor<=0){
@@ -395,29 +401,9 @@ cif=seguro+valor+flete;
 
     }
 	}
-	totalArt=valor+flete+combustible+seguro+impuesto+Transporte+totalGestion;
-	total=flete+combustible+seguro+impuesto+Transporte+totalGestion;
 
-/*
-if(peso==0){
-tarifa=0;
-}
 
-if(tarifa==0)
-{
-totalGestion=0;
-combustible=0;
-impuesto=0;
-total=0;
-totalArt=0;
-    Transporte = 0;
-    seguro = 0; 
-flete=0;   
 }
-//impuesto=Number(); 
-//totalArt=totalArt.toFixed(2);
-//total=total.toFixed(2);
-*/
 if (isNaN(flete)) {
     flete=0;      // Se ejecuta
 }
@@ -443,6 +429,8 @@ if (isNaN(seguro)) {
     seguro=0;      // Se ejecuta
 }
 
+	totalArt=valor+flete+combustible+seguro+impuesto+Transporte+totalGestion;
+	total=flete+combustible+seguro+impuesto+Transporte+totalGestion;
 	
 flete1=Number.parseFloat(flete).toFixed(2);
 totalGestion11=Number.parseFloat(totalGestion).toFixed(2);
@@ -600,7 +588,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                                 id="Total1"
                                 defaultValue="$ 0.00"
                                 value={total1}
-                                label="Total Sin Articulo"
+                                label="Total Sin Artículo"
                                 margin="normal"
                                 variant="outlined"
                                 className={classes.TextField}
@@ -617,7 +605,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                                 id="Total2"
                                 defaultValue="$ 0.00"
                                 value={totalArt1}
-                                label="Total Con articulo"
+                                label="Total Con Artículo"
                                 margin="normal"
                                 className={classes.TextField}
                                 variant="outlined"
@@ -633,7 +621,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                         <div id="mensa"></div>
                         
                             <Button variant="contained" className={classes.button} onClick={guardar} style={{ margin: 16 }}>
-                                Calcular envio
+                                Calcular envío
                     </Button>
 						
                         </Col>
@@ -643,6 +631,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                         <Col>
                         <Paper>
                         <ul class="ui list">
+<<<<<<< HEAD
                             <li className="small">Ingresa tu producto</li>
                             <li className="small">Selecciona tu destino </li>
                             <li className="small">Si tu destino tiene la opción de envío se encendera la casilla verde y puedes seleccionar se desea enviar a domicilio</li>
@@ -650,6 +639,16 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                             <li className="small"> Coloca el peso de tu producto Kilos o Libras</li>
                             <li className={classes.p}> (Importante la calculadora inicia en libras por defecto)</li>                       
                             <li className="small"> Puede realizar en simultaneo 3 cálculos de diferentes productos</li>
+=======
+                         
+                            <li className="small">Ingresa tu producto</li>
+                            <li className="small">Coloca el valor de tu producto</li>
+                            <li className="small">Coloca el peso de tu producto Kilos o Libras</li>
+                            <p className={classes.p}> (Importante la calculadora inicia en libras por defecto)</p>
+                            <li className="small">Selecciona tu destino</li>
+                            <li className="small">Si tu destino tiene la opción de envío se encenderá una casilla de color</li>
+                            <li className="small">Puede realizar en simultaneo 3 cálculos de diferentes productos</li>
+>>>>>>> 0646361c3fa52c0a1df656fffe75122a034d0aa9
                         </ul>
                         
                         </Paper>

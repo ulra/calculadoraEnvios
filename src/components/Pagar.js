@@ -48,21 +48,22 @@ let combustible1;
 let impuesto1;
 let seguro1;
 let Transporte1;
+let mensa;
 let total11;
 let totalArt1;
 function ver(){
 	
 	
 
-		  numero=localStorage.getItem('cont');
-		  flete=localStorage.getItem('Cont_flete');
-		  gestion=localStorage.getItem('Cont_gestion');
-		  combustible=localStorage.getItem('Cont_combustible');
-		  seguro=localStorage.getItem('Cont_seguro');
-		  impuesto=localStorage.getItem('Cont_impuesto');
-		  transporte=localStorage.getItem('Cont_transporte');
-		  total11=localStorage.getItem('Cont_total1');
-		  total2=localStorage.getItem('Cont_total2');
+		  numero=sessionStorage.getItem('cont');
+		  flete=sessionStorage.getItem('Cont_flete');
+		  gestion=sessionStorage.getItem('Cont_gestion');
+		  combustible=sessionStorage.getItem('Cont_combustible');
+		  seguro=sessionStorage.getItem('Cont_seguro');
+		  impuesto=sessionStorage.getItem('Cont_impuesto');
+		  transporte=sessionStorage.getItem('Cont_transporte');
+		  total11=sessionStorage.getItem('Cont_total1');
+		  total2=sessionStorage.getItem('Cont_total2');
 		  
 		  flete1=Number.parseFloat(flete).toFixed(2);
 totalGestion1=Number.parseFloat(gestion).toFixed(2);
@@ -73,46 +74,80 @@ Transporte1=Number.parseFloat(transporte).toFixed(2);
 total11=Number.parseFloat(total11).toFixed(2);
 totalArt1=Number.parseFloat(total2).toFixed(2);
 
-		  
+   
+	  
 		  if(numero==null)
 		  {
 			  numero='0';
 		  }
-		  if(flete==null)
+		  if(flete1==null)
 		  {
 			  flete='0,00';
 		  }
-		  if(gestion==null)
+		  if(totalGestion1==null)
 		  {
-			  gestion='0,00';
+			  totalGestion1='0,00';
 		  }
-		  if(combustible==null)
+		  if(combustible1==null)
 		  {
-			  combustible='0,00';
+			  combustible1='0,00';
 		  }
-		  if(seguro==null)
+		  if(seguro1==null)
 		  {
-			  seguro='0,00';
+			  seguro1='0,00';
 		  }
-		  if(impuesto==null)
+		  if(impuesto1==null)
 		  {
-			  impuesto='0,00';
+			  impuesto1='0,00';
 		  }
-		  if(transporte==null)
+		  if(Transporte1==null)
 		  {
-			  transporte='0,00';
+			  Transporte1='0,00';
 		  }
-		  if(total1==null)
+		  if(total11==null)
 		  {
-			  total1='0,00';
+			  total11='0,00';
 		  }
-		  if(total2==null)
+		  if(totalArt1==null)
 		  {
 			  total2='0,00';
 		  }
 		  
 		  
-		  
+		  if (isNaN(flete1)) {
+    flete1='0.00';      // Se ejecuta
+}
+if (isNaN(totalGestion1)) {
+    totalGestion1='0.00';      // Se ejecuta
+}
+if (isNaN(combustible1)) {
+    combustible1='0.00';      // Se ejecuta
+}
+if (isNaN(impuesto1)) {
+    impuesto1='0.00';      // Se ejecuta
+}
+if (isNaN(total11)) {
+    total11='0.00';      // Se ejecuta
+}
+if (isNaN(totalArt1)) {
+    totalArt1='0.00';      // Se ejecuta
+}
+if (isNaN(Transporte1)) {
+    Transporte1='0.00';      // Se ejecuta
+}
+if (isNaN(seguro1)) {
+    seguro1='0.00';      // Se ejecuta
+}
+
+if(numero==0){
+mensa='<div class="alert alert-warning alert-dismissable">';
+               //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
+               mensa+='<strong>¡Info:!</strong> Favor Ingresar Datos Calcular.'
+               mensa+='</div>';
+               document.getElementById("mensa1").innerHTML  =mensa ;
+           setTimeout(function(){ document.getElementById("mensa1").innerHTML  ='' ; }, 2000);
+}
+
                                  				
                                                  dato = '        <table  class="ui celled table"> ';
                                                  dato+='        <thead class="">    ';
@@ -128,7 +163,7 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
              dato += '        <tbody>';
     dato += '            <tr>';
              dato += '                <td>';
-             dato += '                    Numero de articulos ';               
+             dato += '                    Número de Artículos ';               
              dato += '                </td>';
              dato += '                <td>'
              +numero+     
@@ -144,10 +179,10 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
                                                  dato+='            </tr>    ';
              dato += '            <tr>';
              dato += '                <td>';
-                                                 dato+='                    Gestion';
+                                                 dato+='                    Gestión';
              dato += '                </td>';
     dato += '                <td>'
-                +gestion+
+                +totalGestion1+
              '                </td>';
              dato += '            </tr>';
              dato += '            <tr>';
@@ -184,7 +219,7 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
                                                  dato+='            </tr> ';
              dato += '            <tr>';
              dato += '                <th>';
-             dato += '                   Total sin articulo'; 
+             dato += '                   Total sin Artículo'; 
              dato += '                </th>';
              dato += '                <td>'
                                            +total11+ 
@@ -192,7 +227,7 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
                                                  dato+='            </tr>';
              dato += '            <tr>';
              dato += '                <th>';
-             dato += '                    Total con articulo';
+             dato += '                    Total con Artículo';
              dato += '                </th>';
              dato += '                <td>'
              +totalArt1+
@@ -205,21 +240,21 @@ totalArt1=Number.parseFloat(total2).toFixed(2);
 	}
 function clear(){
 	
-	      localStorage.removeItem('cont');
-		  localStorage.removeItem('Cont_flete');
-		  localStorage.removeItem('Cont_gestion');
-		  localStorage.removeItem('Cont_combustible');
-		  localStorage.removeItem('Cont_seguro');
-		  localStorage.removeItem('Cont_impuesto');
-		  localStorage.removeItem('Cont_transporte');
-		  localStorage.removeItem('Cont_total1');
-		  localStorage.removeItem('Cont_total2');
+	      sessionStorage.removeItem('cont');
+		  sessionStorage.removeItem('Cont_flete');
+		  sessionStorage.removeItem('Cont_gestion');
+		  sessionStorage.removeItem('Cont_combustible');
+		  sessionStorage.removeItem('Cont_seguro');
+		  sessionStorage.removeItem('Cont_impuesto');
+		  sessionStorage.removeItem('Cont_transporte');
+		  sessionStorage.removeItem('Cont_total1');
+		  sessionStorage.removeItem('Cont_total2');
 	
-					 localStorage.removeItem('currency2');
-					localStorage.removeItem('currency');
-					localStorage.removeItem('currency3');
-					localStorage.removeItem('currency4');
-					localStorage.removeItem('currency5');
+					 sessionStorage.removeItem('currency2');
+					sessionStorage.removeItem('currency');
+					sessionStorage.removeItem('currency3');
+					sessionStorage.removeItem('currency4');
+					sessionStorage.removeItem('currency5');
 												
     dato = '        <table  class="ui celled table">';
                                         dato+='        <thead class="">    ';
@@ -235,10 +270,10 @@ function clear(){
     dato += '        <tbody>';
     dato += '            <tr>';
     dato += '                <td>';
-    dato += '                    Número de articulos ';               
+    dato += '                    Número de Artículos ';               
     dato += '                </td>';
     dato += '                <td>';
-    dato += '                    0.00   ';     
+    dato += '                    0   ';     
     dato += '                </td>';
     dato += '            </tr>';
     dato += '            <tr>';
@@ -251,7 +286,7 @@ function clear(){
                                         dato+='            </tr>    ';
     dato += '            <tr>';
     dato += '                <td>';
-                                        dato+='                    Gestion';
+                                        dato+='                    Gestión';
     dato += '                </td>';
                                         dato+='                <td>';
                                         dato+='                    0.00';
@@ -291,7 +326,7 @@ function clear(){
                                         dato+='            </tr> ';
     dato += '            <tr>';
     dato += '                <th>';
-    dato += '                   Total sin articulo'; 
+    dato += '                   Total sin Artículo'; 
     dato += '                </th>';
     dato += '                <td>';
                                         dato+='                    0.00';
@@ -299,7 +334,7 @@ function clear(){
                                         dato+='            </tr>';
     dato += '            <tr>';
     dato += '                <th>';
-    dato += '                    Total con articulo';
+    dato += '                    Total con Artículo';
     dato += '                </th>';
     dato += '                <td>';
     dato += '                    0.00';
@@ -309,7 +344,7 @@ function clear(){
     dato += '    </table >';
                                     	
 		  document.getElementById('id').innerHTML  =dato ;
-
+        window.location.href="https://calculadora.ulra.now.sh/";
 		  
 		  
 	}
@@ -320,7 +355,7 @@ function clear(){
                     <Col xs={10} cente='xs'>
                         <Paper style={{ margin: 3 }}>
                         <div class="alert alert-info" role="alert" >
-                        Resultado(s) de lo(s) envio(s)
+                        Resultado(s) de lo(s) envío(s)
                     </div>
                                 <table  class="ui celled table"  id='id'>
                             <thead class="">    
@@ -336,7 +371,7 @@ function clear(){
                             <tbody>
                                 <tr>
                                     <td>
-                                        Número de articulos                
+                                        Número de Artículos                
                                     </td>
                                     <td>
                                         0.00        
@@ -392,7 +427,7 @@ function clear(){
                                 </tr> 
                                 <tr>
                                     <th>
-                                       Total sin articulo 
+                                       Total sin Artículo 
                                     </th>
                                     <td>
                                         0.00
@@ -400,7 +435,7 @@ function clear(){
                                 </tr>
                                 <tr>
                                     <th>
-                                        Total con articulo
+                                        Total con Artículo
                                     </th>
                                     <td>
                                         0.00
@@ -408,7 +443,7 @@ function clear(){
                                 </tr> 
                             </tbody>
                         </table >
-
+						<div id="mensa1"></div>
                                 <Button variant='contained'   onClick={ver}style={{ margin: 16 }} className={classes.button}>
                                 Totalizar
                     </Button>
@@ -418,6 +453,7 @@ function clear(){
                     <Button variant='contained'   onClick={clear}style={{ margin: 16 }} className={classes.button}>
                                 Limpiar 
                     </Button>
+                    
                     <div class="alert alert-info" role="alert" >
                         Nota: el paquete se entrega entre 24 a 48 horas una vez recibido en Miami
                     </div>
