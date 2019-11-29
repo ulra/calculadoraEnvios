@@ -22,10 +22,17 @@ const useStyles = makeStyles({
         width: 220,
     },
 
+<<<<<<< HEAD
+    p: {
+        color: '#bf0103',
+        fontSize: 13
+    }
+=======
    p: {
 color: '#bf0103',
 fontSize: 13
 }
+>>>>>>> 0646361c3fa52c0a1df656fffe75122a034d0aa9
     
 });
 
@@ -629,6 +636,15 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                         <Col>
                         <Paper>
                         <ul class="ui list">
+<<<<<<< HEAD
+                            <li className="small">Ingresa tu producto</li>
+                            <li className="small">Selecciona tu destino </li>
+                            <li className="small">Si tu destino tiene la opción de envío se encendera la casilla verde y puedes seleccionar se desea enviar a domicilio</li>
+                            <li className="small"> Coloca el valor de tu producto</li>
+                            <li className="small"> Coloca el peso de tu producto Kilos o Libras</li>
+                            <li className={classes.p}> (Importante la calculadora inicia en libras por defecto)</li>                       
+                            <li className="small"> Puede realizar en simultaneo 3 cálculos de diferentes productos</li>
+=======
                          
                             <li className="small">Ingresa tu producto</li>
                             <li className="small">Coloca el valor de tu producto</li>
@@ -637,6 +653,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                             <li className="small">Selecciona tu destino</li>
                             <li className="small">Si tu destino tiene la opción de envío se encenderá una casilla de color</li>
                             <li className="small">Puede realizar en simultaneo 3 cálculos de diferentes productos</li>
+>>>>>>> 0646361c3fa52c0a1df656fffe75122a034d0aa9
                         </ul>
                         
                         </Paper>
