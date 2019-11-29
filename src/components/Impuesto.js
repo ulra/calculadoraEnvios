@@ -50,7 +50,7 @@ export default function Impuesto(){
                mensa+='<strong>¡Info:!</strong> Favor No Ingresar Datos Nulos';
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
-           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 3500);
                
        }else{
        
@@ -71,7 +71,7 @@ export default function Impuesto(){
                mensa+='<strong>¡Info:!</strong> Máximo 3 Artículo a calcular.'
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
-           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 3500);
            
            }else{
            sessionStorage.cont=parseInt(sessionStorage.cont)+1;
@@ -90,7 +90,7 @@ export default function Impuesto(){
                mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
-           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 3500);
                document.getElementById("mensa").innerHTML  =mensa ;
            ;
            }
@@ -114,7 +114,7 @@ export default function Impuesto(){
                mensa+='En caso de Haber Finalizado Presione <strong>Totalizar</strong>';
                mensa+='</div>';
                document.getElementById("mensa").innerHTML  =mensa ;
-           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 2000);
+           setTimeout(function(){ document.getElementById("mensa").innerHTML  ='' ; }, 3500);
                document.getElementById("mensa").innerHTML  =mensa ;
              }
        id=sessionStorage.cont;
