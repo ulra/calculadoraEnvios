@@ -210,8 +210,13 @@ seguro =valor*0.02;
 			tarifa=6;vla=2.64;
 			Decimal = peso%1;
 			vla=Decimal*2.64;
-			console.log(vla);
+			
 			flete=tarifa+vla;
+			
+			}
+			if(peso>0 && peso<1){
+			tarifa=6;
+		flete=tarifa;
 			
 			}
 			
