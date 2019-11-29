@@ -371,7 +371,7 @@ function clear(){
                             <tbody>
                                 <tr>
                                     <td>
-                                        Número de Articulos                
+                                        Número de Artículos                
                                     </td>
                                     <td>
                                         0.00        
