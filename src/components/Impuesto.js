@@ -342,7 +342,7 @@ cif=seguro+valor+flete;
 		
 		
 		libraA=0.5;
-		
+		//pesoKilo="medifaddd";
 		pesoKilo=peso/kilo;
 		pesoKilo=pesoKilo-1;
 		pesoKilo=pesoKilo*libraA;
@@ -472,7 +472,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                     <Row>
                      
                         <Col>
-							
+							{pesoKilo}
                             <TextField
 								disabled
                                 id="flete"
