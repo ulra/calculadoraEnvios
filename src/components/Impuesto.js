@@ -182,7 +182,7 @@ Cont_total2=0;
 if (destino!=null){
 let kilo=2.20462;
 seguro =valor*0.02;
-if(medida==" "){
+if (!medida){
 	medida="Libras";
 	}
      if(valor<=0){
@@ -478,7 +478,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                 </Row>
                     <Row>
                      
-                        <Col>
+                        <Col>  
 							    <TextField
 								disabled
                                 id="flete"
