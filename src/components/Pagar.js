@@ -64,6 +64,17 @@ function ver(){
 		  transporte=sessionStorage.getItem('Cont_transporte');
 		  total11=sessionStorage.getItem('Cont_total1');
 		  total2=sessionStorage.getItem('Cont_total2');
+		  /*
+		    numero=sessionStorage.getItem('cont');
+		  flete1=sessionStorage.getItem('Cont_flete');
+		  totalGestion1=sessionStorage.getItem('Cont_gestion');
+		  combustible1=sessionStorage.getItem('Cont_combustible');
+		  seguro1=sessionStorage.getItem('Cont_seguro');
+		  impuesto1=sessionStorage.getItem('Cont_impuesto');
+		  Transporte1=sessionStorage.getItem('Cont_transporte');
+		  total11=sessionStorage.getItem('Cont_total1');
+		  totalArt1=sessionStorage.getItem('Cont_total2');
+		  */
 		  
 		  flete1=Number.parseFloat(flete).toFixed(2);
 totalGestion1=Number.parseFloat(gestion).toFixed(2);

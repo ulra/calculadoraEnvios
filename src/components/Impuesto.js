@@ -77,14 +77,14 @@ export default function Impuesto(){
            
            }else{
            sessionStorage.cont=parseInt(sessionStorage.cont)+1;
-           sessionStorage.Cont_flete=parseInt(sessionStorage.Cont_flete)+flete;
-           sessionStorage.Cont_gestion=parseInt(sessionStorage.Cont_gestion)+totalGestion;
-           sessionStorage.Cont_combustible=parseInt(sessionStorage.Cont_combustible)+combustible;
-           sessionStorage.Cont_transporte=parseInt(sessionStorage.Cont_transporte)+Transporte;
-           sessionStorage.Cont_impuesto=parseInt(sessionStorage.Cont_impuesto)+impuesto;
-           sessionStorage.Cont_seguro=parseInt(sessionStorage.Cont_seguro)+seguro;
-           sessionStorage.Cont_total1=parseInt(sessionStorage.Cont_total1)+total;
-           sessionStorage.Cont_total2=parseInt(sessionStorage.Cont_total2)+totalArt;
+           sessionStorage.Cont_flete=parseFloat(sessionStorage.Cont_flete)+parseFloat(flete1);
+           sessionStorage.Cont_gestion=parseFloat(sessionStorage.Cont_gestion)+parseFloat(totalGestion11);
+           sessionStorage.Cont_combustible=parseFloat(sessionStorage.Cont_combustible)+parseFloat(combustible1);
+           sessionStorage.Cont_transporte=parseFloat(sessionStorage.Cont_transporte)+parseFloat(Transporte1);
+           sessionStorage.Cont_impuesto=parseFloat(sessionStorage.Cont_impuesto)+parseFloat(impuesto1);
+           sessionStorage.Cont_seguro=parseFloat(sessionStorage.Cont_seguro)+parseFloat(seguro1);
+           sessionStorage.Cont_total1=parseFloat(sessionStorage.Cont_total1)+parseFloat(total1);
+           sessionStorage.Cont_total2=parseFloat(sessionStorage.Cont_total2)+parseFloat(totalArt1);
            mensa='Movimiento Cargado..'+sessionStorage.cont;
            mensa='<div class="alert alert-success" alert-dismissable">';
                //mensa+='<button type="button" class="close" data-dis	miss="alert">&times;</button>';
@@ -100,14 +100,14 @@ export default function Impuesto(){
          }else{
                
                sessionStorage.cont=1;
-               sessionStorage.Cont_flete=flete;
-               sessionStorage.Cont_gestion=totalGestion;
-               sessionStorage.Cont_combustible=combustible;
-               sessionStorage.Cont_transporte=Transporte;
-               sessionStorage.Cont_impuesto=impuesto;
-               sessionStorage.Cont_seguro=seguro;
-               sessionStorage.Cont_total1=total;
-               sessionStorage.Cont_total2=totalArt;
+               sessionStorage.Cont_flete=parseFloat(flete1);
+               sessionStorage.Cont_gestion=parseFloat(totalGestion11);
+               sessionStorage.Cont_combustible=parseFloat(combustible1);
+               sessionStorage.Cont_transporte=parseFloat(Transporte1);
+               sessionStorage.Cont_impuesto=parseFloat(impuesto1);
+               sessionStorage.Cont_seguro=parseFloat(seguro1);
+               sessionStorage.Cont_total1=parseFloat(total1);
+               sessionStorage.Cont_total2=parseFloat(totalArt1);
                mensa='Movimiento Cargado..'+sessionStorage.cont;
                
                mensa='<div class="alert alert-success" alert-dismissable">';
