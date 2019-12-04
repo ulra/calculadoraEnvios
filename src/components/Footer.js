@@ -31,7 +31,7 @@ export default function Footer() {
         <div>
             <AppBar position="static" className={classes.appbar}>
                 <Toolbar className={classes.footer}>
-                Copyright © 2019. Todos los derechos reservados. Desarrollado por Software Digital Solucion & Bits Kpis.
+                Copyright © 2019. Todos los derechos reservados. Desarrollado por <a target="_blank" href="https://softwaredigitals.com.ve">Software Digital Solucion</a> & <a target="_blank" href="https://www.bitskpis.com/">Bits Kpis</a>.
                 </Toolbar>
             </AppBar>
         </div>
