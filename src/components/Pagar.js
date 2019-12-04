@@ -344,7 +344,7 @@ function clear(){
     dato += '    </table >';
                                     	
 		  document.getElementById('id').innerHTML  =dato ;
-        window.location.href="https://calculadora.ulra.now.sh/";
+        window.location.href="https://softwaredigitals.com.ve/portafolio/libertyExpress/calcCR/";
 		  
 		  
 	}
