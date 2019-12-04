@@ -361,6 +361,8 @@ cif=seguro+valor+flete;
 		
 		pesoKilo=pesoKilo*libraA;
 		pesoKilo=pesoKilo+2.35;
+		IvaKilo=pesoKilo*0.13;
+		pesoKilo=pesoKilo+IvaKilo;
 		Transporte=pesoKilo;
 				if(peso<2.2707585999999997){
 			Transporte=2.66;
