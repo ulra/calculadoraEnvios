@@ -342,7 +342,7 @@ cif=seguro+valor+flete;
 		
 		
 		libraA=0.5;
-		
+		//pesoKilo="medifaddd";
 		pesoKilo=peso/kilo;
 		pesoKilo=pesoKilo-1;
 		pesoKilo=pesoKilo*libraA;
