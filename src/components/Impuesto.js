@@ -472,7 +472,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                     <Row>
                      
                         <Col>
-							{pesoKilo}
+							
                             <TextField
 								disabled
                                 id="flete"
