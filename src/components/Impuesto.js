@@ -182,7 +182,7 @@ Cont_total2=0;
 if (destino!=null){
 let kilo=2.20462;
 seguro =valor*0.02;
-if(medida==""){
+if(medida==" "){
 	medida="Libras";
 	}
      if(valor<=0){
@@ -369,7 +369,7 @@ cif=seguro+valor+flete;
 		IvaKilo=pesoKilo*0.13;
 		pesoKilo=pesoKilo+IvaKilo;
 		Transporte=pesoKilo;
-				if(peso3<2){
+				if(peso3<1.1){
 			Transporte=2.66;
 			}
 			
@@ -479,8 +479,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                     <Row>
                      
                         <Col>
-							
-                            <TextField
+							    <TextField
 								disabled
                                 id="flete"
                                 value={flete1}
