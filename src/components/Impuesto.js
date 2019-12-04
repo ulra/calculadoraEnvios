@@ -334,7 +334,7 @@ cif=seguro+valor+flete;
 	  
 	  if(pagoDestino==='Tarifa 2')
 	  {
-        Transporte=2.35; 
+        Transporte=2.66; 
         tipoTransporte=2;
 		color=<img src={camion_amarillo} clasName={classes.camion}/>;
 		
@@ -450,7 +450,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                 <Grid>
                   <Row start="xs">
                     <Col>
-                   
+				
                         <TextField
                             disabled
                             id="outlined-disabled"
