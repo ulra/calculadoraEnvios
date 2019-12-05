@@ -163,6 +163,7 @@ let total1;
 let totalArt1;
 let ivaTransporte;
 let IvaKilo;
+let peso3;
 
     
    
@@ -181,12 +182,16 @@ Cont_total2=0;
 if (destino!=null){
 let kilo=2.20462;
 seguro =valor*0.02;
+if (!medida){
+	medida="Libras";
+	}
      if(valor<=0){
      
     }else{
     seguro =valor*0.02;
     
     if(medida=='Kilo'){
+		peso3=peso;
 		peso=peso*kilo;
 		}
 			
@@ -357,12 +362,14 @@ cif=seguro+valor+flete;
 		if(medida=="Kilo"){
 			
 			libraA=0.5;
-		pesoKilo=peso-1;
-		
+		pesoKilo=peso3;
+		pesoKilo=pesoKilo-1;
 		pesoKilo=pesoKilo*libraA;
 		pesoKilo=pesoKilo+2.35;
+		IvaKilo=pesoKilo*0.13;
+		pesoKilo=pesoKilo+IvaKilo;
 		Transporte=pesoKilo;
-				if(peso<2.2707585999999997){
+				if(peso3<1.1){
 			Transporte=2.66;
 			}
 			
@@ -471,9 +478,8 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                 </Row>
                     <Row>
                      
-                        <Col>
-							
-                            <TextField
+                        <Col>  
+							    <TextField
 								disabled
                                 id="flete"
                                 value={flete1}
