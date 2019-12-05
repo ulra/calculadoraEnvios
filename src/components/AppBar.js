@@ -7,7 +7,7 @@ import liberty from './images/liberty.png';
 const useStyles = makeStyles({
     appbar: {
         
-        background: 'linear-gradient(183deg, hsla(216.12, 55.68%, 36.27%, 1) 46%, hsla(216.12, 55.68%, 36.27%, 0) 47%),linear-gradient(335deg, hsla(353.43, 0%, 100%, 1) 100%, hsla(353.43, 0%, 100%, 0) 96%)',
+        background: '#000000',
     },
     icono: {
         margin: 10,
@@ -28,8 +28,6 @@ export default function Appbar() {
         <div>
             <AppBar position="static" className={classes.appbar}>
                 <Toolbar>
-                    <img src={liberty} />
-                    
                 </Toolbar>
             </AppBar>
         </div>

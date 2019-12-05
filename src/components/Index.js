@@ -33,7 +33,6 @@ export default function Index() {
                     <Col xs={12}>
                     <Typography variant="h4" gutterBottom className={classes.typo}>
                         Calculadora
-                        <img src={costarica} style={{ marginLeft: 15}} />
                     </Typography>
                     
                     </Col>

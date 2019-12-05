@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
     appbar: {
         
-        background: '#295290'
+        background: '#000000'
      
     },
     icono: {
@@ -31,7 +31,6 @@ export default function Footer() {
         <div>
             <AppBar position="static" className={classes.appbar}>
                 <Toolbar className={classes.footer}>
-                Copyright © 2019. Todos los derechos reservados. Desarrollado por &nbsp;<a target="_blank" href="https://softwaredigitals.com.ve" style={{color: '#ffffff'}}>Software Digital Solucion</a>&nbsp; & &nbsp;<a target="_blank" href="https://www.bitskpis.com/" style={{color:'#ffffff'}}>Bits Kpis</a>.
                 </Toolbar>
             </AppBar>
         </div>
