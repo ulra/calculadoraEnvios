@@ -495,7 +495,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                             />
                         </Col>
                         <Col>
-                        {cif}
+                        
                             <TextField
                                 disabled
                                 id="Gestion"
