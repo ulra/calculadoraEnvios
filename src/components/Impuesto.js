@@ -274,15 +274,15 @@ cif=seguro+valor+flete;
 
 
    
-    if(cif >=1 && cif<=25)
+    if(cif >=1 && cif<=25.9999999)
     {
 	totalGestion=3;	
 	}
-	if(cif >=26 && cif<=100)
+	if(cif >=26 && cif<=100.9999999)
     {
 	totalGestion=5;	
 	}
-	if(cif >=101 && cif<=500)
+	if(cif >=101 && cif<=500.999999)
     {
 	totalGestion=10;	
 	}
@@ -495,6 +495,7 @@ totalArt1=Number.parseFloat(totalArt).toFixed(2);
                             />
                         </Col>
                         <Col>
+                        {cif}
                             <TextField
                                 disabled
                                 id="Gestion"
